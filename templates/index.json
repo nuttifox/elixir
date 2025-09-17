@@ -517,14 +517,25 @@
               },
               "blocks": {}
             },
+            "image_eReGRU": {
+              "type": "image",
+              "name": "t:sections.gallery.blocks.image.settings.image.label",
+              "settings": {
+                "image": "shopify://shop_images/Choice.png",
+                "image_height": 40,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
             "heading_hGJ9Ar": {
               "type": "heading",
               "settings": {
-                "heading": "A daily cup of Four Sigmatic Original [br]Mushroom Coffee™ helps with:",
-                "title_size": "h2",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
+                "heading": "<strong>150 clinicians</strong> share Elixir Shots on <strong>FrontrowMD</strong> without compensation",
+                "title_size": "h3",
+                "line_height": "medium",
+                "text_color": "#3e3328",
+                "seo_h_tag": "h4"
               },
               "blocks": {}
             },
@@ -540,11 +551,11 @@
               "type": "button",
               "name": "t:sections.rich-text.blocks.button.name",
               "settings": {
-                "button_label": "SHOP ALL",
+                "button_label": "Learn Why...",
                 "link": "",
                 "open_in_new_window": false,
                 "button_size": "regular",
-                "button_style": "solid",
+                "button_style": "outline",
                 "color_text_buttons": "rgba(0,0,0,0)",
                 "color_accent_buttons": "#ffa001"
               },
@@ -563,6 +574,7 @@
             "empty_space_mg8mjQ",
             "rich_text_xDNwBt",
             "empty_space_FcDaVb",
+            "image_eReGRU",
             "heading_hGJ9Ar",
             "empty_space_PXtTJw",
             "button_PrNtzN",
@@ -600,6 +612,7 @@
               "type": "image",
               "name": "t:sections.gallery.blocks.image.settings.image.label",
               "settings": {
+                "image": "shopify://shop_images/Screenshot_2025-09-17_at_18.10.00.png",
                 "image_height": 80,
                 "link": "",
                 "open_in_new_window": false
@@ -664,6 +677,7 @@
               "type": "image",
               "name": "t:sections.gallery.blocks.image.settings.image.label",
               "settings": {
+                "image": "shopify://shop_images/Screenshot_2025-09-17_at_18.10.33.png",
                 "image_height": 80,
                 "link": "",
                 "open_in_new_window": false
