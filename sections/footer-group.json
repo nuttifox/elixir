@@ -188,7 +188,7 @@
         "newsletter_L7RkU8": {
           "type": "newsletter",
           "settings": {
-            "title": "10% off your first order"
+            "title": "Free Shipping On Your First Order"
           }
         }
       },
@@ -199,9 +199,9 @@
         "newsletter_L7RkU8"
       ],
       "settings": {
-        "layout": "grid-3 grid-lap-2",
+        "layout": "grid-4 grid-portable-2 grid-lap-1",
         "show_locale_selector": true,
-        "show_country_selector": true,
+        "show_country_selector": false,
         "remove_margin": false,
         "seo_h_tag": "h4"
       }
