@@ -83,7 +83,7 @@
         "logo_mobile_height": 28,
         "main_linklist": "main-menu",
         "show_search": true,
-        "sticky_header": true,
+        "sticky_header": false,
         "header_absolute_homepage": true,
         "header_absolute_collection": false,
         "header_absolute_custom": "",
