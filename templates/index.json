@@ -1462,46 +1462,6 @@
         "section_visibility": "always"
       }
     },
-    "shop_the_look_7hQB7K": {
-      "type": "shop-the-look",
-      "blocks": {
-        "icons_RzkeCe": {
-          "type": "icons",
-          "settings": {}
-        },
-        "title_QCVArH": {
-          "type": "title",
-          "settings": {}
-        },
-        "price_WxRbWP": {
-          "type": "price",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "icons_RzkeCe",
-        "title_QCVArH",
-        "price_WxRbWP"
-      ],
-      "name": "t:sections.shop-the-look.name",
-      "settings": {
-        "heading": "Organic proteins",
-        "subheading": "Nourish & de-stress",
-        "section_heading_layout": "section-heading--center",
-        "product_list": [],
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_hide_borders": true,
-        "color_hide_shadow": false,
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "descrease_margin": false,
-        "remove_margin": false,
-        "seo_h_tag": "h2",
-        "section_visibility": "always"
-      }
-    },
     "flex_slideshow_JarqzM": {
       "type": "flex-slideshow",
       "blocks": {
@@ -1535,7 +1495,7 @@
         "section_background_gradient": "",
         "section_heading_color": "rgba(0,0,0,0)",
         "descrease_margin": false,
-        "remove_margin": false,
+        "remove_margin": true,
         "color_hide_borders": false,
         "color_hide_shadow": true,
         "disable_parallax": false,
@@ -2026,103 +1986,6 @@
         "form_title": "Couldn't find an answer? Ask!",
         "seo_h_tag": "h2"
       }
-    },
-    "image_with_hotspots_6mYgpy": {
-      "type": "image-with-hotspots",
-      "blocks": {
-        "text_EdwKfg": {
-          "type": "text",
-          "settings": {
-            "title": "Reishi",
-            "description": "<p>Known as the “mushroom of immortality,” Reishi helps manage stress, support sleep, and strengthen the immune system.</p>",
-            "vertical_offset_desktop": 19,
-            "horizontal_offset_desktop": 45,
-            "vertical_offset_mobile": 50,
-            "horizontal_offset_mobile": 50,
-            "mobile_hide": false,
-            "tooltip_position_desktop": "top",
-            "tooltip_position_mobile": "top"
-          }
-        },
-        "text_MXiXXP": {
-          "type": "text",
-          "settings": {
-            "title": "Lion’s Mane",
-            "description": "<p>Boosts focus, memory, and nerve regeneration—Lion’s Mane supports cognitive health and long-term brain function.</p>",
-            "vertical_offset_desktop": 29,
-            "horizontal_offset_desktop": 92,
-            "vertical_offset_mobile": 50,
-            "horizontal_offset_mobile": 50,
-            "mobile_hide": false,
-            "tooltip_position_desktop": "top",
-            "tooltip_position_mobile": "top"
-          }
-        },
-        "text_i6DBiE": {
-          "type": "text",
-          "settings": {
-            "title": "Chaga",
-            "description": "<p>Packed with antioxidants, Chaga helps fight oxidative stress and supports immune function and overall cellular health.</p>",
-            "vertical_offset_desktop": 72,
-            "horizontal_offset_desktop": 92,
-            "vertical_offset_mobile": 50,
-            "horizontal_offset_mobile": 50,
-            "mobile_hide": false,
-            "tooltip_position_desktop": "top",
-            "tooltip_position_mobile": "top"
-          }
-        },
-        "text_cVEJeG": {
-          "type": "text",
-          "settings": {
-            "title": "Cordyceps",
-            "description": "<p>Enhances energy, endurance, and oxygen uptake—Cordyceps is prized for athletic performance and vitality.</p>",
-            "vertical_offset_desktop": 60,
-            "horizontal_offset_desktop": 24,
-            "vertical_offset_mobile": 50,
-            "horizontal_offset_mobile": 50,
-            "mobile_hide": false,
-            "tooltip_position_desktop": "top",
-            "tooltip_position_mobile": "top"
-          }
-        },
-        "text_PJiWKj": {
-          "type": "text",
-          "settings": {
-            "title": "Maitake",
-            "description": "<p>Supports immune response, blood sugar balance, and overall metabolic health with powerful beta-glucans.</p>",
-            "vertical_offset_desktop": 45,
-            "horizontal_offset_desktop": 11,
-            "vertical_offset_mobile": 50,
-            "horizontal_offset_mobile": 50,
-            "mobile_hide": false,
-            "tooltip_position_desktop": "top",
-            "tooltip_position_mobile": "top"
-          }
-        }
-      },
-      "block_order": [
-        "text_EdwKfg",
-        "text_MXiXXP",
-        "text_i6DBiE",
-        "text_cVEJeG",
-        "text_PJiWKj"
-      ],
-      "name": "t:sections.refactor_words.settings.image_with_hotspots.label",
-      "settings": {
-        "heading": "Check out our newest blend",
-        "subheading": "Explore the benefits",
-        "section_heading_layout": "section-heading--center",
-        "color_text": "#000000",
-        "color_background": "#ffffff",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "descrease_margin": false,
-        "remove_margin": false,
-        "seo_h_tag": "h3",
-        "section_visibility": "desktop"
-      }
     }
   },
   "order": [
@@ -2131,12 +1994,10 @@
     "flex_cards_LdbaxY",
     "flex_grid_CGwnnL",
     "flex_grid_wc7iyy",
-    "shop_the_look_7hQB7K",
     "flex_slideshow_JarqzM",
     "marquee_eWd8Cz",
     "flex_cards_nnPyb4",
     "flex_grid_kyMmKY",
-    "content_toggles_x7TNce",
-    "image_with_hotspots_6mYgpy"
+    "content_toggles_x7TNce"
   ]
 }
