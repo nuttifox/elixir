@@ -12,20 +12,8 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
-        },
-        "empty_space_1": {
-          "type": "space",
-          "settings": {}
-        },
-        "empty_space_2": {
-          "type": "space",
-          "settings": {}
-        },
-        "empty_space_3": {
-          "type": "space",
+        "rating_VgaF3p": {
+          "type": "rating",
           "settings": {}
         },
         "title": {
@@ -39,27 +27,73 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "show_quantities": "no"
+            "variants_style": "radio",
+            "show_quantities": "no",
+            "inventory_color_low": "rgba(0,0,0,0)",
+            "inventory_color_enough": "rgba(0,0,0,0)",
+            "inventory_color_out": "rgba(0,0,0,0)"
           }
+        },
+        "empty_space_1": {
+          "type": "space",
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "show_price": true,
             "show_quantity_selector": true,
-            "show_dynamic_checkout": true
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false,
+            "color_text_buttons": "rgba(0,0,0,0)",
+            "color_accent_buttons": "rgba(0,0,0,0)",
+            "style_buttons": "solid"
           }
+        },
+        "empty_space_2": {
+          "type": "space",
+          "settings": {}
         },
         "description": {
           "type": "description",
+          "settings": {
+            "heading": "",
+            "subtitle": "",
+            "tooltip_info": "",
+            "collapsible": false,
+            "opened_by_default": false,
+            "layout": "compact",
+            "text_color": "rgba(0,0,0,0)",
+            "bg_color": "rgba(0,0,0,0)",
+            "darken_header": false
+          }
+        },
+        "empty_space_3": {
+          "type": "space",
           "settings": {}
         },
         "share": {
           "type": "share",
-          "settings": {}
+          "settings": {
+            "title": "Share",
+            "subtitle": "",
+            "tooltip_info": "",
+            "share_on_facebook": true,
+            "share_on_x": true,
+            "share_on_pinterest": true,
+            "custom_share_link": false,
+            "collapsible": false,
+            "opened_by_default": false,
+            "layout": "compact",
+            "text_color": "rgba(0,0,0,0)",
+            "bg_color": "rgba(0,0,0,0)",
+            "darken_header": true
+          }
         }
       },
       "block_order": [
-        "vendor",
+        "rating_VgaF3p",
         "title",
         "price",
         "variant_picker",
@@ -72,10 +106,26 @@
       ],
       "settings": {
         "gallery_style": "slider",
+        "enhance_first_image": false,
+        "gallery_ratio": "natural",
         "other_media_ratio": "fit",
+        "video_fit": true,
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
         "gallery_pagination": "dots",
         "enable_zoom": true,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "enable_video_autoplay": false,
+        "disable_parallax": false,
+        "default_to_first_variant": true,
+        "sticky_add_to_cart": false,
+        "sticky_atc_variants": false,
+        "sticky_atc_style": "wide",
+        "sticky_bar_bgcolor": "#ffffff",
+        "sticky_bar_txtcolor": "#111111",
+        "sticky_bar_blur": true
       }
     },
     "product-recommendations": {
@@ -100,7 +150,23 @@
         "quick_buy"
       ],
       "settings": {
-        "heading": "You may also like"
+        "heading": "You may also like",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "layout_mobile": "grid-palm-1",
+        "products_number": 4,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_button_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false
       }
     }
   },
