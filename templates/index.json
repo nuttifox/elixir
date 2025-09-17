@@ -15,10 +15,11 @@
         "slide_image_b3AG33": {
           "type": "_slide-image",
           "settings": {
+            "video": "shopify://files/videos/Generated File September 17, 2025 - 5_21PM.mp4",
             "link": "",
             "open_in_new_window": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "#111111"
+            "color_background_main": "#006828",
+            "color_text_main": "#ffffff"
           },
           "blocks": {
             "empty_space_BQ6MEF": {
@@ -151,137 +152,10 @@
             "empty_space_H7CPrR",
             "content_group_RiigWK"
           ]
-        },
-        "slide_image_WJWry3": {
-          "type": "_slide-image",
-          "settings": {
-            "link": "",
-            "open_in_new_window": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "#000000"
-          },
-          "blocks": {
-            "empty_space_QFqj74": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "empty_space_ar4FYq": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "empty_space_itceJL": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "empty_space_DArXpN": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "empty_space_D4fGCW": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "star_rating_8RxVBq": {
-              "type": "star-rating",
-              "name": "Star rating",
-              "settings": {
-                "active_stars_shown": 100,
-                "caption": "4.95 (256)",
-                "star_color": "#ffbd01"
-              },
-              "blocks": {}
-            },
-            "heading_mJibff": {
-              "type": "heading",
-              "settings": {
-                "heading": "Plant-Based [br]Protein",
-                "title_size": "h1",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "h3"
-              },
-              "blocks": {}
-            },
-            "caption_DzUQFa": {
-              "type": "caption",
-              "settings": {
-                "caption": "<strong>Now with 20g of complete protein</strong>",
-                "text_size": "large",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
-            "empty_space_49faW7": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "content_group_yMPppq": {
-              "type": "content-group",
-              "settings": {
-                "spacing": "small"
-              },
-              "blocks": {
-                "button_DHRg9X": {
-                  "type": "button",
-                  "settings": {
-                    "button_label": "Shop proteins",
-                    "link": "",
-                    "open_in_new_window": false,
-                    "button_size": "large",
-                    "button_style": "outline",
-                    "color_text_buttons": "rgba(0,0,0,0)",
-                    "color_accent_buttons": "#ffa001"
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "button_DHRg9X"
-              ]
-            }
-          },
-          "block_order": [
-            "empty_space_QFqj74",
-            "empty_space_ar4FYq",
-            "empty_space_itceJL",
-            "empty_space_DArXpN",
-            "empty_space_D4fGCW",
-            "star_rating_8RxVBq",
-            "heading_mJibff",
-            "caption_DzUQFa",
-            "empty_space_49faW7",
-            "content_group_yMPppq"
-          ]
         }
       },
       "block_order": [
-        "slide_image_b3AG33",
-        "slide_image_WJWry3"
+        "slide_image_b3AG33"
       ],
       "name": "t:theme_blocks.sections.flex-slideshow.name",
       "settings": {
