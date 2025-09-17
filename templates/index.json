@@ -1012,7 +1012,7 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#443c35",
+            "color_background_main": "#006828",
             "color_text_main": "#ece5df",
             "color_hide_borders": true,
             "color_hide_shadow": false
@@ -1149,7 +1149,7 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#5f5145",
+            "color_background_main": "#00cf00",
             "color_text_main": "#f9f4ed",
             "color_hide_borders": true,
             "color_hide_shadow": false
@@ -1223,7 +1223,7 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#5f5145",
+            "color_background_main": "#fffcf4",
             "color_text_main": "#f9f4ed",
             "color_hide_borders": true,
             "color_hide_shadow": false
@@ -1297,7 +1297,7 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#5f5145",
+            "color_background_main": "#f6ce71",
             "color_text_main": "#f9f4ed",
             "color_hide_borders": true,
             "color_hide_shadow": false
@@ -1371,7 +1371,7 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#5f5145",
+            "color_background_main": "#00cf00",
             "color_text_main": "#f9f4ed",
             "color_hide_borders": true,
             "color_hide_shadow": false
@@ -1453,7 +1453,7 @@
         "no_gap": false,
         "spacing": "xsmall",
         "gutter_size": "large",
-        "section_background_color": "#443c35",
+        "section_background_color": "#006828",
         "section_background_gradient": "",
         "section_heading_color": "rgba(0,0,0,0)",
         "descrease_margin": false,
