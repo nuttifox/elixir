@@ -18,17 +18,22 @@ if ( typeof MainHeader !== 'function' ) {
 				const stickyHeader = document.createElement('div');
 				stickyHeader.classList = 'sticky-header'
 				stickyHeader.setAttribute('data-js-inert', '');
-				stickyHeader.innerHTML = `<div class="header__bottom header-container container--large portable-hide">
-					${this.querySelector('.header__bottom').innerHTML}
-				</div>
-				<div class="site-header header__top container--large">
-					${this.querySelector('.header__top').innerHTML}
+				
+				// Create sticky header with navigation and cart (no logo)
+				const navigationElement = this.querySelector('.header-navigation');
+				const cartButton = this.querySelector('.button--cart-handle');
+				
+				stickyHeader.innerHTML = `<div class="header-container header-container--top">
+					<div class="header__top container--large">
+						<div class="header-navigation portable-hide">
+							${navigationElement ? navigationElement.innerHTML : ''}
+						</div>
+						<div class="header-actions header-actions--buttons">
+							${cartButton ? cartButton.outerHTML : ''}
+						</div>
+					</div>
 				</div>`;
 				document.body.append(stickyHeader);
-
-				if ( this.querySelector('.button--cart-handle') && stickyHeader.querySelector('.header-actions') ) {
-					stickyHeader.querySelector('.header-actions').append(this.querySelector('.button--cart-handle').cloneNode(true));
-				}
 
 				stickyHeader.querySelectorAll('[id]').forEach(elm=>{
 					elm.id = `${elm.id}-sticky`;
@@ -42,7 +47,7 @@ if ( typeof MainHeader !== 'function' ) {
 				window.lst = window.scrollY;
 				window.lhp = 0;
 
-				const stickyHeaderDeskBound = this.querySelector('.header__bottom');
+				const stickyHeaderDeskBound = this.querySelector('.header__top');
 				const stickyHeaderMobileBound = this.querySelector('.header__top');
 
 				this.SCROLL_StickyHelper = () =>{
