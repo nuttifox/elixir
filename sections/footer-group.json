@@ -44,7 +44,6 @@
               "type": "image",
               "name": "t:sections.gallery.blocks.image.settings.image.label",
               "settings": {
-                "image": "",
                 "image_height": 140,
                 "link": "",
                 "open_in_new_window": false
@@ -155,19 +154,6 @@
         "section_visibility": "always"
       }
     },
-    "image_WBQYyq": {
-      "type": "image",
-      "name": "t:sections.local-extra-words.sections.image-section.name",
-      "settings": {
-        "image": "",
-        "link": "",
-        "open_in_new_window": false,
-        "image_size": "large",
-        "descrease_margin": false,
-        "remove_margin": false,
-        "section_visibility": "always"
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -176,7 +162,6 @@
           "settings": {
             "title": "",
             "size": "h4",
-            "image": "",
             "image_size": 100,
             "content": "<p>This is a demo store, but you can buy these amazing products from <strong>Four Sigmatic</strong></p>",
             "show_social_icons": true,
@@ -187,7 +172,7 @@
           "type": "menu",
           "settings": {
             "title": "Shop",
-            "menu": "footer-menu-1",
+            "menu": "",
             "open_in_new_window": false
           }
         },
@@ -195,7 +180,7 @@
           "type": "menu",
           "settings": {
             "title": "Learn",
-            "menu": "footer-menu-2",
+            "menu": "",
             "open_in_new_window": false
           }
         },
@@ -216,14 +201,13 @@
         "layout": "grid-4 grid-portable-2 grid-lap-1",
         "show_locale_selector": true,
         "show_country_selector": true,
-        "remove_margin": true,
+        "remove_margin": false,
         "seo_h_tag": "h4"
       }
     }
   },
   "order": [
     "flex_grid_KiWabb",
-    "image_WBQYyq",
     "footer"
   ]
 }
