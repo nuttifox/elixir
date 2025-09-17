@@ -43,6 +43,48 @@
 
   {{ 'theme.css' | asset_url | stylesheet_tag }}
 
+  {%- if settings.enable_smooth_scroll -%}
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      /* Disable smooth scroll on reduced motion preference */
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+      }
+    </style>
+    <script>
+      // Smooth scrolling for anchor links only
+      document.addEventListener('DOMContentLoaded', function() {
+        // Handle anchor links with smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+            const href = this.getAttribute('href');
+            if (href === '#' || href === '#top') {
+              e.preventDefault();
+              window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+              });
+            } else if (href.startsWith('#') && href.length > 1) {
+              const target = document.querySelector(href);
+              if (target) {
+                e.preventDefault();
+                target.scrollIntoView({
+                  behavior: 'smooth',
+                  block: 'start'
+                });
+              }
+            }
+          });
+        });
+      });
+    </script>
+  {%- endif -%}
+
 	{{ content_for_header }}
 
   <script>

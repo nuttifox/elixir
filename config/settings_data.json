@@ -38,6 +38,7 @@
     "theme_max_width": 1440,
     "container_vertical_space": 130,
     "grid_gap": 26,
+    "enable_smooth_scroll": true,
     "border_width_cards": 1,
     "border_radius_cards": 20,
     "border_width_buttons": 1,

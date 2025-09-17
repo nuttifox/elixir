@@ -298,6 +298,17 @@
 				"step": 2,
 				"unit": "px",
 				"default": 26
+			},
+			{
+				"type": "header",
+				"content": "Smooth Scrolling"
+			},
+			{
+				"type": "checkbox",
+				"id": "enable_smooth_scroll",
+				"label": "Enable smooth scrolling",
+				"info": "Adds smooth scrolling behavior to anchor links and scroll-to-top functionality",
+				"default": true
 			}
 		]
 	},
