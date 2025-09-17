@@ -1508,107 +1508,13 @@
         "slide_image_EYDYGh": {
           "type": "_slide-image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_04_53_PM.png",
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png",
             "link": "",
             "open_in_new_window": false,
             "color_background_main": "rgba(0,0,0,0)",
             "color_text_main": "#61482e"
           },
-          "blocks": {
-            "caption_mNTdpH": {
-              "type": "caption",
-              "name": "t:sections.local-extra-words.sections.headings.caption",
-              "settings": {
-                "caption": "<strong>ALL TIME FAVORITE</strong>",
-                "text_size": "regular",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "#3e3328"
-              },
-              "blocks": {}
-            },
-            "caption_HUeYHG": {
-              "type": "caption",
-              "disabled": true,
-              "settings": {
-                "caption": "INTRODUCING",
-                "text_size": "regular",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
-            "heading_MhUixw": {
-              "type": "heading",
-              "settings": {
-                "heading": "<em>FOCUS</em> [br]Organic Coffee",
-                "title_size": "h1",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "h3"
-              },
-              "blocks": {}
-            },
-            "button_fd89h8": {
-              "type": "button",
-              "name": "t:sections.rich-text.blocks.button.name",
-              "settings": {
-                "button_label": "Explore now",
-                "link": "",
-                "open_in_new_window": false,
-                "button_size": "large",
-                "button_style": "solid",
-                "color_text_buttons": "rgba(0,0,0,0)",
-                "color_accent_buttons": "#ffa001"
-              },
-              "blocks": {}
-            },
-            "content_group_HVJmYr": {
-              "type": "content-group",
-              "disabled": true,
-              "settings": {
-                "spacing": "small"
-              },
-              "blocks": {
-                "button_caj3hV": {
-                  "type": "button",
-                  "settings": {
-                    "button_label": "Button label",
-                    "link": "",
-                    "open_in_new_window": false,
-                    "button_size": "regular",
-                    "button_style": "solid",
-                    "color_text_buttons": "rgba(0,0,0,0)",
-                    "color_accent_buttons": "rgba(0,0,0,0)"
-                  },
-                  "blocks": {}
-                },
-                "button_AfWTLL": {
-                  "type": "button",
-                  "settings": {
-                    "button_label": "Button label",
-                    "link": "",
-                    "open_in_new_window": false,
-                    "button_size": "regular",
-                    "button_style": "outline",
-                    "color_text_buttons": "rgba(0,0,0,0)",
-                    "color_accent_buttons": "rgba(0,0,0,0)"
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "button_caj3hV",
-                "button_AfWTLL"
-              ]
-            }
-          },
-          "block_order": [
-            "caption_mNTdpH",
-            "caption_HUeYHG",
-            "heading_MhUixw",
-            "button_fd89h8",
-            "content_group_HVJmYr"
-          ]
+          "blocks": {}
         }
       },
       "block_order": [
