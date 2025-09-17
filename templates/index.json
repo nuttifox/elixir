@@ -15,10 +15,11 @@
         "slide_image_b3AG33": {
           "type": "_slide-image",
           "settings": {
+            "video": "shopify://files/videos/Generated File September 17, 2025 - 5_21PM.mp4",
             "link": "",
             "open_in_new_window": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "#111111"
+            "color_background_main": "#006828",
+            "color_text_main": "#ffffff"
           },
           "blocks": {
             "empty_space_BQ6MEF": {
@@ -109,7 +110,7 @@
                 "button_rECEng": {
                   "type": "button",
                   "settings": {
-                    "button_label": "Try Mushroom Coffee",
+                    "button_label": "Buy Elixir",
                     "link": "",
                     "open_in_new_window": false,
                     "button_size": "large",
@@ -122,7 +123,7 @@
                 "button_7gpHn6": {
                   "type": "button",
                   "settings": {
-                    "button_label": "Shop All Coffees",
+                    "button_label": "Ingredients",
                     "link": "",
                     "open_in_new_window": false,
                     "button_size": "large",
@@ -151,137 +152,10 @@
             "empty_space_H7CPrR",
             "content_group_RiigWK"
           ]
-        },
-        "slide_image_WJWry3": {
-          "type": "_slide-image",
-          "settings": {
-            "link": "",
-            "open_in_new_window": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "#000000"
-          },
-          "blocks": {
-            "empty_space_QFqj74": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "empty_space_ar4FYq": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "empty_space_itceJL": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "empty_space_DArXpN": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "empty_space_D4fGCW": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "star_rating_8RxVBq": {
-              "type": "star-rating",
-              "name": "Star rating",
-              "settings": {
-                "active_stars_shown": 100,
-                "caption": "4.95 (256)",
-                "star_color": "#ffbd01"
-              },
-              "blocks": {}
-            },
-            "heading_mJibff": {
-              "type": "heading",
-              "settings": {
-                "heading": "Plant-Based [br]Protein",
-                "title_size": "h1",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "h3"
-              },
-              "blocks": {}
-            },
-            "caption_DzUQFa": {
-              "type": "caption",
-              "settings": {
-                "caption": "<strong>Now with 20g of complete protein</strong>",
-                "text_size": "large",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
-            "empty_space_49faW7": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "content_group_yMPppq": {
-              "type": "content-group",
-              "settings": {
-                "spacing": "small"
-              },
-              "blocks": {
-                "button_DHRg9X": {
-                  "type": "button",
-                  "settings": {
-                    "button_label": "Shop proteins",
-                    "link": "",
-                    "open_in_new_window": false,
-                    "button_size": "large",
-                    "button_style": "outline",
-                    "color_text_buttons": "rgba(0,0,0,0)",
-                    "color_accent_buttons": "#ffa001"
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "button_DHRg9X"
-              ]
-            }
-          },
-          "block_order": [
-            "empty_space_QFqj74",
-            "empty_space_ar4FYq",
-            "empty_space_itceJL",
-            "empty_space_DArXpN",
-            "empty_space_D4fGCW",
-            "star_rating_8RxVBq",
-            "heading_mJibff",
-            "caption_DzUQFa",
-            "empty_space_49faW7",
-            "content_group_yMPppq"
-          ]
         }
       },
       "block_order": [
-        "slide_image_b3AG33",
-        "slide_image_WJWry3"
+        "slide_image_b3AG33"
       ],
       "name": "t:theme_blocks.sections.flex-slideshow.name",
       "settings": {
@@ -342,7 +216,7 @@
         "layout_desktop": "four-columns",
         "layout_mobile": "grid-palm-1",
         "products_number": 12,
-        "collection": "",
+        "collection": "frontpage",
         "collection_1": "",
         "collection_2": "",
         "collection_3": "",
@@ -643,14 +517,25 @@
               },
               "blocks": {}
             },
+            "image_eReGRU": {
+              "type": "image",
+              "name": "t:sections.gallery.blocks.image.settings.image.label",
+              "settings": {
+                "image": "shopify://shop_images/Choice.png",
+                "image_height": 40,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
             "heading_hGJ9Ar": {
               "type": "heading",
               "settings": {
-                "heading": "A daily cup of Four Sigmatic Original [br]Mushroom Coffee™ helps with:",
-                "title_size": "h2",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
+                "heading": "<strong>150 clinicians</strong> share Elixir Shots on <strong>FrontrowMD</strong> without compensation",
+                "title_size": "h3",
+                "line_height": "medium",
+                "text_color": "#3e3328",
+                "seo_h_tag": "h4"
               },
               "blocks": {}
             },
@@ -666,11 +551,11 @@
               "type": "button",
               "name": "t:sections.rich-text.blocks.button.name",
               "settings": {
-                "button_label": "SHOP ALL",
+                "button_label": "Learn Why...",
                 "link": "",
                 "open_in_new_window": false,
                 "button_size": "regular",
-                "button_style": "solid",
+                "button_style": "outline",
                 "color_text_buttons": "rgba(0,0,0,0)",
                 "color_accent_buttons": "#ffa001"
               },
@@ -689,6 +574,7 @@
             "empty_space_mg8mjQ",
             "rich_text_xDNwBt",
             "empty_space_FcDaVb",
+            "image_eReGRU",
             "heading_hGJ9Ar",
             "empty_space_PXtTJw",
             "button_PrNtzN",
@@ -726,6 +612,7 @@
               "type": "image",
               "name": "t:sections.gallery.blocks.image.settings.image.label",
               "settings": {
+                "image": "shopify://shop_images/Screenshot_2025-09-17_at_18.10.00.png",
                 "image_height": 80,
                 "link": "",
                 "open_in_new_window": false
@@ -790,6 +677,7 @@
               "type": "image",
               "name": "t:sections.gallery.blocks.image.settings.image.label",
               "settings": {
+                "image": "shopify://shop_images/Screenshot_2025-09-17_at_18.10.33.png",
                 "image_height": 80,
                 "link": "",
                 "open_in_new_window": false
@@ -1124,7 +1012,7 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#443c35",
+            "color_background_main": "#006828",
             "color_text_main": "#ece5df",
             "color_hide_borders": true,
             "color_hide_shadow": false
@@ -1261,7 +1149,7 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#5f5145",
+            "color_background_main": "#00cf00",
             "color_text_main": "#f9f4ed",
             "color_hide_borders": true,
             "color_hide_shadow": false
@@ -1335,7 +1223,7 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#5f5145",
+            "color_background_main": "#fffcf4",
             "color_text_main": "#f9f4ed",
             "color_hide_borders": true,
             "color_hide_shadow": false
@@ -1409,7 +1297,7 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#5f5145",
+            "color_background_main": "#f6ce71",
             "color_text_main": "#f9f4ed",
             "color_hide_borders": true,
             "color_hide_shadow": false
@@ -1483,7 +1371,7 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#5f5145",
+            "color_background_main": "#00cf00",
             "color_text_main": "#f9f4ed",
             "color_hide_borders": true,
             "color_hide_shadow": false
@@ -1565,47 +1453,7 @@
         "no_gap": false,
         "spacing": "xsmall",
         "gutter_size": "large",
-        "section_background_color": "#443c35",
-        "section_background_gradient": "",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "descrease_margin": false,
-        "remove_margin": false,
-        "seo_h_tag": "h2",
-        "section_visibility": "always"
-      }
-    },
-    "shop_the_look_7hQB7K": {
-      "type": "shop-the-look",
-      "blocks": {
-        "icons_RzkeCe": {
-          "type": "icons",
-          "settings": {}
-        },
-        "title_QCVArH": {
-          "type": "title",
-          "settings": {}
-        },
-        "price_WxRbWP": {
-          "type": "price",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "icons_RzkeCe",
-        "title_QCVArH",
-        "price_WxRbWP"
-      ],
-      "name": "t:sections.shop-the-look.name",
-      "settings": {
-        "heading": "Organic proteins",
-        "subheading": "Nourish & de-stress",
-        "section_heading_layout": "section-heading--center",
-        "product_list": [],
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_hide_borders": true,
-        "color_hide_shadow": false,
-        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_color": "#006828",
         "section_background_gradient": "",
         "section_heading_color": "rgba(0,0,0,0)",
         "descrease_margin": false,
@@ -1620,106 +1468,13 @@
         "slide_image_EYDYGh": {
           "type": "_slide-image",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png",
             "link": "",
             "open_in_new_window": false,
             "color_background_main": "rgba(0,0,0,0)",
             "color_text_main": "#61482e"
           },
-          "blocks": {
-            "caption_mNTdpH": {
-              "type": "caption",
-              "name": "t:sections.local-extra-words.sections.headings.caption",
-              "settings": {
-                "caption": "<strong>ALL TIME FAVORITE</strong>",
-                "text_size": "regular",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "#3e3328"
-              },
-              "blocks": {}
-            },
-            "caption_HUeYHG": {
-              "type": "caption",
-              "disabled": true,
-              "settings": {
-                "caption": "INTRODUCING",
-                "text_size": "regular",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
-            "heading_MhUixw": {
-              "type": "heading",
-              "settings": {
-                "heading": "<em>FOCUS</em> [br]Organic Coffee",
-                "title_size": "h1",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "h3"
-              },
-              "blocks": {}
-            },
-            "button_fd89h8": {
-              "type": "button",
-              "name": "t:sections.rich-text.blocks.button.name",
-              "settings": {
-                "button_label": "Explore now",
-                "link": "",
-                "open_in_new_window": false,
-                "button_size": "large",
-                "button_style": "solid",
-                "color_text_buttons": "rgba(0,0,0,0)",
-                "color_accent_buttons": "#ffa001"
-              },
-              "blocks": {}
-            },
-            "content_group_HVJmYr": {
-              "type": "content-group",
-              "disabled": true,
-              "settings": {
-                "spacing": "small"
-              },
-              "blocks": {
-                "button_caj3hV": {
-                  "type": "button",
-                  "settings": {
-                    "button_label": "Button label",
-                    "link": "",
-                    "open_in_new_window": false,
-                    "button_size": "regular",
-                    "button_style": "solid",
-                    "color_text_buttons": "rgba(0,0,0,0)",
-                    "color_accent_buttons": "rgba(0,0,0,0)"
-                  },
-                  "blocks": {}
-                },
-                "button_AfWTLL": {
-                  "type": "button",
-                  "settings": {
-                    "button_label": "Button label",
-                    "link": "",
-                    "open_in_new_window": false,
-                    "button_size": "regular",
-                    "button_style": "outline",
-                    "color_text_buttons": "rgba(0,0,0,0)",
-                    "color_accent_buttons": "rgba(0,0,0,0)"
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "button_caj3hV",
-                "button_AfWTLL"
-              ]
-            }
-          },
-          "block_order": [
-            "caption_mNTdpH",
-            "caption_HUeYHG",
-            "heading_MhUixw",
-            "button_fd89h8",
-            "content_group_HVJmYr"
-          ]
+          "blocks": {}
         }
       },
       "block_order": [
@@ -1740,7 +1495,7 @@
         "section_background_gradient": "",
         "section_heading_color": "rgba(0,0,0,0)",
         "descrease_margin": false,
-        "remove_margin": false,
+        "remove_margin": true,
         "color_hide_borders": false,
         "color_hide_shadow": true,
         "disable_parallax": false,
@@ -1790,7 +1545,7 @@
         "text_size": "150",
         "remove_top_margin": true,
         "remove_bottom_margin": false,
-        "color_background_main": "#61482e",
+        "color_background_main": "#006828",
         "section_background_gradient": "",
         "color_text_main": "#dfd5ca",
         "section_visibility": "always"
@@ -1963,7 +1718,7 @@
       ],
       "name": "t:flex-cards.header",
       "settings": {
-        "heading": "What others are saying",
+        "heading": "110,000+ people have chosen Elixir Shots",
         "subheading": "Real stories, real results",
         "section_heading_layout": "section-heading--center",
         "image_height_desktop": 340,
@@ -2003,15 +1758,6 @@
             "color_hide_shadow": false
           },
           "blocks": {
-            "star_rating_GgbFAz": {
-              "type": "star-rating",
-              "settings": {
-                "active_stars_shown": 100,
-                "caption": "4.9 (17)",
-                "star_color": "#61482e"
-              },
-              "blocks": {}
-            },
             "empty_space_iQFFbM": {
               "type": "empty-space",
               "name": "t:theme_blocks.empty-space.name",
@@ -2023,11 +1769,21 @@
             "heading_7gVnGQ": {
               "type": "heading",
               "settings": {
-                "heading": "Clear your mind so you can focus on what matters.",
+                "heading": "Our Roots",
                 "title_size": "h3",
                 "line_height": "small",
                 "text_color": "rgba(0,0,0,0)",
                 "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "rich_text_y3ck84": {
+              "type": "rich-text",
+              "name": "t:sections.rich-text.blocks.text.name",
+              "settings": {
+                "text": "<p>Elixir Shots began in 2020, in the heart of Newport Beach, CA, as the passion project of co-founders, and husband and wife, James and Lina. James personally oversees every batch, ensuring that only the freshest ingredients from trusted organic farms and his family farm in Kauai, Hawaii, make it into each bottle. Lina, a Family Medicine Certified Physician with a focus on integrative wellness, has shaped the vision of Elixir Shots, blending her expertise in lifestyle medicine with her love for whole, plant-based nutrition.<br/><br/>Together, their mission is simple: to make wellness accessible through the purest, most effective ingredients, empowering you to improve your health, both mentally and physically.</p>",
+                "text_size": "regular",
+                "line_height": "default"
               },
               "blocks": {}
             },
@@ -2041,7 +1797,7 @@
             "button_Lkqf4L": {
               "type": "button",
               "settings": {
-                "button_label": "SHOP CAPSULES",
+                "button_label": "Shop Elixir",
                 "link": "",
                 "open_in_new_window": false,
                 "button_size": "regular",
@@ -2053,9 +1809,9 @@
             }
           },
           "block_order": [
-            "star_rating_GgbFAz",
             "empty_space_iQFFbM",
             "heading_7gVnGQ",
+            "rich_text_y3ck84",
             "empty_space_7hyrGQ",
             "button_Lkqf4L"
           ]
@@ -2063,10 +1819,11 @@
         "grid_media_XdLEWE": {
           "type": "_grid-media",
           "settings": {
+            "image": "shopify://shop_images/IMG_8882.webp",
             "link": "",
             "open_in_new_window": false,
             "column_desktop": 6,
-            "row_desktop": 4,
+            "row_desktop": 3,
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
@@ -2075,141 +1832,6 @@
           },
           "blocks": {}
         },
-        "grid_text_L7hYae": {
-          "type": "_grid-text",
-          "settings": {
-            "link": "",
-            "open_in_new_window": false,
-            "alignment": "horizontal-left align-content--vertical-top",
-            "width": "90%",
-            "column_desktop": 3,
-            "row_desktop": 1,
-            "hide_on_mobile": false,
-            "column_mobile": "1",
-            "row_mobile": "1",
-            "color_background_main": "#eaf3e5",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true,
-            "color_hide_shadow": false
-          },
-          "blocks": {
-            "heading_xHUiCa": {
-              "type": "heading",
-              "settings": {
-                "heading": "Enhanced Focus",
-                "title_size": "h5",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
-              },
-              "blocks": {}
-            },
-            "caption_6bhxGz": {
-              "type": "caption",
-              "settings": {
-                "caption": "Every ingredient is chosen to enhance focus.",
-                "text_size": "regular",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "heading_xHUiCa",
-            "caption_6bhxGz"
-          ]
-        },
-        "grid_text_WYcR7i": {
-          "type": "_grid-text",
-          "settings": {
-            "link": "",
-            "open_in_new_window": false,
-            "alignment": "horizontal-left align-content--vertical-top",
-            "width": "90%",
-            "column_desktop": 3,
-            "row_desktop": 1,
-            "hide_on_mobile": false,
-            "column_mobile": "1",
-            "row_mobile": "1",
-            "color_background_main": "#e2f1f1",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true,
-            "color_hide_shadow": false
-          },
-          "blocks": {
-            "heading_3XiLMM": {
-              "type": "heading",
-              "settings": {
-                "heading": "Healthy Cognition",
-                "title_size": "h5",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
-              },
-              "blocks": {}
-            },
-            "caption_iQXfGJ": {
-              "type": "caption",
-              "settings": {
-                "caption": "250 mg of lion’s mane fruiting body extract.",
-                "text_size": "regular",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "heading_3XiLMM",
-            "caption_iQXfGJ"
-          ]
-        },
-        "grid_text_8qkWdw": {
-          "type": "_grid-text",
-          "settings": {
-            "link": "",
-            "open_in_new_window": false,
-            "alignment": "horizontal-left align-content--vertical-top",
-            "width": "90%",
-            "column_desktop": 3,
-            "row_desktop": 1,
-            "hide_on_mobile": false,
-            "column_mobile": "1",
-            "row_mobile": "1",
-            "color_background_main": "#f6efea",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true,
-            "color_hide_shadow": false
-          },
-          "blocks": {
-            "heading_XJTAJJ": {
-              "type": "heading",
-              "settings": {
-                "heading": "Balanced Energy",
-                "title_size": "h5",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
-              },
-              "blocks": {}
-            },
-            "caption_eNAnFD": {
-              "type": "caption",
-              "settings": {
-                "caption": "You’ll feel stable and consistent energy.",
-                "text_size": "regular",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "heading_XJTAJJ",
-            "caption_eNAnFD"
-          ]
-        },
         "grid_text_cxkPxm": {
           "type": "_grid-text",
           "settings": {
@@ -2217,7 +1839,7 @@
             "open_in_new_window": false,
             "alignment": "horizontal-left align-content--vertical-top",
             "width": "90%",
-            "column_desktop": 3,
+            "column_desktop": 6,
             "row_desktop": 1,
             "hide_on_mobile": false,
             "column_mobile": "1",
@@ -2231,7 +1853,7 @@
             "heading_FMDMCg": {
               "type": "heading",
               "settings": {
-                "heading": "Concentration",
+                "heading": "\"Elixir Shots was born from a desire to share the incredible health benefits of real, fresh ingredients with the world. Every shot is physician-crafted with care, designed to help the body heal and thrive—naturally.\"",
                 "title_size": "h5",
                 "line_height": "default",
                 "text_color": "rgba(0,0,0,0)",
@@ -2242,10 +1864,10 @@
             "caption_UjC4kc": {
               "type": "caption",
               "settings": {
-                "caption": "Keeps your mind balanced so you can feel productive.",
+                "caption": "Dr. Linda Delbruck",
                 "text_size": "regular",
                 "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
+                "text_color": "#3e3328"
               },
               "blocks": {}
             }
@@ -2259,9 +1881,6 @@
       "block_order": [
         "grid_text_MRBkMr",
         "grid_media_XdLEWE",
-        "grid_text_L7hYae",
-        "grid_text_WYcR7i",
-        "grid_text_8qkWdw",
         "grid_text_cxkPxm"
       ],
       "name": "t:sections-categories.presets.text_cards_collage",
@@ -2367,103 +1986,6 @@
         "form_title": "Couldn't find an answer? Ask!",
         "seo_h_tag": "h2"
       }
-    },
-    "image_with_hotspots_6mYgpy": {
-      "type": "image-with-hotspots",
-      "blocks": {
-        "text_EdwKfg": {
-          "type": "text",
-          "settings": {
-            "title": "Reishi",
-            "description": "<p>Known as the “mushroom of immortality,” Reishi helps manage stress, support sleep, and strengthen the immune system.</p>",
-            "vertical_offset_desktop": 19,
-            "horizontal_offset_desktop": 45,
-            "vertical_offset_mobile": 50,
-            "horizontal_offset_mobile": 50,
-            "mobile_hide": false,
-            "tooltip_position_desktop": "top",
-            "tooltip_position_mobile": "top"
-          }
-        },
-        "text_MXiXXP": {
-          "type": "text",
-          "settings": {
-            "title": "Lion’s Mane",
-            "description": "<p>Boosts focus, memory, and nerve regeneration—Lion’s Mane supports cognitive health and long-term brain function.</p>",
-            "vertical_offset_desktop": 29,
-            "horizontal_offset_desktop": 92,
-            "vertical_offset_mobile": 50,
-            "horizontal_offset_mobile": 50,
-            "mobile_hide": false,
-            "tooltip_position_desktop": "top",
-            "tooltip_position_mobile": "top"
-          }
-        },
-        "text_i6DBiE": {
-          "type": "text",
-          "settings": {
-            "title": "Chaga",
-            "description": "<p>Packed with antioxidants, Chaga helps fight oxidative stress and supports immune function and overall cellular health.</p>",
-            "vertical_offset_desktop": 72,
-            "horizontal_offset_desktop": 92,
-            "vertical_offset_mobile": 50,
-            "horizontal_offset_mobile": 50,
-            "mobile_hide": false,
-            "tooltip_position_desktop": "top",
-            "tooltip_position_mobile": "top"
-          }
-        },
-        "text_cVEJeG": {
-          "type": "text",
-          "settings": {
-            "title": "Cordyceps",
-            "description": "<p>Enhances energy, endurance, and oxygen uptake—Cordyceps is prized for athletic performance and vitality.</p>",
-            "vertical_offset_desktop": 60,
-            "horizontal_offset_desktop": 24,
-            "vertical_offset_mobile": 50,
-            "horizontal_offset_mobile": 50,
-            "mobile_hide": false,
-            "tooltip_position_desktop": "top",
-            "tooltip_position_mobile": "top"
-          }
-        },
-        "text_PJiWKj": {
-          "type": "text",
-          "settings": {
-            "title": "Maitake",
-            "description": "<p>Supports immune response, blood sugar balance, and overall metabolic health with powerful beta-glucans.</p>",
-            "vertical_offset_desktop": 45,
-            "horizontal_offset_desktop": 11,
-            "vertical_offset_mobile": 50,
-            "horizontal_offset_mobile": 50,
-            "mobile_hide": false,
-            "tooltip_position_desktop": "top",
-            "tooltip_position_mobile": "top"
-          }
-        }
-      },
-      "block_order": [
-        "text_EdwKfg",
-        "text_MXiXXP",
-        "text_i6DBiE",
-        "text_cVEJeG",
-        "text_PJiWKj"
-      ],
-      "name": "t:sections.refactor_words.settings.image_with_hotspots.label",
-      "settings": {
-        "heading": "Check out our newest blend",
-        "subheading": "Explore the benefits",
-        "section_heading_layout": "section-heading--center",
-        "color_text": "#000000",
-        "color_background": "#ffffff",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "descrease_margin": false,
-        "remove_margin": false,
-        "seo_h_tag": "h3",
-        "section_visibility": "desktop"
-      }
     }
   },
   "order": [
@@ -2472,12 +1994,10 @@
     "flex_cards_LdbaxY",
     "flex_grid_CGwnnL",
     "flex_grid_wc7iyy",
-    "shop_the_look_7hQB7K",
     "flex_slideshow_JarqzM",
     "marquee_eWd8Cz",
     "flex_cards_nnPyb4",
     "flex_grid_kyMmKY",
-    "content_toggles_x7TNce",
-    "image_with_hotspots_6mYgpy"
+    "content_toggles_x7TNce"
   ]
 }
