@@ -162,8 +162,9 @@
           "settings": {
             "title": "",
             "size": "h4",
+            "image": "shopify://shop_images/ElixirLogo.svg",
             "image_size": 100,
-            "content": "<p>This is a demo store, but you can buy these amazing products from <strong>Four Sigmatic</strong></p>",
+            "content": "",
             "show_social_icons": true,
             "enable_follow_on_shop": true
           }
@@ -172,7 +173,7 @@
           "type": "menu",
           "settings": {
             "title": "Shop",
-            "menu": "",
+            "menu": "main-menu",
             "open_in_new_window": false
           }
         },
@@ -180,7 +181,7 @@
           "type": "menu",
           "settings": {
             "title": "Learn",
-            "menu": "",
+            "menu": "footer",
             "open_in_new_window": false
           }
         },
@@ -198,7 +199,7 @@
         "newsletter_L7RkU8"
       ],
       "settings": {
-        "layout": "grid-4 grid-portable-2 grid-lap-1",
+        "layout": "grid-3 grid-lap-2",
         "show_locale_selector": true,
         "show_country_selector": true,
         "remove_margin": false,
