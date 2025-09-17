@@ -1,0 +1,229 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "t:sections.refactor_words.labels.footer_group",
+  "sections": {
+    "flex_grid_KiWabb": {
+      "type": "flex-grid",
+      "blocks": {
+        "grid_text_fVaU8L": {
+          "type": "_grid-text",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "60%",
+            "column_desktop": 12,
+            "row_desktop": 2,
+            "hide_on_mobile": false,
+            "column_mobile": "2",
+            "row_mobile": "2",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "empty_space_BeKqCC": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "40px"
+              },
+              "blocks": {}
+            },
+            "image_nJ8bLb": {
+              "type": "image",
+              "name": "t:sections.gallery.blocks.image.settings.image.label",
+              "settings": {
+                "image": "",
+                "image_height": 140,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_AWyhUF": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            },
+            "heading_4XGqUc": {
+              "type": "heading",
+              "settings": {
+                "heading": "We guarantee you'll love it!",
+                "title_size": "h3",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "empty_space_zjEFez": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "caption_xxBnwk": {
+              "type": "caption",
+              "settings": {
+                "caption": "<strong>If it doesn’t meet expectations, a 60-day money-back guarantee ensures a risk-free experience.</strong>",
+                "text_size": "regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "empty_space_AcDPh8": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            },
+            "button_rARa8Y": {
+              "type": "button",
+              "name": "t:sections.rich-text.blocks.button.name",
+              "settings": {
+                "button_label": "Learn more",
+                "link": "#",
+                "open_in_new_window": false,
+                "button_size": "regular",
+                "button_style": "outline",
+                "color_text_buttons": "rgba(0,0,0,0)",
+                "color_accent_buttons": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "empty_space_8JcmaW": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "40px"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "empty_space_BeKqCC",
+            "image_nJ8bLb",
+            "empty_space_AWyhUF",
+            "heading_4XGqUc",
+            "empty_space_zjEFez",
+            "caption_xxBnwk",
+            "empty_space_AcDPh8",
+            "button_rARa8Y",
+            "empty_space_8JcmaW"
+          ]
+        }
+      },
+      "block_order": [
+        "grid_text_fVaU8L"
+      ],
+      "name": "t:theme_blocks.sections.flex-section.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "card_height": 2,
+        "card_height_mobile": 3,
+        "is_fullwidth": false,
+        "no_gap": false,
+        "spacing": "xsmall",
+        "gutter_size": "regular",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
+      }
+    },
+    "image_WBQYyq": {
+      "type": "image",
+      "name": "t:sections.local-extra-words.sections.image-section.name",
+      "settings": {
+        "image": "",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "large",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "section_visibility": "always"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "size": "h4",
+            "image": "",
+            "image_size": 100,
+            "content": "<p>This is a demo store, but you can buy these amazing products from <strong>Four Sigmatic</strong></p>",
+            "show_social_icons": true,
+            "enable_follow_on_shop": true
+          }
+        },
+        "menu-1": {
+          "type": "menu",
+          "settings": {
+            "title": "Shop",
+            "menu": "footer-menu-1",
+            "open_in_new_window": false
+          }
+        },
+        "menu-2": {
+          "type": "menu",
+          "settings": {
+            "title": "Learn",
+            "menu": "footer-menu-2",
+            "open_in_new_window": false
+          }
+        },
+        "newsletter_L7RkU8": {
+          "type": "newsletter",
+          "settings": {
+            "title": "10% off your first order"
+          }
+        }
+      },
+      "block_order": [
+        "text-1",
+        "menu-1",
+        "menu-2",
+        "newsletter_L7RkU8"
+      ],
+      "settings": {
+        "layout": "grid-4 grid-portable-2 grid-lap-1",
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "remove_margin": true,
+        "seo_h_tag": "h4"
+      }
+    }
+  },
+  "order": [
+    "flex_grid_KiWabb",
+    "image_WBQYyq",
+    "footer"
+  ]
+}

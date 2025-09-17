@@ -1,0 +1,1018 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "flex_grid_TimLmK": {
+      "type": "flex-grid",
+      "blocks": {
+        "grid_text_xLFK4K": {
+          "type": "_grid-text",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "60%",
+            "column_desktop": 12,
+            "row_desktop": 1,
+            "hide_on_mobile": false,
+            "column_mobile": "2",
+            "row_mobile": "2",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "empty_space_LrnJF9": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "40px"
+              },
+              "blocks": {}
+            },
+            "heading_UYrFiC": {
+              "type": "heading",
+              "name": "t:local-march-update.labels.heading",
+              "settings": {
+                "heading": "Discover what makes Four Sigmatic special",
+                "title_size": "h1",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            },
+            "empty_space_CRjT6w": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            },
+            "caption_3RMnTd": {
+              "type": "caption",
+              "settings": {
+                "caption": "Unwavering commitment to combining time-tested wellness traditions with modern convenience.",
+                "text_size": "large",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "empty_space_LrnJF9",
+            "heading_UYrFiC",
+            "empty_space_CRjT6w",
+            "caption_3RMnTd"
+          ]
+        }
+      },
+      "block_order": [
+        "grid_text_xLFK4K"
+      ],
+      "name": "t:theme_blocks.sections.flex-section.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "card_height": 3,
+        "card_height_mobile": 3,
+        "is_fullwidth": false,
+        "no_gap": false,
+        "spacing": "xsmall",
+        "gutter_size": "regular",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
+      }
+    },
+    "flex_grid_PtjpwY": {
+      "type": "flex-grid",
+      "blocks": {
+        "grid_media_rfV8zR": {
+          "type": "_grid-media",
+          "name": "t:theme_blocks.grid-media.name",
+          "settings": {
+            "image": "",
+            "link": "",
+            "open_in_new_window": false,
+            "column_desktop": 8,
+            "row_desktop": 4,
+            "hide_on_mobile": false,
+            "column_mobile": "2",
+            "row_mobile": "2",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {}
+        },
+        "grid_text_MczamJ": {
+          "type": "_grid-text",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 4,
+            "row_desktop": 2,
+            "hide_on_mobile": false,
+            "column_mobile": "2",
+            "row_mobile": "2",
+            "color_background_main": "#dbebdb",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "empty_space_JDxDxV": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            },
+            "heading_hmLAxX": {
+              "type": "heading",
+              "settings": {
+                "heading": "Clinically proven ingredients",
+                "title_size": "h3",
+                "line_height": "default",
+                "text_color": "#40643c",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "empty_space_FaUJKJ": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            },
+            "caption_yjJ7FD": {
+              "type": "caption",
+              "settings": {
+                "caption": "Four Sigmatic takes the science seriously. They collaborate with leading experts and stay up to date on the latest clinical research to ensure every blend is carefully crafted and evidence-based. The name itself—Four Sigmatic—reflects their commitment to using some of the most researched, nutrient-dense foods on the planet.",
+                "text_size": "regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "empty_space_DaDDyN": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "empty_space_JDxDxV",
+            "heading_hmLAxX",
+            "empty_space_FaUJKJ",
+            "caption_yjJ7FD",
+            "empty_space_DaDDyN"
+          ]
+        },
+        "grid_text_jza4wE": {
+          "type": "_grid-text",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 4,
+            "row_desktop": 2,
+            "hide_on_mobile": false,
+            "column_mobile": "2",
+            "row_mobile": "2",
+            "color_background_main": "#d4e5d8",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "empty_space_bbaewA": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            },
+            "heading_XfzMET": {
+              "type": "heading",
+              "settings": {
+                "heading": "Better packaging with Earth in mind",
+                "title_size": "h3",
+                "line_height": "default",
+                "text_color": "#40643c",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "empty_space_ye76Qt": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            },
+            "caption_JXfJNK": {
+              "type": "caption",
+              "settings": {
+                "caption": "All of their boxes are recyclable, and select bulk blends come in multi-serving recyclable containers. They're continually exploring new ways to make their packaging even more sustainable.",
+                "text_size": "regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "empty_space_zYTKkE": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "empty_space_bbaewA",
+            "heading_XfzMET",
+            "empty_space_ye76Qt",
+            "caption_JXfJNK",
+            "empty_space_zYTKkE"
+          ]
+        }
+      },
+      "block_order": [
+        "grid_media_rfV8zR",
+        "grid_text_MczamJ",
+        "grid_text_jza4wE"
+      ],
+      "name": "t:theme_blocks.sections.flex-section.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "card_height": 3,
+        "card_height_mobile": 3,
+        "is_fullwidth": false,
+        "no_gap": false,
+        "spacing": "xsmall",
+        "gutter_size": "large",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
+      }
+    },
+    "flex_grid_jn3nfX": {
+      "type": "flex-grid",
+      "blocks": {
+        "grid_text_a4bfRU": {
+          "type": "_grid-text",
+          "name": "t:theme_blocks.grid-text.name",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 2,
+            "row_desktop": 1,
+            "hide_on_mobile": false,
+            "column_mobile": "1",
+            "row_mobile": "1",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "image_QP6n8B": {
+              "type": "image",
+              "name": "t:sections.gallery.blocks.image.settings.image.label",
+              "settings": {
+                "image": "",
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_HkpLYe": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_tcQQ9H": {
+              "type": "heading",
+              "settings": {
+                "heading": "Focus",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_QP6n8B",
+            "empty_space_HkpLYe",
+            "heading_tcQQ9H"
+          ]
+        },
+        "grid_text_YkUetd": {
+          "type": "_grid-text",
+          "name": "t:theme_blocks.grid-text.name",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 2,
+            "row_desktop": 1,
+            "hide_on_mobile": false,
+            "column_mobile": "1",
+            "row_mobile": "1",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "image_iLNJVz": {
+              "type": "image",
+              "name": "t:sections.gallery.blocks.image.settings.image.label",
+              "settings": {
+                "image": "",
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_wbbUYn": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_hJYjTw": {
+              "type": "heading",
+              "settings": {
+                "heading": "Energy",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_iLNJVz",
+            "empty_space_wbbUYn",
+            "heading_hJYjTw"
+          ]
+        },
+        "grid_text_iGGfUz": {
+          "type": "_grid-text",
+          "name": "t:theme_blocks.grid-text.name",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 2,
+            "row_desktop": 1,
+            "hide_on_mobile": false,
+            "column_mobile": "1",
+            "row_mobile": "1",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "image_3idHjn": {
+              "type": "image",
+              "name": "t:sections.gallery.blocks.image.settings.image.label",
+              "settings": {
+                "image": "",
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_DtDyzj": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_Cw8Gc7": {
+              "type": "heading",
+              "settings": {
+                "heading": "Gut Health",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_3idHjn",
+            "empty_space_DtDyzj",
+            "heading_Cw8Gc7"
+          ]
+        },
+        "grid_text_nzEXcr": {
+          "type": "_grid-text",
+          "name": "t:theme_blocks.grid-text.name",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 2,
+            "row_desktop": 1,
+            "hide_on_mobile": false,
+            "column_mobile": "1",
+            "row_mobile": "1",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "empty_space_P69ABA": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "image_4nqx3A": {
+              "type": "image",
+              "name": "t:sections.gallery.blocks.image.settings.image.label",
+              "settings": {
+                "image": "",
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_7x4y8d": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_tANBCY": {
+              "type": "heading",
+              "settings": {
+                "heading": "Immune Support",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            },
+            "empty_space_TJhtHq": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "empty_space_P69ABA",
+            "image_4nqx3A",
+            "empty_space_7x4y8d",
+            "heading_tANBCY",
+            "empty_space_TJhtHq"
+          ]
+        },
+        "grid_text_JUYPiL": {
+          "type": "_grid-text",
+          "name": "t:theme_blocks.grid-text.name",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 2,
+            "row_desktop": 1,
+            "hide_on_mobile": false,
+            "column_mobile": "1",
+            "row_mobile": "1",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "image_rWVtbm": {
+              "type": "image",
+              "name": "t:sections.gallery.blocks.image.settings.image.label",
+              "settings": {
+                "image": "",
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_P3bPjL": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_HJCnQB": {
+              "type": "heading",
+              "settings": {
+                "heading": "Stress Support",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_rWVtbm",
+            "empty_space_P3bPjL",
+            "heading_HJCnQB"
+          ]
+        },
+        "grid_text_M9kU4n": {
+          "type": "_grid-text",
+          "name": "t:theme_blocks.grid-text.name",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 2,
+            "row_desktop": 1,
+            "hide_on_mobile": false,
+            "column_mobile": "1",
+            "row_mobile": "1",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "image_P6f3KE": {
+              "type": "image",
+              "name": "t:sections.gallery.blocks.image.settings.image.label",
+              "settings": {
+                "image": "",
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_MnFUMh": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_aiPkHP": {
+              "type": "heading",
+              "settings": {
+                "heading": "Recover",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_P6f3KE",
+            "empty_space_MnFUMh",
+            "heading_aiPkHP"
+          ]
+        }
+      },
+      "block_order": [
+        "grid_text_a4bfRU",
+        "grid_text_YkUetd",
+        "grid_text_iGGfUz",
+        "grid_text_nzEXcr",
+        "grid_text_JUYPiL",
+        "grid_text_M9kU4n"
+      ],
+      "name": "t:theme_blocks.sections.flex-section.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "card_height": 2,
+        "card_height_mobile": 3,
+        "is_fullwidth": false,
+        "no_gap": false,
+        "spacing": "xsmall",
+        "gutter_size": "regular",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": true,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
+      }
+    },
+    "flex_grid_wzrQRi": {
+      "type": "flex-grid",
+      "blocks": {
+        "grid_text_jQk4WB": {
+          "type": "_grid-text",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 4,
+            "row_desktop": 2,
+            "hide_on_mobile": false,
+            "column_mobile": "2",
+            "row_mobile": "2",
+            "color_background_main": "#f9f4ed",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "empty_space_TFNRQM": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            },
+            "heading_mApBPm": {
+              "type": "heading",
+              "settings": {
+                "heading": "No fillers or artificial flavors",
+                "title_size": "h3",
+                "line_height": "default",
+                "text_color": "#755d43",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "empty_space_84gjKm": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            },
+            "caption_4XqjrC": {
+              "type": "caption",
+              "settings": {
+                "caption": "It’s a difference you can truly taste and feel. No fillers, no additives—just real, recognizable ingredients and a flavor worth craving every day. Their team believes in the product so much, they enjoy it multiple times a day themselves.",
+                "text_size": "regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "empty_space_WwQzwK": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "empty_space_TFNRQM",
+            "heading_mApBPm",
+            "empty_space_84gjKm",
+            "caption_4XqjrC",
+            "empty_space_WwQzwK"
+          ]
+        },
+        "grid_media_WTA7Te": {
+          "type": "_grid-media",
+          "name": "t:theme_blocks.grid-media.name",
+          "settings": {
+            "image": "",
+            "link": "",
+            "open_in_new_window": false,
+            "column_desktop": 8,
+            "row_desktop": 4,
+            "hide_on_mobile": false,
+            "column_mobile": "2",
+            "row_mobile": "2",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {}
+        },
+        "grid_text_JkHDtE": {
+          "type": "_grid-text",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 4,
+            "row_desktop": 2,
+            "hide_on_mobile": false,
+            "column_mobile": "2",
+            "row_mobile": "2",
+            "color_background_main": "#f9f4ed",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "empty_space_NHPD4i": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            },
+            "heading_PfEWGP": {
+              "type": "heading",
+              "settings": {
+                "heading": "Pure, high-quality ingredients",
+                "title_size": "h3",
+                "line_height": "default",
+                "text_color": "#755d43",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "empty_space_AQgeLj": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            },
+            "caption_i7MryU": {
+              "type": "caption",
+              "settings": {
+                "caption": "Research is at the heart of their kitchen. They collaborate with scientists and carefully formulate each recipe to include only powerful, effective ingredients—nothing unnecessary.",
+                "text_size": "regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "empty_space_343JBC": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "empty_space_NHPD4i",
+            "heading_PfEWGP",
+            "empty_space_AQgeLj",
+            "caption_i7MryU",
+            "empty_space_343JBC"
+          ]
+        }
+      },
+      "block_order": [
+        "grid_text_jQk4WB",
+        "grid_media_WTA7Te",
+        "grid_text_JkHDtE"
+      ],
+      "name": "t:theme_blocks.sections.flex-section.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "card_height": 2,
+        "card_height_mobile": 3,
+        "is_fullwidth": false,
+        "no_gap": false,
+        "spacing": "xsmall",
+        "gutter_size": "large",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": true,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
+      }
+    },
+    "content_toggles_wwhGUz": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_cWKG9p": {
+          "type": "text",
+          "settings": {
+            "title": "Do you test your products for harmful substances?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Yes, third-party tested for heavy metals, mycotoxins, mold, yeast, and pesticides.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_h6drgx": {
+          "type": "text",
+          "settings": {
+            "title": "What makes Four Sigmatic the right choice?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>They infuse functional mushrooms into everyday products designed to support mental clarity and overall well-being. Think lion’s mane for focus, cordyceps for energy, and reishi for calm. Their brews, blends, and powders help create a balanced mindset, making it easier to focus on what matters most. With a commitment to quality, they use only organic, high-grade ingredients—no filler grains, no mycelium—delivering noticeable results in as little as seven days.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_e88Lzx": {
+          "type": "text",
+          "settings": {
+            "title": "Are these psychedelic mushrooms?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Some might describe the effects as magical, but these mushrooms are not psychedelic.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_t7TdCQ": {
+          "type": "text",
+          "settings": {
+            "title": "What’s the proper way to recycle the can?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>These canisters generate up to 50% less waste and are recyclable in most locations, making them a more eco-friendly choice.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_cWKG9p",
+        "text_h6drgx",
+        "text_e88Lzx",
+        "text_t7TdCQ"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "toggle_size": "large",
+        "form_enable": false,
+        "form_title": "Don’t find the answer? Ask us!",
+        "seo_h_tag": "h2"
+      }
+    },
+    "1656417774de852d35": {
+      "type": "featured-collection",
+      "blocks": {
+        "165641777417f09bcc-0": {
+          "type": "price",
+          "settings": {}
+        },
+        "165641777417f09bcc-1": {
+          "type": "title",
+          "settings": {}
+        },
+        "6c719446-4aa4-4846-8b1a-697f7d20abb4": {
+          "type": "rating",
+          "settings": {}
+        },
+        "165641777417f09bcc-2": {
+          "type": "quick_buy",
+          "settings": {}
+        },
+        "42b578c1-2d59-4b12-9830-2236c3f4bcfc": {
+          "type": "icons",
+          "disabled": true,
+          "settings": {}
+        },
+        "a882b62d-0dd7-4b6a-b463-577e79611881": {
+          "type": "local_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "165641777417f09bcc-0",
+        "165641777417f09bcc-1",
+        "6c719446-4aa4-4846-8b1a-697f7d20abb4",
+        "165641777417f09bcc-2",
+        "42b578c1-2d59-4b12-9830-2236c3f4bcfc",
+        "a882b62d-0dd7-4b6a-b463-577e79611881"
+      ],
+      "settings": {
+        "heading": "Our favourite products",
+        "subheading": "",
+        "show_view_all": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout_desktop": "four-columns",
+        "layout_mobile": "grid-palm-1",
+        "products_number": 6,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_button_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "flex_grid_TimLmK",
+    "flex_grid_PtjpwY",
+    "flex_grid_jn3nfX",
+    "flex_grid_wzrQRi",
+    "content_toggles_wwhGUz",
+    "1656417774de852d35"
+  ]
+}

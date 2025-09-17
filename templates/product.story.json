@@ -1,0 +1,961 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "badges_haXhhw": {
+          "type": "badges",
+          "settings": {}
+        },
+        "vendor_VzeVkB": {
+          "type": "vendor",
+          "settings": {
+            "text_size": "text-size--regular"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "rating_EUL9Xj": {
+          "type": "rating",
+          "settings": {}
+        },
+        "space_XA3Brb": {
+          "type": "space",
+          "settings": {}
+        },
+        "space_VYiEHy": {
+          "type": "space",
+          "settings": {}
+        },
+        "product_siblings_bbUmA3": {
+          "type": "product_siblings",
+          "settings": {
+            "heading": "Product siblings",
+            "products": [],
+            "aspect_ratio": "1"
+          }
+        },
+        "pickup_availability_dC9XrT": {
+          "type": "pickup_availability",
+          "settings": {
+            "style": "compact",
+            "layout": "boxed",
+            "text_color": "rgba(0,0,0,0)",
+            "bg_color": "rgba(0,0,0,0)",
+            "darken_header": true
+          }
+        },
+        "empty_space_1": {
+          "type": "space",
+          "settings": {}
+        },
+        "back_in_stock_Xj7VP7": {
+          "type": "back_in_stock",
+          "disabled": true,
+          "settings": {
+            "back_in_stock_text": "Enter your email address below to be notified when this product is back in stock.",
+            "back_in_stock_button_label": "Notify me",
+            "back_in_stock_success_message": "Thanks! We will notify you when this product becomes available!",
+            "back_in_stock_email_message": "I would like to be notified when this product is back in stock."
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "always",
+            "inventory_color_low": "#d14545",
+            "inventory_color_enough": "#60af5f",
+            "inventory_color_out": "#757575"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false,
+            "color_text_buttons": "rgba(0,0,0,0)",
+            "color_accent_buttons": "rgba(0,0,0,0)",
+            "style_buttons": "solid"
+          }
+        },
+        "space_MyQqDJ": {
+          "type": "space",
+          "settings": {}
+        },
+        "divider_Tb9nUm": {
+          "type": "divider",
+          "settings": {
+            "height": 1,
+            "color": "#dfdfdf",
+            "style": "solid"
+          }
+        },
+        "empty_space_2": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "heading": "Description",
+            "subtitle": "",
+            "tooltip_info": "",
+            "collapsible": true,
+            "opened_by_default": false,
+            "layout": "compact",
+            "text_color": "rgba(0,0,0,0)",
+            "bg_color": "rgba(0,0,0,0)",
+            "darken_header": false
+          }
+        },
+        "collapsible_tab_JmbDdc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to use",
+            "subtitle": "",
+            "tooltip_info": "",
+            "content": "<p>Write instructions on how to use your product. For example: how often, how much, how to prepare it, or tips for best results. This helps customers feel confident using the product right after they receive it.</p>",
+            "page": "",
+            "hide_block_if": false,
+            "collapsible": true,
+            "opened_by_default": false,
+            "layout": "compact",
+            "text_color": "rgba(0,0,0,0)",
+            "bg_color": "rgba(0,0,0,0)",
+            "darken_header": true
+          }
+        },
+        "collapsible_tab_NQdArP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Benefits",
+            "subtitle": "",
+            "tooltip_info": "",
+            "content": "<p>List the key benefits your product offers. For example: improved focus, immune support, better sleep, or more energy. Use short bullet points or quick descriptions to keep it scannable.</p>",
+            "page": "",
+            "hide_block_if": false,
+            "collapsible": true,
+            "opened_by_default": false,
+            "layout": "compact",
+            "text_color": "rgba(0,0,0,0)",
+            "bg_color": "rgba(0,0,0,0)",
+            "darken_header": true
+          }
+        },
+        "nutrition_4Vzkk9": {
+          "type": "nutrition",
+          "settings": {
+            "heading": "Nutritional information",
+            "subtitle": "",
+            "tooltip_info": "",
+            "label_left": "Typical values",
+            "label_right": "Per 100g",
+            "content": "<p>Energy, 205 kJ / 49 kcal<br/>Fat, 0g<br/>- of which: Saturates, 0g<br/>Carbohydrate, 10g<br/>- of which: Sugars, 7g<br/></p>",
+            "content_extra": "<p><strong>Ingredients:</strong> Sugar, Glucose Syrup, Water, Beef Gelatine, Acid: Citric Acid, Flavouring</p>",
+            "hide_block_if": false,
+            "collapsible": true,
+            "opened_by_default": false,
+            "layout": "compact",
+            "text_color": "rgba(0,0,0,0)",
+            "bg_color": "rgba(0,0,0,0)",
+            "darken_header": false
+          }
+        },
+        "empty_space_3": {
+          "type": "space",
+          "settings": {}
+        },
+        "pickup_availability_AQ9HFC": {
+          "type": "pickup_availability",
+          "settings": {
+            "style": "extended",
+            "layout": "boxed",
+            "text_color": "rgba(0,0,0,0)",
+            "bg_color": "rgba(0,0,0,0)",
+            "darken_header": true
+          }
+        },
+        "related_Ba8wzN": {
+          "type": "related",
+          "settings": {
+            "title": "Works amazing with",
+            "subtitle": "",
+            "tooltip_info": "",
+            "product_list": [],
+            "hide_block_if": false,
+            "collapsible": false,
+            "opened_by_default": false,
+            "layout": "boxed",
+            "text_color": "rgba(0,0,0,0)",
+            "bg_color": "rgba(0,0,0,0)",
+            "darken_header": false
+          }
+        }
+      },
+      "block_order": [
+        "badges_haXhhw",
+        "vendor_VzeVkB",
+        "title",
+        "rating_EUL9Xj",
+        "space_XA3Brb",
+        "space_VYiEHy",
+        "product_siblings_bbUmA3",
+        "pickup_availability_dC9XrT",
+        "empty_space_1",
+        "back_in_stock_Xj7VP7",
+        "variant_picker",
+        "buy_buttons",
+        "space_MyQqDJ",
+        "divider_Tb9nUm",
+        "empty_space_2",
+        "description",
+        "collapsible_tab_JmbDdc",
+        "collapsible_tab_NQdArP",
+        "nutrition_4Vzkk9",
+        "empty_space_3",
+        "pickup_availability_AQ9HFC",
+        "related_Ba8wzN"
+      ],
+      "settings": {
+        "gallery_style": "scroll scroll--two-columns",
+        "enhance_first_image": true,
+        "gallery_ratio": "0.83333",
+        "other_media_ratio": "fit",
+        "video_fit": true,
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "thumbnails",
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "enable_video_autoplay": false,
+        "disable_parallax": false,
+        "default_to_first_variant": true,
+        "sticky_add_to_cart": true,
+        "sticky_atc_variants": false,
+        "sticky_atc_style": "floating",
+        "sticky_bar_bgcolor": "#111111",
+        "sticky_bar_txtcolor": "#ffffff",
+        "sticky_bar_blur": true
+      }
+    },
+    "flex_cards_rjxXVJ": {
+      "type": "flex-cards",
+      "blocks": {
+        "card_7hyKwg": {
+          "type": "_card",
+          "settings": {
+            "column_desktop": 7,
+            "hide_on_mobile": false,
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "image_CYxVE8": {
+              "type": "image",
+              "name": "t:local-260.labels.image",
+              "settings": {
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_ppNY6F": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "empty_space_MDTziW": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_ekRVrp": {
+              "type": "heading",
+              "settings": {
+                "heading": "Short benefit",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "caption_J884Gg": {
+              "type": "caption",
+              "settings": {
+                "caption": "Describe how your product helps here. Use clear, simple language and keep it 1–2 sentences max.",
+                "text_size": "regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_CYxVE8",
+            "empty_space_ppNY6F",
+            "empty_space_MDTziW",
+            "heading_ekRVrp",
+            "caption_J884Gg"
+          ]
+        },
+        "card_gMpU9V": {
+          "type": "_card",
+          "settings": {
+            "column_desktop": 5,
+            "hide_on_mobile": false,
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "image_8gcUNU": {
+              "type": "image",
+              "name": "t:local-260.labels.image",
+              "settings": {
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_BJcCef": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "empty_space_YpXCbi": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_nKdX8D": {
+              "type": "heading",
+              "settings": {
+                "heading": "Another key benefit",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "caption_JgFwXf": {
+              "type": "caption",
+              "settings": {
+                "caption": "Explain how your product improves your customer’s day. Try to highlight a unique selling point.",
+                "text_size": "regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_8gcUNU",
+            "empty_space_BJcCef",
+            "empty_space_YpXCbi",
+            "heading_nKdX8D",
+            "caption_JgFwXf"
+          ]
+        },
+        "card_inAPRE": {
+          "type": "_card",
+          "settings": {
+            "column_desktop": 4,
+            "hide_on_mobile": false,
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "image_whtLUz": {
+              "type": "image",
+              "name": "t:local-260.labels.image",
+              "settings": {
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_eMrqtL": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "empty_space_fftGwY": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_UhLYKB": {
+              "type": "heading",
+              "settings": {
+                "heading": "Use benefit driven language",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "caption_ne9xHC": {
+              "type": "caption",
+              "settings": {
+                "caption": "Keep the tone friendly and focus on how your product makes people feel.",
+                "text_size": "regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_whtLUz",
+            "empty_space_eMrqtL",
+            "empty_space_fftGwY",
+            "heading_UhLYKB",
+            "caption_ne9xHC"
+          ]
+        },
+        "card_yBBVGA": {
+          "type": "_card",
+          "settings": {
+            "column_desktop": 4,
+            "hide_on_mobile": false,
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "image_z9dBLQ": {
+              "type": "image",
+              "name": "t:local-260.labels.image",
+              "settings": {
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_aLzddh": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "empty_space_6cddph": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_JUfy3E": {
+              "type": "heading",
+              "settings": {
+                "heading": "Think customer-first",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "caption_rieHWq": {
+              "type": "caption",
+              "settings": {
+                "caption": "Describe a specific customer concern your product helps solve.",
+                "text_size": "regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_z9dBLQ",
+            "empty_space_aLzddh",
+            "empty_space_6cddph",
+            "heading_JUfy3E",
+            "caption_rieHWq"
+          ]
+        },
+        "card_7iqxKm": {
+          "type": "_card",
+          "settings": {
+            "column_desktop": 4,
+            "hide_on_mobile": false,
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "image_iQr7HA": {
+              "type": "image",
+              "name": "t:local-260.labels.image",
+              "settings": {
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_ExhM9U": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "empty_space_KJ9Ugz": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_AdBRgU": {
+              "type": "heading",
+              "settings": {
+                "heading": "Highlight features",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "caption_FRQHGc": {
+              "type": "caption",
+              "settings": {
+                "caption": "Reinforce quality, ingredients, or customer love for your product.",
+                "text_size": "regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_iQr7HA",
+            "empty_space_ExhM9U",
+            "empty_space_KJ9Ugz",
+            "heading_AdBRgU",
+            "caption_FRQHGc"
+          ]
+        }
+      },
+      "block_order": [
+        "card_7hyKwg",
+        "card_gMpU9V",
+        "card_inAPRE",
+        "card_yBBVGA",
+        "card_7iqxKm"
+      ],
+      "name": "t:flex-cards.header",
+      "settings": {
+        "heading": "Main benefits",
+        "subheading": "It just works!",
+        "section_heading_layout": "section-heading--center",
+        "image_height_desktop": 300,
+        "is_autoheight": true,
+        "image_height_mobile": 200,
+        "hide_media": true,
+        "text_alignment": "left",
+        "spacing": "xsmall",
+        "gutter_size": "large",
+        "section_background_color": "#f9f4ed",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
+      }
+    },
+    "flex_cards_AepRiz": {
+      "type": "flex-cards",
+      "blocks": {
+        "card_h7UkPq": {
+          "type": "_card",
+          "settings": {
+            "column_desktop": 4,
+            "hide_on_mobile": false,
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "#dfdfdf",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "caption_zwkQpM": {
+              "type": "caption",
+              "settings": {
+                "caption": "CUSTOMER NAME",
+                "text_size": "small",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "star_rating_8dLc8f": {
+              "type": "star-rating",
+              "name": "Star rating",
+              "settings": {
+                "active_stars_shown": 100,
+                "caption": "",
+                "star_color": "#61482e"
+              },
+              "blocks": {}
+            },
+            "heading_7Ujf3B": {
+              "type": "heading",
+              "settings": {
+                "heading": "\"Write a short, enthusiastic quote from a real customer. Highlight specific results, emotions, or favorite features.\"",
+                "title_size": "h5",
+                "line_height": "medium",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "caption_zwkQpM",
+            "star_rating_8dLc8f",
+            "heading_7Ujf3B"
+          ]
+        },
+        "card_qUCawb": {
+          "type": "_card",
+          "settings": {
+            "column_desktop": 4,
+            "hide_on_mobile": false,
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "#dfdfdf",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "caption_TCDJFC": {
+              "type": "caption",
+              "settings": {
+                "caption": "CUSTOMER NAME",
+                "text_size": "small",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "star_rating_ahyDAd": {
+              "type": "star-rating",
+              "name": "Star rating",
+              "settings": {
+                "active_stars_shown": 100,
+                "caption": "",
+                "star_color": "#61482e"
+              },
+              "blocks": {}
+            },
+            "heading_gXt6zX": {
+              "type": "heading",
+              "settings": {
+                "heading": "\"Write a short, enthusiastic quote from a real customer. Highlight specific results, emotions, or favorite features.\"",
+                "title_size": "h5",
+                "line_height": "medium",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "caption_TCDJFC",
+            "star_rating_ahyDAd",
+            "heading_gXt6zX"
+          ]
+        },
+        "card_RDMaWm": {
+          "type": "_card",
+          "settings": {
+            "column_desktop": 4,
+            "hide_on_mobile": false,
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "#dfdfdf",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "caption_XdmqqN": {
+              "type": "caption",
+              "settings": {
+                "caption": "CUSTOMER NAME",
+                "text_size": "small",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "star_rating_fG4FT4": {
+              "type": "star-rating",
+              "name": "Star rating",
+              "settings": {
+                "active_stars_shown": 100,
+                "caption": "",
+                "star_color": "#61482e"
+              },
+              "blocks": {}
+            },
+            "heading_JjNXf3": {
+              "type": "heading",
+              "settings": {
+                "heading": "\"Write a short, enthusiastic quote from a real customer. Highlight specific results, emotions, or favorite features.\"",
+                "title_size": "h5",
+                "line_height": "medium",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "caption_XdmqqN",
+            "star_rating_fG4FT4",
+            "heading_JjNXf3"
+          ]
+        }
+      },
+      "block_order": [
+        "card_h7UkPq",
+        "card_qUCawb",
+        "card_RDMaWm"
+      ],
+      "name": "t:flex-cards.header",
+      "settings": {
+        "heading": "What others are saying",
+        "subheading": "Real stories, real results",
+        "section_heading_layout": "section-heading--center",
+        "image_height_desktop": 340,
+        "is_autoheight": false,
+        "image_height_mobile": 200,
+        "hide_media": false,
+        "text_alignment": "left",
+        "spacing": "small",
+        "gutter_size": "large",
+        "section_background_color": "#f9f4ed",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": false,
+        "remove_margin": true,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
+      }
+    },
+    "rich_text_bYLhya": {
+      "type": "rich-text",
+      "blocks": {
+        "space_M7yw4U": {
+          "type": "space",
+          "settings": {
+            "height": "20px"
+          }
+        },
+        "title_xhxYqP": {
+          "type": "title",
+          "settings": {
+            "title": "Bold Headline",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "space_yEDYED": {
+          "type": "space",
+          "settings": {
+            "height": "20px"
+          }
+        },
+        "text_cbErFc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this space to explain what makes your ingredients special. </p><p>You can talk about: </p><ul><li>Where your ingredients come from </li><li>How they’re processed or extracted </li><li>Why they’re effective (backed by science, tradition, etc.) </li><li>What sets them apart (organic, wildcrafted, etc.) </li></ul><p>Use 2–3 short paragraphs to keep it readable.</p>",
+            "text_size": "regular"
+          }
+        },
+        "button_CD4J4y": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "link": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        },
+        "space_Kbj4WL": {
+          "type": "space",
+          "settings": {
+            "height": "20px"
+          }
+        }
+      },
+      "block_order": [
+        "space_M7yw4U",
+        "title_xhxYqP",
+        "space_yEDYED",
+        "text_cbErFc",
+        "button_CD4J4y",
+        "space_Kbj4WL"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "height": "regular",
+        "image_position": "right",
+        "image_crop": true,
+        "width": "100",
+        "text_alignment": "horizontal-left",
+        "text_alignment_vertical": "middle",
+        "spacing": "xxlarge",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "color_background_main": "#f9f4ed",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": false,
+        "section_visibility": "always"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "blocks": {
+        "icons_6p6ray": {
+          "type": "icons",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "space_Jbnt6b": {
+          "type": "space",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "icons_6p6ray",
+        "title",
+        "price",
+        "space_Jbnt6b"
+      ],
+      "settings": {
+        "heading": "You may also like",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "layout_mobile": "grid-palm-1",
+        "products_number": 4,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_button_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "flex_cards_rjxXVJ",
+    "flex_cards_AepRiz",
+    "rich_text_bYLhya",
+    "product-recommendations"
+  ]
+}

@@ -1,0 +1,753 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "flex_grid_TimLmK": {
+      "type": "flex-grid",
+      "blocks": {
+        "grid_text_xLFK4K": {
+          "type": "_grid-text",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "60%",
+            "column_desktop": 12,
+            "row_desktop": 1,
+            "hide_on_mobile": false,
+            "column_mobile": "2",
+            "row_mobile": "2",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "empty_space_LrnJF9": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "40px"
+              },
+              "blocks": {}
+            },
+            "heading_UYrFiC": {
+              "type": "heading",
+              "name": "t:local-march-update.labels.heading",
+              "settings": {
+                "heading": "From the Finnish countryside to your kitchen",
+                "title_size": "h1",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            },
+            "empty_space_CRjT6w": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            },
+            "caption_3RMnTd": {
+              "type": "caption",
+              "settings": {
+                "caption": "For 11 years, <strong>Four Sigmatic</strong> has been serving up mushroom and adaptogen packed blends to improve your life. But their roots go back even further, all the way to WWII in Nordic land rich with lakes, forests, and lots of mushrooms.",
+                "text_size": "large",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "empty_space_LrnJF9",
+            "heading_UYrFiC",
+            "empty_space_CRjT6w",
+            "caption_3RMnTd"
+          ]
+        }
+      },
+      "block_order": [
+        "grid_text_xLFK4K"
+      ],
+      "name": "t:theme_blocks.sections.flex-section.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "card_height": 3,
+        "card_height_mobile": 3,
+        "is_fullwidth": false,
+        "no_gap": false,
+        "spacing": "xsmall",
+        "gutter_size": "regular",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
+      }
+    },
+    "video_YcLjih": {
+      "type": "video",
+      "name": "t:sections.local-extra-words.sections.video.name",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "section_heading_layout": "section-heading--left",
+        "video": "https://youtu.be/_9VUPq3SxOc",
+        "autoplay": true,
+        "loop": false,
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
+      }
+    },
+    "flex_grid_wzrQRi": {
+      "type": "flex-grid",
+      "blocks": {
+        "grid_text_jQk4WB": {
+          "type": "_grid-text",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 6,
+            "row_desktop": 3,
+            "hide_on_mobile": false,
+            "column_mobile": "2",
+            "row_mobile": "2",
+            "color_background_main": "#f1ebe3",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "heading_mApBPm": {
+              "type": "heading",
+              "settings": {
+                "heading": "\"We started as a hard-to-understand brand ‘on shrooms’ but now we're doubling down on our true calling of delivering you mental performance and wellbeing.\"",
+                "title_size": "h3",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "empty_space_84gjKm": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "40px"
+              },
+              "blocks": {}
+            },
+            "caption_4XqjrC": {
+              "type": "caption",
+              "settings": {
+                "caption": "<strong>Tero Isokauppila</strong>",
+                "text_size": "large",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "caption_JqpQX9": {
+              "type": "caption",
+              "name": "t:sections.local-extra-words.sections.headings.caption",
+              "settings": {
+                "caption": "FOUNDER",
+                "text_size": "regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_mApBPm",
+            "empty_space_84gjKm",
+            "caption_4XqjrC",
+            "caption_JqpQX9"
+          ]
+        },
+        "grid_media_WTA7Te": {
+          "type": "_grid-media",
+          "name": "t:theme_blocks.grid-media.name",
+          "settings": {
+            "image": "",
+            "link": "",
+            "open_in_new_window": false,
+            "column_desktop": 6,
+            "row_desktop": 3,
+            "hide_on_mobile": false,
+            "column_mobile": "1",
+            "row_mobile": "1",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "grid_text_jQk4WB",
+        "grid_media_WTA7Te"
+      ],
+      "name": "t:theme_blocks.sections.flex-section.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "card_height": 3,
+        "card_height_mobile": 3,
+        "is_fullwidth": false,
+        "no_gap": false,
+        "spacing": "xsmall",
+        "gutter_size": "regular",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": true,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
+      }
+    },
+    "flex_grid_qdYekA": {
+      "type": "flex-grid",
+      "blocks": {
+        "grid_text_qpw7bC": {
+          "type": "_grid-text",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 6,
+            "row_desktop": 2,
+            "hide_on_mobile": false,
+            "column_mobile": "2",
+            "row_mobile": "2",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "empty_space_8m8Qc4": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            },
+            "rich_text_VTqBkX": {
+              "type": "rich-text",
+              "name": "t:sections.rich-text.blocks.text.name",
+              "settings": {
+                "text": "<p>Science-Backed Ingredients</p>",
+                "text_size": "large",
+                "line_height": "default"
+              },
+              "blocks": {}
+            },
+            "empty_space_JtqMxE": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_XWFq4b": {
+              "type": "heading",
+              "settings": {
+                "heading": "Our products [br]helps with:",
+                "title_size": "h2",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "empty_space_HtY3Vy": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "20px"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "empty_space_8m8Qc4",
+            "rich_text_VTqBkX",
+            "empty_space_JtqMxE",
+            "heading_XWFq4b",
+            "empty_space_HtY3Vy"
+          ]
+        },
+        "grid_text_k69jqg": {
+          "type": "_grid-text",
+          "name": "t:theme_blocks.grid-text.name",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 2,
+            "row_desktop": 1,
+            "hide_on_mobile": false,
+            "column_mobile": "1",
+            "row_mobile": "1",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "image_faaHfM": {
+              "type": "image",
+              "name": "t:sections.gallery.blocks.image.settings.image.label",
+              "settings": {
+                "image": "",
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_rJRYYr": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_EbUwiG": {
+              "type": "heading",
+              "settings": {
+                "heading": "Focus",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_faaHfM",
+            "empty_space_rJRYYr",
+            "heading_EbUwiG"
+          ]
+        },
+        "grid_text_CK7edc": {
+          "type": "_grid-text",
+          "name": "t:theme_blocks.grid-text.name",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 2,
+            "row_desktop": 1,
+            "hide_on_mobile": false,
+            "column_mobile": "1",
+            "row_mobile": "1",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "image_Pqqbpz": {
+              "type": "image",
+              "name": "t:sections.gallery.blocks.image.settings.image.label",
+              "settings": {
+                "image": "",
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_kUMGhT": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_VeE8ne": {
+              "type": "heading",
+              "settings": {
+                "heading": "Energy",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_Pqqbpz",
+            "empty_space_kUMGhT",
+            "heading_VeE8ne"
+          ]
+        },
+        "grid_text_4E3Uy6": {
+          "type": "_grid-text",
+          "name": "t:theme_blocks.grid-text.name",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 2,
+            "row_desktop": 1,
+            "hide_on_mobile": false,
+            "column_mobile": "1",
+            "row_mobile": "1",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "image_GLMPNc": {
+              "type": "image",
+              "name": "t:sections.gallery.blocks.image.settings.image.label",
+              "settings": {
+                "image": "",
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_fLiN9Q": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_CUCwkn": {
+              "type": "heading",
+              "settings": {
+                "heading": "Gut Health",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_GLMPNc",
+            "empty_space_fLiN9Q",
+            "heading_CUCwkn"
+          ]
+        },
+        "grid_text_e47Yec": {
+          "type": "_grid-text",
+          "name": "t:theme_blocks.grid-text.name",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 2,
+            "row_desktop": 1,
+            "hide_on_mobile": false,
+            "column_mobile": "1",
+            "row_mobile": "1",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "image_hKDVUw": {
+              "type": "image",
+              "name": "t:sections.gallery.blocks.image.settings.image.label",
+              "settings": {
+                "image": "",
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_pywPk6": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_6WghJD": {
+              "type": "heading",
+              "settings": {
+                "heading": "Immune Support",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_hKDVUw",
+            "empty_space_pywPk6",
+            "heading_6WghJD"
+          ]
+        },
+        "grid_text_yydm6d": {
+          "type": "_grid-text",
+          "name": "t:theme_blocks.grid-text.name",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 2,
+            "row_desktop": 1,
+            "hide_on_mobile": false,
+            "column_mobile": "1",
+            "row_mobile": "1",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "image_aDWTqX": {
+              "type": "image",
+              "name": "t:sections.gallery.blocks.image.settings.image.label",
+              "settings": {
+                "image": "",
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_QBtXie": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_LxK7En": {
+              "type": "heading",
+              "settings": {
+                "heading": "Stress Support",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_aDWTqX",
+            "empty_space_QBtXie",
+            "heading_LxK7En"
+          ]
+        },
+        "grid_text_ra8FEr": {
+          "type": "_grid-text",
+          "name": "t:theme_blocks.grid-text.name",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 2,
+            "row_desktop": 1,
+            "hide_on_mobile": false,
+            "column_mobile": "1",
+            "row_mobile": "1",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "image_pE7WeE": {
+              "type": "image",
+              "name": "t:sections.gallery.blocks.image.settings.image.label",
+              "settings": {
+                "image": "",
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "empty_space_AQL6Hn": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "heading_hmEgmy": {
+              "type": "heading",
+              "settings": {
+                "heading": "Recover",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_pE7WeE",
+            "empty_space_AQL6Hn",
+            "heading_hmEgmy"
+          ]
+        }
+      },
+      "block_order": [
+        "grid_text_qpw7bC",
+        "grid_text_k69jqg",
+        "grid_text_CK7edc",
+        "grid_text_4E3Uy6",
+        "grid_text_e47Yec",
+        "grid_text_yydm6d",
+        "grid_text_ra8FEr"
+      ],
+      "name": "t:theme_blocks.sections.flex-section.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "card_height": 2,
+        "card_height_mobile": 3,
+        "is_fullwidth": false,
+        "no_gap": false,
+        "spacing": "xsmall",
+        "gutter_size": "regular",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
+      }
+    },
+    "1656417774de852d35": {
+      "type": "featured-collection",
+      "blocks": {
+        "165641777417f09bcc-0": {
+          "type": "price",
+          "settings": {}
+        },
+        "165641777417f09bcc-1": {
+          "type": "title",
+          "settings": {}
+        },
+        "6c719446-4aa4-4846-8b1a-697f7d20abb4": {
+          "type": "rating",
+          "settings": {}
+        },
+        "165641777417f09bcc-2": {
+          "type": "quick_buy",
+          "settings": {}
+        },
+        "42b578c1-2d59-4b12-9830-2236c3f4bcfc": {
+          "type": "icons",
+          "disabled": true,
+          "settings": {}
+        },
+        "a882b62d-0dd7-4b6a-b463-577e79611881": {
+          "type": "local_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "165641777417f09bcc-0",
+        "165641777417f09bcc-1",
+        "6c719446-4aa4-4846-8b1a-697f7d20abb4",
+        "165641777417f09bcc-2",
+        "42b578c1-2d59-4b12-9830-2236c3f4bcfc",
+        "a882b62d-0dd7-4b6a-b463-577e79611881"
+      ],
+      "settings": {
+        "heading": "Our favourite products",
+        "subheading": "",
+        "show_view_all": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout_desktop": "four-columns",
+        "layout_mobile": "grid-palm-1",
+        "products_number": 6,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_button_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "flex_grid_TimLmK",
+    "video_YcLjih",
+    "flex_grid_wzrQRi",
+    "flex_grid_qdYekA",
+    "1656417774de852d35"
+  ]
+}
