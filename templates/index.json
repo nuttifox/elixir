@@ -1508,6 +1508,7 @@
         "slide_image_EYDYGh": {
           "type": "_slide-image",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_04_53_PM.png",
             "link": "",
             "open_in_new_window": false,
             "color_background_main": "rgba(0,0,0,0)",
@@ -1678,7 +1679,7 @@
         "text_size": "150",
         "remove_top_margin": true,
         "remove_bottom_margin": false,
-        "color_background_main": "#61482e",
+        "color_background_main": "#006828",
         "section_background_gradient": "",
         "color_text_main": "#dfd5ca",
         "section_visibility": "always"
@@ -1929,7 +1930,7 @@
             "button_Lkqf4L": {
               "type": "button",
               "settings": {
-                "button_label": "SHOP CAPSULES",
+                "button_label": "Shop Elixir",
                 "link": "",
                 "open_in_new_window": false,
                 "button_size": "regular",
@@ -1951,6 +1952,7 @@
         "grid_media_XdLEWE": {
           "type": "_grid-media",
           "settings": {
+            "image": "shopify://shop_images/IMG_8882.webp",
             "link": "",
             "open_in_new_window": false,
             "column_desktop": 6,
