@@ -110,7 +110,7 @@
                 "button_rECEng": {
                   "type": "button",
                   "settings": {
-                    "button_label": "Try Mushroom Coffee",
+                    "button_label": "Buy Elixir",
                     "link": "",
                     "open_in_new_window": false,
                     "button_size": "large",
@@ -123,7 +123,7 @@
                 "button_7gpHn6": {
                   "type": "button",
                   "settings": {
-                    "button_label": "Shop All Coffees",
+                    "button_label": "Ingredients",
                     "link": "",
                     "open_in_new_window": false,
                     "button_size": "large",
