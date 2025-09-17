@@ -35,7 +35,7 @@
     "color_background_footer": "#ffffff",
     "color_text_footer": "#3e3328",
     "color_accent_footer": "#f6ce71",
-    "theme_max_width": 1680,
+    "theme_max_width": 1440,
     "container_vertical_space": 130,
     "grid_gap": 26,
     "border_width_cards": 1,
