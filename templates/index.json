@@ -1862,60 +1862,96 @@
         "text_DDCLDw": {
           "type": "text",
           "settings": {
-            "title": "What are functional mushrooms?",
+            "title": "How do I use Elixir",
             "subtitle": "",
             "icon": "no-icon",
             "button_label": "",
             "button_link": "",
-            "body": "<p>Functional mushrooms are specific types of fungi known for their health benefits—like boosting immunity, focus, energy, and stress resilience.</p>",
+            "body": "<p>Immunity shots are best enjoyed as-is for maximum potency. Simply shake well and take a shot directly for the full benefits of its powerful anti-inflammatory and antioxidant compounds. Avoid mixing it with hot liquids, as heat can reduce the effectiveness of the nutrients. For optimal results, enjoy one shot daily, at any time of day that fits your routine.</p>",
             "hide_block_if": false
           }
         },
         "text_Ge64mN": {
           "type": "text",
           "settings": {
-            "title": "Will your mushroom drinks taste like mushrooms?",
+            "title": "How many shots can I drink per day?",
             "subtitle": "",
             "icon": "no-icon",
             "button_label": "",
             "button_link": "",
-            "body": "<p>Not really! Our blends are crafted to taste smooth and earthy—often combined with coffee, cacao, or spices to mask the flavor.</p>",
+            "body": "<p>Our shots can be taken up to three times a day depending on how you're currently feeling. We recommend a single shot for daily wellness and up to three when you are looking for a bit more.</p><p>We suggest starting with one and seeing how you feel (with or without food) and find out what works for you. As it turns out, I already took two today!</p>",
             "hide_block_if": false
           }
         },
         "text_p8PLpU": {
           "type": "text",
           "settings": {
-            "title": "Can I take mushroom supplements daily?",
+            "title": "How do you ship the shots and will they arrive cold?",
             "subtitle": "",
             "icon": "no-icon",
             "button_label": "",
             "button_link": "",
-            "body": "<p>Yes! Our blends are designed for daily use to support long-term wellness. Consistency is key for noticeable results.</p>",
+            "body": "<p>All of our shots are shipped with a biodegradable liner and drain-safe ice packs ensuring they arrive to you fresh and ice cold!</p>",
             "hide_block_if": false
           }
         },
         "text_RgWkFX": {
           "type": "text",
           "settings": {
-            "title": "What’s the best time to take them?",
+            "title": "Are these safe for children to drink?",
             "subtitle": "",
             "icon": "no-icon",
             "button_label": "",
             "button_link": "",
-            "body": "<p>It depends—take Lion’s Mane in the morning for focus, Reishi at night for relaxation, and Chaga anytime for immunity.</p>",
+            "body": "<p>Yes, our shots are food grade and safe for kids!</p><p>If your child is under 12 we suggest you have them take half the shot. Lots of kids love our shots, but if your child has a hard time with the taste the shots can be diluted in water, smoothies, juice, etc.</p>",
             "hide_block_if": false
           }
         },
         "text_GTkkV4": {
           "type": "text",
           "settings": {
-            "title": "Are your mushrooms organic?",
+            "title": "Are Elixir Shots pasteurized?",
             "subtitle": "",
             "icon": "no-icon",
             "button_label": "",
             "button_link": "",
-            "body": "<p>Yes, all our mushrooms are 100% organic, sustainably grown, and rigorously third-party tested for purity and potency.</p>",
+            "body": "<p>We use a method called Cold Pressure, also known as High Pressure Processing (HPP), to ensure our products are safe from bacteria. This technique preserves food quality, maintains natural freshness, and extends shelf life without exposing the juice to high temperatures. Once bottled, the juice undergoes high-pressure treatment to eliminate harmful pathogens, making it safe to drink while retaining its vitamins, minerals, and nutrients.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_FmF6Te": {
+          "type": "text",
+          "settings": {
+            "title": "Can Elixir Shots packaging materials be recycled?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>All of our packaging materials are curbside recyclable. The exterior packaging is made from kraft paper and is fully recyclable. Our gel packs can be frozen and reused, and if you choose to dispose of them, they are non-toxic and environmentally friendly. The gel contents can be safely poured down the drain, and the plastic exterior is recyclable.<br/><br/>Our sustainable cold chain packaging ensures we deliver fresh products quickly while minimizing landfill waste. We take pride in using eco-friendly materials in our food packaging, benefiting both our customers and the environment. Additionally, our #1 PET plastic bottles are fully recyclable.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_Ei4kcP": {
+          "type": "text",
+          "settings": {
+            "title": "Is your packaging BPA free?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Yes! All Elixir Shots are 100% BPA-free and FDA-approved for food and beverage safety. You can enjoy our drinks with confidence, knowing they are safe and free from harmful chemicals.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_RYqVzh": {
+          "type": "text",
+          "settings": {
+            "title": "What is Cold Pressure?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Cold Pressure, also known as High-Pressure Processing (HPP), is a preservation method that uses extremely high pressure instead of heat to keep packaged food products fresh. During this process, hydraulic fluid (usually water) is pressurized in a chamber, and the pressure is applied evenly through the packaging to the product inside.<br/><br/>This technique extends shelf life without preservatives while retaining the nutrients in our organic cold-pressed juices and functional beverages. It's why cold pressure delivers a fresher taste!<br/><br/>For more details, visit ColdPressured.org and learn all about this innovative process!</p>",
             "hide_block_if": false
           }
         }
@@ -1925,7 +1961,10 @@
         "text_Ge64mN",
         "text_p8PLpU",
         "text_RgWkFX",
-        "text_GTkkV4"
+        "text_GTkkV4",
+        "text_FmF6Te",
+        "text_Ei4kcP",
+        "text_RYqVzh"
       ],
       "custom_css": [],
       "name": "t:sections.local-extra-words.sections.content-toggles.name",
