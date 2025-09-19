@@ -236,6 +236,55 @@
         "section_visibility": "always"
       }
     },
+    "marquee_eWd8Cz": {
+      "type": "marquee",
+      "blocks": {
+        "text_ygXAiq": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "Farm to bottle in 3 days"
+          }
+        },
+        "text_a9Uzhg": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "Family-Owned"
+          }
+        },
+        "text_WkwrzA": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "Certfified"
+          }
+        },
+        "text_y46AVm": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "Brain Health"
+          }
+        }
+      },
+      "block_order": [
+        "text_ygXAiq",
+        "text_a9Uzhg",
+        "text_WkwrzA",
+        "text_y46AVm"
+      ],
+      "name": "t:sections.local-extra-words.sections.marquee.name",
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 70,
+        "pause_on_hover": false,
+        "horizontal_space": "0.7",
+        "text_size": "150",
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "#006828",
+        "section_background_gradient": "",
+        "color_text_main": "#dfd5ca",
+        "section_visibility": "always"
+      }
+    },
     "text_columns_images_f9CPRN": {
       "type": "text-columns-images",
       "blocks": {
@@ -1642,55 +1691,6 @@
         "section_visibility": "always"
       }
     },
-    "marquee_eWd8Cz": {
-      "type": "marquee",
-      "blocks": {
-        "image_TWzQbm": {
-          "type": "image",
-          "settings": {
-            "border_radius": 100
-          }
-        },
-        "text_ygXAiq": {
-          "type": "text",
-          "settings": {
-            "marquee_text": "<strong>Daily Focus</strong>"
-          }
-        },
-        "image_Yriqrx": {
-          "type": "image",
-          "settings": {
-            "border_radius": 100
-          }
-        },
-        "text_a9Uzhg": {
-          "type": "text",
-          "settings": {
-            "marquee_text": "<strong>Brain Health</strong>"
-          }
-        }
-      },
-      "block_order": [
-        "image_TWzQbm",
-        "text_ygXAiq",
-        "image_Yriqrx",
-        "text_a9Uzhg"
-      ],
-      "name": "t:sections.local-extra-words.sections.marquee.name",
-      "settings": {
-        "scroll_direction": "left",
-        "speed": 170,
-        "pause_on_hover": false,
-        "horizontal_space": "0.7",
-        "text_size": "150",
-        "remove_top_margin": false,
-        "remove_bottom_margin": false,
-        "color_background_main": "#006828",
-        "section_background_gradient": "",
-        "color_text_main": "#dfd5ca",
-        "section_visibility": "always"
-      }
-    },
     "flex_cards_nnPyb4": {
       "type": "flex-cards",
       "blocks": {
@@ -2101,13 +2101,13 @@
   "order": [
     "flex_slideshow_XKheTB",
     "featured_collection_iFn6JD",
+    "marquee_eWd8Cz",
     "text_columns_images_f9CPRN",
     "flex_cards_LdbaxY",
     "flex_grid_CGwnnL",
     "flex_grid_wc7iyy",
     "flex_slideshow_JarqzM",
     "scrolling_images_i9G9B6",
-    "marquee_eWd8Cz",
     "flex_cards_nnPyb4",
     "flex_grid_kyMmKY",
     "content_toggles_x7TNce"
