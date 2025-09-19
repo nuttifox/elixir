@@ -15,7 +15,8 @@
   gap: var(--cards-gap, 20px);
 }
 
-.carousel-slide {
+.carousel-slide,
+.flex-cards-carousel .card {
   flex: 0 0 calc((100% - (var(--cards-per-view, 3) - 1) * var(--cards-gap, 20px)) / var(--cards-per-view, 3));
   min-width: 0;
 }
@@ -115,7 +116,8 @@
 }
 
 @media screen and (max-width: 767px) {
-  .carousel-slide {
+  .carousel-slide,
+  .flex-cards-carousel .card {
     flex: 0 0 calc((100% - (var(--cards-per-view-mobile, 1) - 1) * var(--cards-gap, 20px)) / var(--cards-per-view-mobile, 1));
   }
   

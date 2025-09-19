@@ -18,7 +18,7 @@ if (typeof FlexCardsCarousel !== 'function') {
     
     init() {
       this.track = this.querySelector('[data-carousel-track]');
-      this.slides = this.querySelectorAll('.carousel-slide');
+      this.slides = this.querySelectorAll('.card');
       this.prevButton = this.querySelector('[data-carousel-prev]');
       this.nextButton = this.querySelector('[data-carousel-next]');
       this.dots = this.querySelectorAll('[data-carousel-dot]');
