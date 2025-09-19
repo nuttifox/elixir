@@ -236,240 +236,6 @@
         "section_visibility": "always"
       }
     },
-    "flex_cards_LdbaxY": {
-      "type": "flex-cards",
-      "blocks": {
-        "card_p8qpFx": {
-          "type": "_card",
-          "settings": {
-            "column_desktop": 4,
-            "hide_on_mobile": false,
-            "color_background_main": "#c47a43",
-            "color_text_main": "#ffffff",
-            "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "rgba(0,0,0,0)",
-            "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true,
-            "color_hide_shadow": false
-          },
-          "blocks": {
-            "caption_8MLcVj": {
-              "type": "caption",
-              "settings": {
-                "caption": "<strong> 20g</strong>",
-                "text_size": "small",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
-            "heading_DJDCfL": {
-              "type": "heading",
-              "settings": {
-                "heading": "Proteins",
-                "title_size": "h3",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
-              },
-              "blocks": {}
-            },
-            "empty_space_7WLK8j": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "button_3U7EBn": {
-              "type": "button",
-              "name": "t:sections.rich-text.blocks.button.name",
-              "settings": {
-                "button_label": "Explore now",
-                "link": "",
-                "open_in_new_window": false,
-                "button_size": "regular",
-                "button_style": "outline",
-                "color_text_buttons": "rgba(0,0,0,0)",
-                "color_accent_buttons": "#ffffff"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "caption_8MLcVj",
-            "heading_DJDCfL",
-            "empty_space_7WLK8j",
-            "button_3U7EBn"
-          ]
-        },
-        "card_BGPJH9": {
-          "type": "_card",
-          "settings": {
-            "column_desktop": 4,
-            "hide_on_mobile": false,
-            "color_background_main": "#5e9c78",
-            "color_text_main": "#ffffff",
-            "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "rgba(0,0,0,0)",
-            "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true,
-            "color_hide_shadow": false
-          },
-          "blocks": {
-            "caption_VHcMkH": {
-              "type": "caption",
-              "settings": {
-                "caption": "Organic",
-                "text_size": "small",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
-            "heading_hF76Hx": {
-              "type": "heading",
-              "settings": {
-                "heading": "Coffees",
-                "title_size": "h3",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
-              },
-              "blocks": {}
-            },
-            "empty_space_yDfBgF": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "button_zrGPdF": {
-              "type": "button",
-              "name": "t:sections.rich-text.blocks.button.name",
-              "settings": {
-                "button_label": "Explore now",
-                "link": "",
-                "open_in_new_window": false,
-                "button_size": "regular",
-                "button_style": "outline",
-                "color_text_buttons": "rgba(0,0,0,0)",
-                "color_accent_buttons": "#ffffff"
-              },
-              "blocks": {}
-            },
-            "empty_space_a6y6NM": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "caption_VHcMkH",
-            "heading_hF76Hx",
-            "empty_space_yDfBgF",
-            "button_zrGPdF",
-            "empty_space_a6y6NM"
-          ]
-        },
-        "card_DGDGMg": {
-          "type": "_card",
-          "settings": {
-            "column_desktop": 4,
-            "hide_on_mobile": false,
-            "color_background_main": "#e7ae3d",
-            "color_text_main": "#ffffff",
-            "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "rgba(0,0,0,0)",
-            "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true,
-            "color_hide_shadow": false
-          },
-          "blocks": {
-            "caption_EHCgTL": {
-              "type": "caption",
-              "settings": {
-                "caption": "7 Genius Adaptogens",
-                "text_size": "regular",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
-            "heading_iYH8Yc": {
-              "type": "heading",
-              "settings": {
-                "heading": "Supplements",
-                "title_size": "h3",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
-              },
-              "blocks": {}
-            },
-            "empty_space_9PBmJm": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "button_N3dxA6": {
-              "type": "button",
-              "name": "t:sections.rich-text.blocks.button.name",
-              "settings": {
-                "button_label": "Explore now",
-                "link": "",
-                "open_in_new_window": false,
-                "button_size": "regular",
-                "button_style": "outline",
-                "color_text_buttons": "rgba(0,0,0,0)",
-                "color_accent_buttons": "#ffffff"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "caption_EHCgTL",
-            "heading_iYH8Yc",
-            "empty_space_9PBmJm",
-            "button_N3dxA6"
-          ]
-        }
-      },
-      "block_order": [
-        "card_p8qpFx",
-        "card_BGPJH9",
-        "card_DGDGMg"
-      ],
-      "name": "t:flex-cards.header",
-      "settings": {
-        "heading": "Mushroom-powered products",
-        "subheading": "Find your brew type of product",
-        "section_heading_layout": "section-heading--center",
-        "image_height_desktop": 440,
-        "is_autoheight": true,
-        "image_height_mobile": 200,
-        "hide_media": false,
-        "text_alignment": "center",
-        "spacing": "small",
-        "gutter_size": "large",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "descrease_margin": false,
-        "remove_margin": false,
-        "seo_h_tag": "h2",
-        "section_visibility": "always"
-      }
-    },
     "flex_grid_CGwnnL": {
       "type": "flex-grid",
       "blocks": {
@@ -1464,22 +1230,6 @@
     },
     "flex_slideshow_JarqzM": {
       "type": "flex-slideshow",
-      "blocks": {
-        "slide_image_EYDYGh": {
-          "type": "_slide-image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png",
-            "link": "",
-            "open_in_new_window": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "#61482e"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "slide_image_EYDYGh"
-      ],
       "name": "t:theme_blocks.sections.flex-slideshow.name",
       "settings": {
         "desktop_height": "80vh",
@@ -1499,6 +1249,278 @@
         "color_hide_borders": false,
         "color_hide_shadow": true,
         "disable_parallax": false,
+        "section_visibility": "always"
+      }
+    },
+    "flex_cards_LdbaxY": {
+      "type": "flex-cards",
+      "blocks": {
+        "card_p8qpFx": {
+          "type": "_card",
+          "settings": {
+            "column_desktop": 4,
+            "hide_on_mobile": false,
+            "color_background_main": "#c47a43",
+            "color_text_main": "#ffffff",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "caption_8MLcVj": {
+              "type": "caption",
+              "settings": {
+                "caption": "<strong> 20g</strong>",
+                "text_size": "small",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "heading_DJDCfL": {
+              "type": "heading",
+              "settings": {
+                "heading": "Turmeric",
+                "title_size": "h3",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "empty_space_7WLK8j": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "button_3U7EBn": {
+              "type": "button",
+              "name": "t:sections.rich-text.blocks.button.name",
+              "settings": {
+                "button_label": "Explore now",
+                "link": "",
+                "open_in_new_window": false,
+                "button_size": "regular",
+                "button_style": "outline",
+                "color_text_buttons": "rgba(0,0,0,0)",
+                "color_accent_buttons": "#ffffff"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "caption_8MLcVj",
+            "heading_DJDCfL",
+            "empty_space_7WLK8j",
+            "button_3U7EBn"
+          ]
+        },
+        "card_BGPJH9": {
+          "type": "_card",
+          "settings": {
+            "column_desktop": 4,
+            "hide_on_mobile": false,
+            "color_background_main": "#5e9c78",
+            "color_text_main": "#ffffff",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "caption_VHcMkH": {
+              "type": "caption",
+              "settings": {
+                "caption": "Organic",
+                "text_size": "small",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "heading_hF76Hx": {
+              "type": "heading",
+              "settings": {
+                "heading": "Black Pepper",
+                "title_size": "h3",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "empty_space_yDfBgF": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "button_zrGPdF": {
+              "type": "button",
+              "name": "t:sections.rich-text.blocks.button.name",
+              "settings": {
+                "button_label": "Explore now",
+                "link": "",
+                "open_in_new_window": false,
+                "button_size": "regular",
+                "button_style": "outline",
+                "color_text_buttons": "rgba(0,0,0,0)",
+                "color_accent_buttons": "#ffffff"
+              },
+              "blocks": {}
+            },
+            "empty_space_a6y6NM": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "caption_VHcMkH",
+            "heading_hF76Hx",
+            "empty_space_yDfBgF",
+            "button_zrGPdF",
+            "empty_space_a6y6NM"
+          ]
+        },
+        "card_DGDGMg": {
+          "type": "_card",
+          "settings": {
+            "column_desktop": 4,
+            "hide_on_mobile": false,
+            "color_background_main": "#e7ae3d",
+            "color_text_main": "#ffffff",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "caption_EHCgTL": {
+              "type": "caption",
+              "settings": {
+                "caption": "7 Genius Adaptogens",
+                "text_size": "regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "heading_iYH8Yc": {
+              "type": "heading",
+              "settings": {
+                "heading": "Ginger",
+                "title_size": "h3",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "empty_space_9PBmJm": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "button_N3dxA6": {
+              "type": "button",
+              "name": "t:sections.rich-text.blocks.button.name",
+              "settings": {
+                "button_label": "Explore now",
+                "link": "",
+                "open_in_new_window": false,
+                "button_size": "regular",
+                "button_style": "outline",
+                "color_text_buttons": "rgba(0,0,0,0)",
+                "color_accent_buttons": "#ffffff"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "caption_EHCgTL",
+            "heading_iYH8Yc",
+            "empty_space_9PBmJm",
+            "button_N3dxA6"
+          ]
+        }
+      },
+      "block_order": [
+        "card_p8qpFx",
+        "card_BGPJH9",
+        "card_DGDGMg"
+      ],
+      "name": "t:flex-cards.header",
+      "settings": {
+        "heading": "Only the best Ingredients make it in",
+        "subheading": "Super foods packed in every shot",
+        "section_heading_layout": "section-heading--center",
+        "image_height_desktop": 300,
+        "is_autoheight": true,
+        "image_height_mobile": 200,
+        "hide_media": false,
+        "text_alignment": "center",
+        "spacing": "small",
+        "gutter_size": "large",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
+      }
+    },
+    "scrolling_images_i9G9B6": {
+      "type": "scrolling-images",
+      "blocks": {
+        "image_VLT97F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png",
+            "image_caption": "Caption",
+            "link": "",
+            "open_in_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "image_VLT97F"
+      ],
+      "name": "t:sections.refactor_words.settings.scrolling_images.label",
+      "settings": {
+        "heading": "Only the best Ingredients make it in",
+        "subheading": "Super foods packed in every shot",
+        "section_heading_layout": "section-heading--left",
+        "columns": "3",
+        "scroll_direction": "ltr",
+        "speed": 70,
+        "pause_on_hover": true,
+        "image_alignment": "top",
+        "border_radius": 0,
+        "remove_inner_padding": false,
+        "caption_alignment": "left",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
         "section_visibility": "always"
       }
     },
@@ -1543,7 +1565,7 @@
         "pause_on_hover": false,
         "horizontal_space": "0.7",
         "text_size": "150",
-        "remove_top_margin": true,
+        "remove_top_margin": false,
         "remove_bottom_margin": false,
         "color_background_main": "#006828",
         "section_background_gradient": "",
@@ -1577,33 +1599,10 @@
                 "text_color": "rgba(0,0,0,0)"
               },
               "blocks": {}
-            },
-            "star_rating_7d8Q4b": {
-              "type": "star-rating",
-              "name": "Star rating",
-              "settings": {
-                "active_stars_shown": 100,
-                "caption": "",
-                "star_color": "#61482e"
-              },
-              "blocks": {}
-            },
-            "heading_xQFh8T": {
-              "type": "heading",
-              "settings": {
-                "heading": "\"This coffee is a game-changer. It gives me a calm, focused energy without the jitters, and I love that it’s made with organic ingredients. It’s become a daily ritual I actually look forward to.\"",
-                "title_size": "h5",
-                "line_height": "medium",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "caption_GtrdeJ",
-            "star_rating_7d8Q4b",
-            "heading_xQFh8T"
+            "caption_GtrdeJ"
           ]
         },
         "card_YHCnLy": {
@@ -1629,33 +1628,10 @@
                 "text_color": "rgba(0,0,0,0)"
               },
               "blocks": {}
-            },
-            "star_rating_B8k6dz": {
-              "type": "star-rating",
-              "name": "Star rating",
-              "settings": {
-                "active_stars_shown": 100,
-                "caption": "",
-                "star_color": "#61482e"
-              },
-              "blocks": {}
-            },
-            "heading_nUaNVn": {
-              "type": "heading",
-              "settings": {
-                "heading": "\"Within days, I felt more balanced and clear-headed. Knowing the supplements are made from high-quality, organic ingredients gives me confidence in what I’m putting into my body.\"",
-                "title_size": "h5",
-                "line_height": "medium",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "caption_7Q8CKP",
-            "star_rating_B8k6dz",
-            "heading_nUaNVn"
+            "caption_7Q8CKP"
           ]
         },
         "card_EffgeK": {
@@ -1681,33 +1657,10 @@
                 "text_color": "rgba(0,0,0,0)"
               },
               "blocks": {}
-            },
-            "star_rating_iMCrCc": {
-              "type": "star-rating",
-              "name": "Star rating",
-              "settings": {
-                "active_stars_shown": 100,
-                "caption": "",
-                "star_color": "#61482e"
-              },
-              "blocks": {}
-            },
-            "heading_fp6kDe": {
-              "type": "heading",
-              "settings": {
-                "heading": "\"The taste is smooth, not chalky, and it mixes well with everything. It’s hard to find a clean, organic protein that feels this good on the stomach—this one delivers.\"",
-                "title_size": "h5",
-                "line_height": "medium",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "caption_c3nkij",
-            "star_rating_iMCrCc",
-            "heading_fp6kDe"
+            "caption_c3nkij"
           ]
         }
       },
@@ -1991,10 +1944,11 @@
   "order": [
     "flex_slideshow_XKheTB",
     "featured_collection_iFn6JD",
-    "flex_cards_LdbaxY",
     "flex_grid_CGwnnL",
     "flex_grid_wc7iyy",
     "flex_slideshow_JarqzM",
+    "flex_cards_LdbaxY",
+    "scrolling_images_i9G9B6",
     "marquee_eWd8Cz",
     "flex_cards_nnPyb4",
     "flex_grid_kyMmKY",
