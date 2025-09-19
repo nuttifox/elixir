@@ -11,6 +11,102 @@
   "type": "footer",
   "name": "t:sections.refactor_words.labels.footer_group",
   "sections": {
+    "flex_grid_NYcmjE": {
+      "type": "flex-grid",
+      "blocks": {
+        "grid_text_jrxVjB": {
+          "type": "_grid-text",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 12,
+            "row_desktop": 1,
+            "hide_on_mobile": false,
+            "column_mobile": "2",
+            "row_mobile": "2",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": true
+          },
+          "blocks": {
+            "caption_ienFNF": {
+              "type": "caption",
+              "settings": {
+                "caption": "Introducing",
+                "text_size": "regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "heading_Nfi8Bg": {
+              "type": "heading",
+              "settings": {
+                "heading": "Your best promotion yet",
+                "title_size": "h2",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "empty_space_kj3aMz": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "button_8cqPjB": {
+              "type": "button",
+              "name": "t:sections.rich-text.blocks.button.name",
+              "settings": {
+                "button_label": "Button label",
+                "link": "",
+                "open_in_new_window": false,
+                "button_size": "regular",
+                "button_style": "outline",
+                "color_text_buttons": "rgba(0,0,0,0)",
+                "color_accent_buttons": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "caption_ienFNF",
+            "heading_Nfi8Bg",
+            "empty_space_kj3aMz",
+            "button_8cqPjB"
+          ]
+        }
+      },
+      "block_order": [
+        "grid_text_jrxVjB"
+      ],
+      "name": "t:sections-categories.presets.fullwidth_media_with_text",
+      "settings": {
+        "heading": "Promotion cards",
+        "subheading": "Share your best offers",
+        "section_heading_layout": "section-heading--left",
+        "card_height": 10,
+        "card_height_mobile": 3,
+        "is_fullwidth": true,
+        "no_gap": false,
+        "spacing": "large",
+        "gutter_size": "regular",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -65,6 +161,7 @@
     }
   },
   "order": [
+    "flex_grid_NYcmjE",
     "footer"
   ]
 }
