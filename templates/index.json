@@ -1114,7 +1114,7 @@
             "heading_DEanhL": {
               "type": "heading",
               "settings": {
-                "heading": "Plant Protein With [br]Benefits Beyond The Ordinary",
+                "heading": "Your Fresh-Pressed Boost for Everyday Wellness",
                 "title_size": "h2",
                 "line_height": "default",
                 "text_color": "rgba(0,0,0,0)",
@@ -1153,11 +1153,11 @@
                 "button_jN8Ptw": {
                   "type": "button",
                   "settings": {
-                    "button_label": "BUY PROTEIN",
+                    "button_label": "BUY ELIXIR",
                     "link": "",
                     "open_in_new_window": false,
                     "button_size": "regular",
-                    "button_style": "outline",
+                    "button_style": "solid",
                     "color_text_buttons": "rgba(0,0,0,0)",
                     "color_accent_buttons": "#ffa001"
                   },
@@ -1192,6 +1192,7 @@
           "type": "_grid-media",
           "name": "t:theme_blocks.grid-media.name",
           "settings": {
+            "video": "shopify://files/videos/Generated File September 17, 2025 - 5_23PM.mp4",
             "link": "",
             "open_in_new_window": false,
             "column_desktop": 5,
@@ -1290,7 +1291,7 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#fffcf4",
+            "color_background_main": "#004d1e",
             "color_text_main": "#f9f4ed",
             "color_hide_borders": true,
             "color_hide_shadow": false
@@ -1364,7 +1365,7 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#f6ce71",
+            "color_background_main": "#004d1e",
             "color_text_main": "#f9f4ed",
             "color_hide_borders": true,
             "color_hide_shadow": false
@@ -1579,7 +1580,7 @@
         "speed": 70,
         "pause_on_hover": true,
         "image_alignment": "top",
-        "border_radius": 0,
+        "border_radius": 10,
         "remove_inner_padding": false,
         "caption_alignment": "left",
         "section_background_color": "rgba(0,0,0,0)",
