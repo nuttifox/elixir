@@ -1,0 +1,491 @@
+{%- if section.blocks.size > 0 -%}
+    
+  <div id="section-{{ section.id }}" class="container--large remove-empty-space
+    {% unless section.settings.remove_margin %} {% unless section.settings.descrease_margin %} container--vertical-space {% else %} container--vertical-space-grid {% endunless %} {% endunless %} 
+    {% if section.settings.section_background_color != "rgba(0,0,0,0)" or section.settings.section_background_gradient != blank %} container--has-background {% endif %}
+    {% if section.settings.section_visibility == "mobile" %} element--hide-on-desk {% endif %}
+    {% if section.settings.section_visibility == "desktop" %} element--hide-on-small {% endif %}
+  ">
+
+    {%- render 'section-heading', heading: section.settings.heading, subheading: section.settings.subheading, heading_tag: section.settings.seo_h_tag, layout: section.settings.section_heading_layout -%}
+    
+    <div class="flex-cards-carousel" 
+         data-section="flex-cards-carousel"
+         data-autoplay="{{ section.settings.autoplay }}"
+         data-autoplay-speed="{{ section.settings.autoplay_speed }}"
+         data-cards-per-view="{{ section.settings.cards_per_view }}"
+         data-cards-per-view-mobile="{{ section.settings.cards_per_view_mobile }}">
+      <div class="carousel-container">
+        <div class="carousel-track" data-carousel-track>
+          {% content_for "blocks" %}
+        </div>
+      </div>
+      
+      {%- if section.blocks.size > 1 -%}
+        <div class="carousel-controls">
+          <button class="carousel-button carousel-button--prev" data-carousel-prev aria-label="Previous cards">
+            <span class="visually-hidden">Previous</span>
+            {%- render 'theme-symbols', icon: 'chevron' -%}
+          </button>
+          <button class="carousel-button carousel-button--next" data-carousel-next aria-label="Next cards">
+            <span class="visually-hidden">Next</span>
+            {%- render 'theme-symbols', icon: 'chevron' -%}
+          </button>
+        </div>
+        
+        {%- if section.settings.show_dots -%}
+          <div class="carousel-dots" data-carousel-dots>
+            {%- for block in section.blocks -%}
+              <button class="carousel-dot {% if forloop.first %}carousel-dot--active{% endif %}" 
+                      data-carousel-dot="{{ forloop.index0 }}" 
+                      aria-label="Go to slide {{ forloop.index }}">
+                <span class="visually-hidden">Slide {{ forloop.index }}</span>
+              </button>
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+
+  </div>
+
+{%- endif -%}
+
+{%- if section.settings.section_background_color != "rgba(0,0,0,0)" -%}
+  {% style %}
+    #shopify-section-{{ section.id }} {
+      background-color: {{ section.settings.section_background_color }};
+    }
+  {% endstyle %}
+{%- endif -%}
+{%- if section.settings.section_background_gradient != blank -%}
+  {% style %}
+    #shopify-section-{{ section.id }} {
+      background: {{ section.settings.section_background_gradient }};
+    }
+  {% endstyle %}
+{%- endif -%}
+{%- if section.settings.section_heading_color != "rgba(0,0,0,0)" -%}
+  {% style %}
+    #shopify-section-{{ section.id }} {
+      --color-text-main: {{ section.settings.section_heading_color }};
+    }
+  {% endstyle %}
+{%- endif -%}
+
+{% style %}
+  #shopify-section-{{ section.id }} .flex-cards-carousel {
+    --cards-per-view: {{ section.settings.cards_per_view }};
+    --cards-gap: {{ section.settings.cards_gap }}px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    #shopify-section-{{ section.id }} .flex-cards-carousel {
+      --cards-per-view: {{ section.settings.cards_per_view_mobile }};
+    }
+  }
+{% endstyle %}
+
+<link rel="stylesheet" href="{{ 'section-flex-cards-carousel.css' | asset_url }}" media="print" onload="this.media='all'">
+<script src="{{ 'component-flex-cards-carousel.js' | asset_url }}" defer></script>
+
+{% schema %}
+  {
+    "name": "Flex Cards Carousel",
+    "blocks": [
+      {
+        "type": "_card-carousel",
+        "name": "Card"
+      }
+    ],
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:local-march-update.labels.heading"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "t:sections.local-extra-words.sections.headings.heading",
+        "default": "Promotion cards"
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "t:sections.local-extra-words.sections.headings.subheading",
+        "default": "Share your best offers"
+      },
+      {
+        "type": "select",
+        "id": "section_heading_layout",
+        "label": "t:sections.rich-text.settings.text_alignment.label",
+        "options": [
+          {
+            "value": "section-heading--left",
+            "label": "t:sections.rich-text.settings.text_alignment.options__1.label"
+          },
+          {
+            "value": "section-heading--center",
+            "label": "t:sections.rich-text.settings.text_alignment.options__2.label"
+          }
+        ],
+        "default": "section-heading--left"
+      },
+      {
+        "type": "header",
+        "content": "Carousel Settings"
+      },
+      {
+        "type": "range",
+        "id": "cards_per_view",
+        "label": "Cards per view (Desktop)",
+        "min": 1,
+        "max": 4,
+        "step": 1,
+        "default": 3
+      },
+      {
+        "type": "range",
+        "id": "cards_per_view_mobile",
+        "label": "Cards per view (Mobile)",
+        "min": 1,
+        "max": 2,
+        "step": 1,
+        "default": 1
+      },
+      {
+        "type": "range",
+        "id": "cards_gap",
+        "label": "Gap between cards",
+        "min": 10,
+        "max": 50,
+        "step": 5,
+        "unit": "px",
+        "default": 20
+      },
+      {
+        "type": "checkbox",
+        "id": "show_dots",
+        "label": "Show navigation dots",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "autoplay",
+        "label": "Autoplay carousel",
+        "default": false
+      },
+      {
+        "type": "range",
+        "id": "autoplay_speed",
+        "label": "Autoplay speed",
+        "min": 2000,
+        "max": 10000,
+        "step": 500,
+        "unit": "ms",
+        "default": 5000,
+        "visible_if": "{{ section.settings.autoplay == true }}"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.main-article.blocks.content.name"
+      },
+      {
+        "type": "range",
+        "id": "image_height_desktop",
+        "visible_if": "{{ section.settings.hide_media == false }}",
+        "min": 100,
+        "max": 600,
+        "step": 10,
+        "default": 300,
+        "unit": "px",
+        "label": "t:flex-cards.settings.height.desktop"
+      },
+      {
+        "type": "checkbox",
+        "id": "is_autoheight",
+        "visible_if": "{{ section.settings.hide_media == false }}",
+        "label": "t:flex-cards.settings.height.auto",
+        "default": true
+      },
+      {
+        "type": "range",
+        "id": "image_height_mobile",
+        "visible_if": "{{ section.settings.hide_media == false and section.settings.is_autoheight == false }}",
+        "label": "t:flex-cards.settings.height.mobile",
+        "min": 100,
+        "max": 500,
+        "step": 10,
+        "default": 200,
+        "unit": "px"
+      },
+      {
+        "type": "checkbox",
+        "id": "hide_media",
+        "label": "t:flex-cards.settings.image_visibility",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "t:sections.local-extra-words.sections.headings.text_style"
+      },
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "t:sections.image-with-text.settings.text_alignment.label",
+        "options": [
+          {
+            "value": "left",
+            "label": "t:sections.rich-text.settings.text_alignment.options__1.label"
+          },
+          {
+            "value": "center",
+            "label": "t:sections.rich-text.settings.text_alignment.options__2.label"
+          },
+          {
+            "value": "right",
+            "label": "t:sections.rich-text.settings.text_alignment.options__3.label"
+          }
+        ],
+        "default": "left"
+      },
+      {
+        "type": "select",
+        "id": "spacing",
+        "label": "t:local-march-update.labels.text_spacing",
+        "options": [
+          {
+            "label": "t:sections.slider.settings.desktop_height.options__1.label",
+            "value": "xsmall"
+          },
+          {
+            "label": "t:sections.slider.settings.desktop_height.options__2.label",
+            "value": "small"
+          },
+          {
+            "label": "t:sections.image-with-text.settings.text_size.options__2.label",
+            "value": "large"
+          },
+          {
+            "label": "t:sections.image-with-text.settings.text_size.options__3.label",
+            "value": "xlarge"
+          }
+        ],
+        "default": "xsmall"
+      },
+      {
+        "type": "select",
+        "id": "gutter_size",
+        "label": "t:theme_blocks.sections.flex-section.gutter_size",
+        "options": [
+          {
+            "value": "regular",
+            "label": "t:sections.local-extra-words.sections.media-with-text-overlay.settings.option__5"
+          },
+          {
+            "value": "large",
+            "label": "t:sections.local-extra-words.sections.media-with-text-overlay.settings.option__2"
+          }
+        ],
+        "default": "regular"
+      },
+      {
+        "type": "header",
+        "content": "t:local-march-update.labels.section_design"
+      },
+      {
+        "type": "color",
+        "id": "section_background_color",
+        "label": "t:sections.local-extra-words.settings_schema.product-card.badges.custom_badges.color",
+        "default": "rgba(0,0,0,0)"
+      },
+      {
+        "type": "color_background",
+        "id": "section_background_gradient",
+        "label": "t:local-230.background_gradient"
+      },
+      {
+        "type": "color",
+        "id": "section_heading_color",
+        "label": "t:local-223.heading_text_color",
+        "default": "rgba(0,0,0,0)"
+      },
+      {
+        "type": "checkbox",
+        "id": "descrease_margin",
+        "visible_if": "{{ section.settings.remove_margin == false }}",
+        "label": "t:theme_blocks.descrease_top_margin",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "remove_margin",
+        "visible_if": "{{ section.settings.descrease_margin == false }}",
+        "label": "t:sections.local-extra-words.sections.rich-text.settings.remove_margin.label",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "t:sections.refactor_words.seo.name"
+      },
+      {
+        "type": "select",
+        "id": "seo_h_tag",
+        "label": "t:sections.refactor_words.seo.label",
+        "info": "t:sections.refactor_words.seo.info",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "h4",
+            "label": "H4"
+          },
+          {
+            "value": "span",
+            "label": "span"
+          }
+        ],
+        "default": "h2"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.refactor_words.announcement-bar.visibility.label"
+      },
+      {
+        "type": "select",
+        "id": "section_visibility",
+        "label": "t:sections-visibility.label",
+        "options": [
+          {
+            "value": "always",
+            "label": "t:sections-visibility.options.always"
+          },
+          {
+            "value": "mobile",
+            "label": "t:sections-visibility.options.mobile"
+          },
+          {
+            "value": "desktop",
+            "label": "t:sections-visibility.options.desktop"
+          }
+        ],
+        "default": "always"
+      }
+    ], 
+    "presets": [
+      {
+        "name": "Flex Cards Carousel",
+        "category": "t:sections-categories.promotions",
+        "blocks":[
+          {
+            "type":"_card-carousel",
+            "settings":{
+              "column_desktop":4,
+              "hide_on_mobile":false,
+              "color_hide_borders":false,
+              "color_hide_shadow":false
+            },
+            "blocks":[
+              {
+                "type":"caption",
+                "settings":{
+                  "caption":"Introducing",
+                  "text_size":"regular"
+                }
+              },
+              {
+                "type":"heading",
+                "settings":{
+                  "heading":"Your best promotion yet",
+                  "title_size":"h4",
+                  "line_height":"default",
+                  "seo_h_tag":"span"
+                }
+              }
+            ]
+          },
+          {
+            "type":"_card",
+            "settings":{
+              "column_desktop":4,
+              "hide_on_mobile":false,
+              "color_hide_borders":false,
+              "color_hide_shadow":false
+            },
+            "blocks":[
+              {
+                "type":"caption",
+                "settings":{
+                  "caption":"Discover Now",
+                  "text_size":"regular"
+                }
+              },
+              {
+                "type":"heading",
+                "settings":{
+                  "heading":"Your greatest deal yet",
+                  "title_size":"h4",
+                  "line_height":"default",
+                  "seo_h_tag":"span"
+                }
+              }
+            ]
+          },
+          {
+            "type":"_card",
+            "settings":{
+              "column_desktop":4,
+              "hide_on_mobile":false,
+              "color_hide_borders":false,
+              "color_hide_shadow":false
+            },
+            "blocks":[
+              {
+                "type":"caption",
+                "settings":{
+                  "caption":"Just Arrived",
+                  "text_size":"regular"
+                }
+              },
+              {
+                "type":"heading",
+                "settings":{
+                  "heading":"Don't miss this special promotion",
+                  "title_size":"h4",
+                  "line_height":"default",
+                  "seo_h_tag":"span"
+                }
+              }
+            ]
+          }
+        ],
+        "settings":{
+          "heading":"Promotion cards",
+          "subheading":"Share your best offers",
+          "section_heading_layout":"section-heading--left",
+          "cards_per_view":3,
+          "cards_per_view_mobile":1,
+          "cards_gap":20,
+          "show_dots":true,
+          "autoplay":false,
+          "image_height_desktop":300,
+          "image_height_mobile":200,
+          "text_alignment":"left"
+        }
+      }
+    ],
+    "disabled_on": {
+      "groups": ["header"]
+    }
+  }
+{% endschema %}

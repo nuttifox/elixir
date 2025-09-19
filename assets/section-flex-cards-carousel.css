@@ -1,0 +1,172 @@
+/* Flex Cards Carousel Styles */
+.flex-cards-carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  gap: var(--cards-gap, 20px);
+}
+
+.carousel-slide {
+  flex: 0 0 calc((100% - (var(--cards-per-view, 3) - 1) * var(--cards-gap, 20px)) / var(--cards-per-view, 3));
+  min-width: 0;
+}
+
+/* Carousel Controls */
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.carousel-button {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--color-borders-main, #e0e0e0);
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  pointer-events: all;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-button:hover {
+  background: var(--color-background-main, #ffffff);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+}
+
+.carousel-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.carousel-button svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: var(--color-text-main, #333333);
+}
+
+.carousel-button--prev {
+  left: 1rem;
+}
+
+.carousel-button--next {
+  right: 1rem;
+}
+
+.carousel-button--next svg {
+  transform: rotate(180deg);
+}
+
+/* Carousel Dots */
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.carousel-dot {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.carousel-dot:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.carousel-dot--active {
+  background: var(--color-accent-main, #007bff);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1023px) {
+  .carousel-controls {
+    display: none;
+  }
+  
+  .carousel-dots {
+    margin-top: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-slide {
+    flex: 0 0 calc((100% - (var(--cards-per-view-mobile, 1) - 1) * var(--cards-gap, 20px)) / var(--cards-per-view-mobile, 1));
+  }
+  
+  .carousel-dots {
+    margin-top: 1rem;
+  }
+  
+  .carousel-dot {
+    width: 0.625rem;
+    height: 0.625rem;
+  }
+}
+
+/* Touch/Swipe Support */
+.carousel-track {
+  touch-action: pan-y;
+}
+
+/* Accessibility */
+.carousel-button:focus,
+.carousel-dot:focus {
+  outline: 2px solid var(--color-accent-main, #007bff);
+  outline-offset: 2px;
+}
+
+/* Animation for smooth transitions */
+.carousel-track {
+  will-change: transform;
+}
+
+/* Hide controls when only one slide */
+.flex-cards-carousel:has(.carousel-slide:only-child) .carousel-controls,
+.flex-cards-carousel:has(.carousel-slide:only-child) .carousel-dots {
+  display: none;
+}
+
+/* Auto-height support */
+.flex-cards-carousel .carousel-slide {
+  height: auto;
+}
+
+/* Card styling within carousel */
+.flex-cards-carousel .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-cards-carousel .card__text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
