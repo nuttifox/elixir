@@ -1561,18 +1561,68 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png",
-            "image_caption": "Caption",
-            "link": "",
+            "image_caption": "Zenergy",
+            "link": "shopify://products/zenergy",
+            "open_in_new_tab": false
+          }
+        },
+        "image_8DMcGp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png",
+            "image_caption": "Vitality",
+            "link": "shopify://products/vitality",
+            "open_in_new_tab": false
+          }
+        },
+        "image_cTWd4p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png",
+            "image_caption": "Mayan",
+            "link": "shopify://products/mayan",
+            "open_in_new_tab": false
+          }
+        },
+        "image_BbGyhQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png",
+            "image_caption": "Immunity",
+            "link": "shopify://products/the-collection-snowboard-liquid",
+            "open_in_new_tab": false
+          }
+        },
+        "image_XPMmP6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png",
+            "image_caption": "Endurance",
+            "link": "shopify://products/endurance",
+            "open_in_new_tab": false
+          }
+        },
+        "image_A7LP44": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png",
+            "image_caption": "Defense",
+            "link": "shopify://products/defense",
             "open_in_new_tab": false
           }
         }
       },
       "block_order": [
-        "image_VLT97F"
+        "image_VLT97F",
+        "image_8DMcGp",
+        "image_cTWd4p",
+        "image_BbGyhQ",
+        "image_XPMmP6",
+        "image_A7LP44"
       ],
       "name": "t:sections.refactor_words.settings.scrolling_images.label",
       "settings": {
-        "heading": "Only the best Ingredients make it in",
+        "heading": "Which Elixir is right for you?",
         "subheading": "Super foods packed in every shot",
         "section_heading_layout": "section-heading--left",
         "columns": "3",
