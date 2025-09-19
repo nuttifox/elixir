@@ -171,4 +171,45 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 1.5rem;
+}
+
+.flex-cards-carousel .card__heading {
+  margin: 0 0 1rem 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.flex-cards-carousel .card__description {
+  margin: 0 0 1.5rem 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.flex-cards-carousel .card__text .button {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+/* Ensure images display properly */
+.flex-cards-carousel .card__image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.flex-cards-carousel .card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Video styling */
+.flex-cards-carousel video-component {
+  width: 100%;
+  height: 100%;
+  display: block;
 }

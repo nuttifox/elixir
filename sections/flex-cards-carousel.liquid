@@ -109,7 +109,15 @@
                 class="card__text gutter--{{ section.settings.gutter_size }} text-align--{{ section.settings.text_alignment }} spacing--custom-{{ section.settings.spacing }} remove-empty-space"
                 style="--horizontal-alignment:{{ section.settings.text_alignment }};"
               >
-                <!-- Card content will be added through the theme editor -->
+                {%- if block.settings.heading != blank -%}
+                  <h3 class="card__heading">{{ block.settings.heading }}</h3>
+                {%- endif -%}
+                {%- if block.settings.text != blank -%}
+                  <div class="card__description">{{ block.settings.text }}</div>
+                {%- endif -%}
+                {%- if block.settings.button_label != blank -%}
+                  <a href="{{ block.settings.link | default: '#' }}" class="button button--outline">{{ block.settings.button_label }}</a>
+                {%- endif -%}
               </div>
             </div>
 
@@ -230,6 +238,32 @@
             "id": "video",
             "label": "t:video-extra-functions.video_upload.label",
             "info": "t:sections.local-extra-words.sections.media-with-text-overlay.blocks.video.info"
+          },
+          {
+            "type": "header",
+            "content": "Content"
+          },
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading",
+            "default": "Card heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text",
+            "default": "Card description text"
+          },
+          {
+            "type": "text",
+            "id": "button_label",
+            "label": "Button label"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
           },
           {
             "type": "header",
@@ -591,6 +625,9 @@
           {
             "type":"card",
             "settings":{
+              "heading":"Your best promotion yet",
+              "text":"Introducing our latest collection with amazing deals and offers.",
+              "button_label":"Shop Now",
               "column_desktop":4,
               "hide_on_mobile":false,
               "color_hide_borders":false,
@@ -600,6 +637,9 @@
           {
             "type":"card",
             "settings":{
+              "heading":"Your greatest deal yet",
+              "text":"Discover our exclusive products with special pricing and limited time offers.",
+              "button_label":"Discover",
               "column_desktop":4,
               "hide_on_mobile":false,
               "color_hide_borders":false,
@@ -609,6 +649,9 @@
           {
             "type":"card",
             "settings":{
+              "heading":"Don't miss this special promotion",
+              "text":"Just arrived! New products with incredible value and quality you'll love.",
+              "button_label":"Shop Now",
               "column_desktop":4,
               "hide_on_mobile":false,
               "color_hide_borders":false,
