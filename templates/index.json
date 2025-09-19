@@ -1593,7 +1593,7 @@
             "caption_GtrdeJ": {
               "type": "caption",
               "settings": {
-                "caption": "<strong>SOPHIA MAREN</strong>, Director of Product Strategy at Vitala Naturals",
+                "caption": "<strong>Person Name</strong>",
                 "text_size": "small",
                 "text_background_color": "rgba(0,0,0,0)",
                 "text_color": "rgba(0,0,0,0)"
@@ -1622,7 +1622,7 @@
             "caption_7Q8CKP": {
               "type": "caption",
               "settings": {
-                "caption": "<strong>DR. ELENA HARTFIELD</strong>, Chief Innovation Officer at Global Wellness Institute",
+                "caption": "<strong>Person Name</strong>",
                 "text_size": "small",
                 "text_background_color": "rgba(0,0,0,0)",
                 "text_color": "rgba(0,0,0,0)"
@@ -1651,7 +1651,7 @@
             "caption_c3nkij": {
               "type": "caption",
               "settings": {
-                "caption": "<strong>JONATHAN REEVE</strong>, Global Innovation Strategist & Tech Futurist",
+                "caption": "<strong>Person Name</strong>",
                 "text_size": "small",
                 "text_background_color": "rgba(0,0,0,0)",
                 "text_color": "rgba(0,0,0,0)"
@@ -1983,10 +1983,10 @@
   "order": [
     "flex_slideshow_XKheTB",
     "featured_collection_iFn6JD",
+    "flex_cards_LdbaxY",
     "flex_grid_CGwnnL",
     "flex_grid_wc7iyy",
     "flex_slideshow_JarqzM",
-    "flex_cards_LdbaxY",
     "scrolling_images_i9G9B6",
     "marquee_eWd8Cz",
     "flex_cards_nnPyb4",
