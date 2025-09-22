@@ -314,7 +314,7 @@
         "autoplay_speed": 5000,
         "image_height_desktop": 340,
         "is_autoheight": false,
-        "image_height_mobile": 200,
+        "image_height_mobile": 300,
         "hide_media": false,
         "text_alignment": "center",
         "spacing": "large",
