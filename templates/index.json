@@ -434,9 +434,9 @@
         "text_size": "100",
         "remove_top_margin": false,
         "remove_bottom_margin": false,
-        "color_background_main": "#006828",
+        "color_background_main": "#00cf00",
         "section_background_gradient": "",
-        "color_text_main": "#dfd5ca",
+        "color_text_main": "#ffffff",
         "section_visibility": "always"
       }
     },
