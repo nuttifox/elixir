@@ -183,7 +183,30 @@
     },
     "content_for_index": [
       "header"
-    ]
+    ],
+    "content_for_layout": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "mega-menu-0": {
+            "type": "mega-menu",
+            "settings": {
+              "menu_handle": "products",
+              "show_menu_images": false,
+              "show_promotion_block": false
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-0"
+        ],
+        "settings": {
+          "main_linklist": "products",
+          "show_search": true,
+          "show_header_actions": true
+        }
+      }
+    }
   },
   "installed_preset_name": "Thrive",
   "presets": {

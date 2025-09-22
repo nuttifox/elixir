@@ -81,7 +81,7 @@
         "logo_src": "shopify://shop_images/ElixirLogo.svg",
         "logo_height": 50,
         "logo_mobile_height": 28,
-        "main_linklist": "main-menu",
+        "main_linklist": "products",
         "show_search": true,
         "sticky_header": true,
         "header_absolute_homepage": false,
