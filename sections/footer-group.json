@@ -17,6 +17,7 @@
         "grid_text_jrxVjB": {
           "type": "_grid-text",
           "settings": {
+            "video": "shopify://files/videos/Generated File September 17, 2025 - 5_21PM.mp4",
             "link": "",
             "open_in_new_window": false,
             "alignment": "horizontal-center align-content--vertical-middle",
@@ -26,30 +27,30 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "2",
-            "color_background_main": "rgba(0,0,0,0)",
+            "color_background_main": "#5e9c78",
             "color_text_main": "rgba(0,0,0,0)",
             "color_hide_borders": true,
             "color_hide_shadow": true
           },
           "blocks": {
-            "caption_ienFNF": {
-              "type": "caption",
-              "settings": {
-                "caption": "Introducing",
-                "text_size": "regular",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
             "heading_Nfi8Bg": {
               "type": "heading",
               "settings": {
-                "heading": "Your best promotion yet",
+                "heading": "What makes Elixir so effective?",
                 "title_size": "h2",
                 "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
+                "text_color": "#ffffff",
                 "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "caption_ienFNF": {
+              "type": "caption",
+              "settings": {
+                "caption": "Our formulation process unlocks powerful results you can feel",
+                "text_size": "regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "#ffffff"
               },
               "blocks": {}
             },
@@ -65,20 +66,20 @@
               "type": "button",
               "name": "t:sections.rich-text.blocks.button.name",
               "settings": {
-                "button_label": "Button label",
-                "link": "",
+                "button_label": "Shop Elixir",
+                "link": "shopify://collections/all",
                 "open_in_new_window": false,
-                "button_size": "regular",
-                "button_style": "outline",
+                "button_size": "large",
+                "button_style": "solid",
                 "color_text_buttons": "rgba(0,0,0,0)",
-                "color_accent_buttons": "rgba(0,0,0,0)"
+                "color_accent_buttons": "#e7ae3d"
               },
               "blocks": {}
             }
           },
           "block_order": [
-            "caption_ienFNF",
             "heading_Nfi8Bg",
+            "caption_ienFNF",
             "empty_space_kj3aMz",
             "button_8cqPjB"
           ]
@@ -89,8 +90,8 @@
       ],
       "name": "t:sections-categories.presets.fullwidth_media_with_text",
       "settings": {
-        "heading": "Promotion cards",
-        "subheading": "Share your best offers",
+        "heading": "",
+        "subheading": "",
         "section_heading_layout": "section-heading--left",
         "card_height": 10,
         "card_height_mobile": 3,
@@ -155,7 +156,7 @@
         "layout": "grid-4 grid-portable-2 grid-lap-1",
         "show_locale_selector": true,
         "show_country_selector": false,
-        "remove_margin": false,
+        "remove_margin": true,
         "seo_h_tag": "h4"
       }
     }

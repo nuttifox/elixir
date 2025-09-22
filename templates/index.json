@@ -75,7 +75,7 @@
             "heading_9QMLwK": {
               "type": "heading",
               "settings": {
-                "heading": "Boost your focus, [br]skip the crash",
+                "heading": "Restoring health through farm-fresh wellness shots",
                 "title_size": "h1",
                 "line_height": "default",
                 "text_color": "rgba(0,0,0,0)",
@@ -86,7 +86,7 @@
             "caption_cjXwYz": {
               "type": "caption",
               "settings": {
-                "caption": "<strong>Pioneers of Mushroom Coffee. 200+ Million Cups and Counting.</strong>",
+                "caption": "Doctor-founded and crafted with a variety of premium wellness blends",
                 "text_size": "large",
                 "text_background_color": "rgba(0,0,0,0)",
                 "text_color": "rgba(0,0,0,0)"
@@ -111,12 +111,12 @@
                   "type": "button",
                   "settings": {
                     "button_label": "Buy Elixir",
-                    "link": "",
+                    "link": "shopify://collections/all",
                     "open_in_new_window": false,
                     "button_size": "large",
                     "button_style": "solid",
                     "color_text_buttons": "#ffa001",
-                    "color_accent_buttons": "#61482e"
+                    "color_accent_buttons": "#00cf00"
                   },
                   "blocks": {}
                 },
@@ -261,37 +261,38 @@
         "card_TeUHLr": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/IMG_8882.webp",
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_22_2025_10_12_04_PM.png",
             "heading": "Card heading",
             "text": "Card description text",
             "button_label": "",
             "link": "",
             "column_desktop": 4,
             "hide_on_mobile": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
+            "color_background_main": "#5e9c78",
+            "color_text_main": "#ffffff",
             "color_accent_main": "rgba(0,0,0,0)",
             "color_borders_main": "rgba(0,0,0,0)",
             "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": false,
+            "color_hide_borders": true,
             "color_hide_shadow": false
           }
         },
         "card_Bwy9zQ": {
           "type": "card",
           "settings": {
-            "heading": "Card heading",
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_22_2025_10_19_43_PM.png",
+            "heading": "Ginger",
             "text": "Card description text",
             "button_label": "",
             "link": "",
             "column_desktop": 4,
             "hide_on_mobile": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
+            "color_background_main": "#e7ae3d",
+            "color_text_main": "#ffffff",
             "color_accent_main": "rgba(0,0,0,0)",
             "color_borders_main": "rgba(0,0,0,0)",
             "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": false,
+            "color_hide_borders": true,
             "color_hide_shadow": false
           }
         }
@@ -346,7 +347,7 @@
         "text_WkwrzA": {
           "type": "text",
           "settings": {
-            "marquee_text": "Certfified"
+            "marquee_text": "Certified"
           }
         },
         "text_y46AVm": {
@@ -368,321 +369,12 @@
         "speed": 70,
         "pause_on_hover": false,
         "horizontal_space": "0.7",
-        "text_size": "150",
+        "text_size": "100",
         "remove_top_margin": false,
         "remove_bottom_margin": false,
         "color_background_main": "#006828",
         "section_background_gradient": "",
         "color_text_main": "#dfd5ca",
-        "section_visibility": "always"
-      }
-    },
-    "text_columns_images_f9CPRN": {
-      "type": "text-columns-images",
-      "blocks": {
-        "image_yxD7Aa": {
-          "type": "image",
-          "settings": {
-            "title": "Turmeric",
-            "caption": "Useful information about your shipping details",
-            "link": "",
-            "open_in_new_window": false,
-            "seo_h_tag": "h3"
-          }
-        },
-        "image_9cCrp3": {
-          "type": "image",
-          "settings": {
-            "title": "Black Pepper",
-            "caption": "Show how much time customers have for testing your products",
-            "link": "",
-            "open_in_new_window": false,
-            "seo_h_tag": "h3"
-          }
-        },
-        "image_efedJW": {
-          "type": "image",
-          "settings": {
-            "title": "Ginger",
-            "caption": "Let your customers know about local pickup",
-            "link": "",
-            "open_in_new_window": false,
-            "seo_h_tag": "h3"
-          }
-        },
-        "image_CWbTza": {
-          "type": "image",
-          "settings": {
-            "title": "Brand",
-            "caption": "Write your brand story and journey",
-            "link": "",
-            "open_in_new_window": false,
-            "seo_h_tag": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "image_yxD7Aa",
-        "image_9cCrp3",
-        "image_efedJW",
-        "image_CWbTza"
-      ],
-      "name": "t:sections.text-columns-with-images.name",
-      "settings": {
-        "heading": "Only the best Ingredients make",
-        "subheading": "Super foods packed in every shot",
-        "section_heading_layout": "section-heading--center",
-        "style": "slider",
-        "layout": "grid-4 grid-portable-3 grid-lap-2",
-        "border_radius": 200,
-        "inherit_card_design": false,
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_accent_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_shadow_main": "rgba(0,0,0,0)",
-        "color_hide_borders": false,
-        "color_hide_shadow": false,
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "descrease_margin": false,
-        "remove_margin": false,
-        "seo_h_tag": "h2",
-        "section_visibility": "always"
-      }
-    },
-    "flex_cards_LdbaxY": {
-      "type": "flex-cards",
-      "blocks": {
-        "card_p8qpFx": {
-          "type": "_card",
-          "settings": {
-            "column_desktop": 4,
-            "hide_on_mobile": false,
-            "color_background_main": "#c47a43",
-            "color_text_main": "#ffffff",
-            "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "rgba(0,0,0,0)",
-            "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true,
-            "color_hide_shadow": false
-          },
-          "blocks": {
-            "caption_8MLcVj": {
-              "type": "caption",
-              "settings": {
-                "caption": "<strong> 20g</strong>",
-                "text_size": "small",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
-            "heading_DJDCfL": {
-              "type": "heading",
-              "settings": {
-                "heading": "Turmeric",
-                "title_size": "h3",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
-              },
-              "blocks": {}
-            },
-            "empty_space_7WLK8j": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "button_3U7EBn": {
-              "type": "button",
-              "name": "t:sections.rich-text.blocks.button.name",
-              "settings": {
-                "button_label": "Explore now",
-                "link": "",
-                "open_in_new_window": false,
-                "button_size": "regular",
-                "button_style": "outline",
-                "color_text_buttons": "rgba(0,0,0,0)",
-                "color_accent_buttons": "#ffffff"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "caption_8MLcVj",
-            "heading_DJDCfL",
-            "empty_space_7WLK8j",
-            "button_3U7EBn"
-          ]
-        },
-        "card_BGPJH9": {
-          "type": "_card",
-          "settings": {
-            "column_desktop": 4,
-            "hide_on_mobile": false,
-            "color_background_main": "#5e9c78",
-            "color_text_main": "#ffffff",
-            "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "rgba(0,0,0,0)",
-            "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true,
-            "color_hide_shadow": false
-          },
-          "blocks": {
-            "caption_VHcMkH": {
-              "type": "caption",
-              "settings": {
-                "caption": "Organic",
-                "text_size": "small",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
-            "heading_hF76Hx": {
-              "type": "heading",
-              "settings": {
-                "heading": "Black Pepper",
-                "title_size": "h3",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
-              },
-              "blocks": {}
-            },
-            "empty_space_yDfBgF": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "button_zrGPdF": {
-              "type": "button",
-              "name": "t:sections.rich-text.blocks.button.name",
-              "settings": {
-                "button_label": "Explore now",
-                "link": "",
-                "open_in_new_window": false,
-                "button_size": "regular",
-                "button_style": "outline",
-                "color_text_buttons": "rgba(0,0,0,0)",
-                "color_accent_buttons": "#ffffff"
-              },
-              "blocks": {}
-            },
-            "empty_space_a6y6NM": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "caption_VHcMkH",
-            "heading_hF76Hx",
-            "empty_space_yDfBgF",
-            "button_zrGPdF",
-            "empty_space_a6y6NM"
-          ]
-        },
-        "card_DGDGMg": {
-          "type": "_card",
-          "settings": {
-            "column_desktop": 4,
-            "hide_on_mobile": false,
-            "color_background_main": "#e7ae3d",
-            "color_text_main": "#ffffff",
-            "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "rgba(0,0,0,0)",
-            "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true,
-            "color_hide_shadow": false
-          },
-          "blocks": {
-            "caption_EHCgTL": {
-              "type": "caption",
-              "settings": {
-                "caption": "7 Genius Adaptogens",
-                "text_size": "regular",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
-            "heading_iYH8Yc": {
-              "type": "heading",
-              "settings": {
-                "heading": "Ginger",
-                "title_size": "h3",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
-              },
-              "blocks": {}
-            },
-            "empty_space_9PBmJm": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "button_N3dxA6": {
-              "type": "button",
-              "name": "t:sections.rich-text.blocks.button.name",
-              "settings": {
-                "button_label": "Explore now",
-                "link": "",
-                "open_in_new_window": false,
-                "button_size": "regular",
-                "button_style": "outline",
-                "color_text_buttons": "rgba(0,0,0,0)",
-                "color_accent_buttons": "#ffffff"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "caption_EHCgTL",
-            "heading_iYH8Yc",
-            "empty_space_9PBmJm",
-            "button_N3dxA6"
-          ]
-        }
-      },
-      "block_order": [
-        "card_p8qpFx",
-        "card_BGPJH9",
-        "card_DGDGMg"
-      ],
-      "name": "t:flex-cards.header",
-      "settings": {
-        "heading": "Only the best Ingredients make",
-        "subheading": "Super foods packed in every shot",
-        "section_heading_layout": "section-heading--center",
-        "image_height_desktop": 300,
-        "is_autoheight": true,
-        "image_height_mobile": 200,
-        "hide_media": false,
-        "text_alignment": "center",
-        "spacing": "small",
-        "gutter_size": "large",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "descrease_margin": false,
-        "remove_margin": false,
-        "seo_h_tag": "h2",
         "section_visibility": "always"
       }
     },
@@ -1282,7 +974,7 @@
                   "type": "button",
                   "settings": {
                     "button_label": "LEARN MORE",
-                    "link": "",
+                    "link": "shopify://pages/ingredients",
                     "open_in_new_window": false,
                     "button_size": "regular",
                     "button_style": "outline",
@@ -1295,7 +987,7 @@
                   "type": "button",
                   "settings": {
                     "button_label": "BUY ELIXIR",
-                    "link": "",
+                    "link": "shopify://collections/all",
                     "open_in_new_window": false,
                     "button_size": "regular",
                     "button_style": "solid",
@@ -1364,16 +1056,6 @@
             "color_hide_shadow": false
           },
           "blocks": {
-            "image_CTT4Pd": {
-              "type": "image",
-              "name": "t:local-260.labels.image",
-              "settings": {
-                "image_height": 50,
-                "link": "",
-                "open_in_new_window": false
-              },
-              "blocks": {}
-            },
             "empty_space_AXiq4b": {
               "type": "empty-space",
               "name": "t:theme_blocks.empty-space.name",
@@ -1413,7 +1095,6 @@
             }
           },
           "block_order": [
-            "image_CTT4Pd",
             "empty_space_AXiq4b",
             "heading_9aYy3F",
             "empty_space_LcrbGY",
@@ -1438,16 +1119,6 @@
             "color_hide_shadow": false
           },
           "blocks": {
-            "image_eBXKbB": {
-              "type": "image",
-              "name": "t:local-260.labels.image",
-              "settings": {
-                "image_height": 50,
-                "link": "",
-                "open_in_new_window": false
-              },
-              "blocks": {}
-            },
             "empty_space_yyYxWT": {
               "type": "empty-space",
               "name": "t:theme_blocks.empty-space.name",
@@ -1487,7 +1158,6 @@
             }
           },
           "block_order": [
-            "image_eBXKbB",
             "empty_space_yyYxWT",
             "heading_QB4Lxr",
             "empty_space_FjXDc9",
@@ -1512,16 +1182,6 @@
             "color_hide_shadow": false
           },
           "blocks": {
-            "image_i4nR3E": {
-              "type": "image",
-              "name": "t:local-260.labels.image",
-              "settings": {
-                "image_height": 50,
-                "link": "",
-                "open_in_new_window": false
-              },
-              "blocks": {}
-            },
             "empty_space_aRAgKg": {
               "type": "empty-space",
               "name": "t:theme_blocks.empty-space.name",
@@ -1561,7 +1221,6 @@
             }
           },
           "block_order": [
-            "image_i4nR3E",
             "empty_space_aRAgKg",
             "heading_fwFkBc",
             "empty_space_7Azeyw",
@@ -1586,16 +1245,6 @@
             "color_hide_shadow": false
           },
           "blocks": {
-            "image_bgWYwa": {
-              "type": "image",
-              "name": "t:local-260.labels.image",
-              "settings": {
-                "image_height": 50,
-                "link": "",
-                "open_in_new_window": false
-              },
-              "blocks": {}
-            },
             "empty_space_HbMJAC": {
               "type": "empty-space",
               "name": "t:theme_blocks.empty-space.name",
@@ -1635,7 +1284,6 @@
             }
           },
           "block_order": [
-            "image_bgWYwa",
             "empty_space_HbMJAC",
             "heading_emFgjz",
             "empty_space_PM4fXR",
@@ -1895,7 +1543,7 @@
         "section_background_gradient": "",
         "section_heading_color": "rgba(0,0,0,0)",
         "descrease_margin": false,
-        "remove_margin": true,
+        "remove_margin": false,
         "seo_h_tag": "h2",
         "section_visibility": "always"
       }
@@ -2195,8 +1843,6 @@
     "featured_collection_iFn6JD",
     "flex_cards_carousel_tJx4e7",
     "marquee_eWd8Cz",
-    "text_columns_images_f9CPRN",
-    "flex_cards_LdbaxY",
     "flex_grid_CGwnnL",
     "flex_grid_wc7iyy",
     "flex_slideshow_JarqzM",
