@@ -236,6 +236,86 @@
         "section_visibility": "always"
       }
     },
+    "flex_cards_carousel_tJx4e7": {
+      "type": "flex-cards-carousel",
+      "blocks": {
+        "card_nqEUHE": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_04_53_PM.png",
+            "column_desktop": 4,
+            "hide_on_mobile": false,
+            "color_background_main": "#006828",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          }
+        },
+        "card_TeUHLr": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8882.webp",
+            "column_desktop": 4,
+            "hide_on_mobile": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          }
+        },
+        "card_Bwy9zQ": {
+          "type": "card",
+          "settings": {
+            "column_desktop": 4,
+            "hide_on_mobile": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          }
+        }
+      },
+      "block_order": [
+        "card_nqEUHE",
+        "card_TeUHLr",
+        "card_Bwy9zQ"
+      ],
+      "name": "Flex Cards Carousel",
+      "settings": {
+        "heading": "Promotion cards",
+        "subheading": "Share your best offers",
+        "section_heading_layout": "section-heading--left",
+        "cards_per_view": 3,
+        "cards_per_view_mobile": 1,
+        "cards_gap": 20,
+        "show_dots": true,
+        "autoplay": true,
+        "autoplay_speed": 5000,
+        "image_height_desktop": 300,
+        "is_autoheight": true,
+        "image_height_mobile": 200,
+        "hide_media": false,
+        "text_alignment": "left",
+        "spacing": "xsmall",
+        "gutter_size": "regular",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
+      }
+    },
     "marquee_eWd8Cz": {
       "type": "marquee",
       "blocks": {
@@ -2095,86 +2175,6 @@
         "form_enable": false,
         "form_title": "Couldn't find an answer? Ask!",
         "seo_h_tag": "h2"
-      }
-    },
-    "flex_cards_carousel_tJx4e7": {
-      "type": "flex-cards-carousel",
-      "blocks": {
-        "card_nqEUHE": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_04_53_PM.png",
-            "column_desktop": 4,
-            "hide_on_mobile": false,
-            "color_background_main": "#006828",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "rgba(0,0,0,0)",
-            "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": false,
-            "color_hide_shadow": false
-          }
-        },
-        "card_TeUHLr": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/IMG_8882.webp",
-            "column_desktop": 4,
-            "hide_on_mobile": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "rgba(0,0,0,0)",
-            "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": false,
-            "color_hide_shadow": false
-          }
-        },
-        "card_Bwy9zQ": {
-          "type": "card",
-          "settings": {
-            "column_desktop": 4,
-            "hide_on_mobile": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "rgba(0,0,0,0)",
-            "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": false,
-            "color_hide_shadow": false
-          }
-        }
-      },
-      "block_order": [
-        "card_nqEUHE",
-        "card_TeUHLr",
-        "card_Bwy9zQ"
-      ],
-      "name": "Flex Cards Carousel",
-      "settings": {
-        "heading": "Promotion cards",
-        "subheading": "Share your best offers",
-        "section_heading_layout": "section-heading--left",
-        "cards_per_view": 3,
-        "cards_per_view_mobile": 1,
-        "cards_gap": 20,
-        "show_dots": true,
-        "autoplay": false,
-        "autoplay_speed": 5000,
-        "image_height_desktop": 300,
-        "is_autoheight": true,
-        "image_height_mobile": 200,
-        "hide_media": false,
-        "text_alignment": "left",
-        "spacing": "xsmall",
-        "gutter_size": "regular",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "descrease_margin": false,
-        "remove_margin": false,
-        "seo_h_tag": "h2",
-        "section_visibility": "always"
       }
     }
   },
