@@ -312,7 +312,7 @@
         "show_dots": true,
         "autoplay": true,
         "autoplay_speed": 5000,
-        "image_height_desktop": 360,
+        "image_height_desktop": 500,
         "is_autoheight": true,
         "image_height_mobile": 200,
         "hide_media": false,
