@@ -331,6 +331,8 @@
         "cards_per_view_mobile": 1,
         "cards_gap": 20,
         "show_dots": true,
+        "show_arrows": false,
+        "full_width": true,
         "autoplay": true,
         "autoplay_speed": 5000,
         "image_height_desktop": 340,
