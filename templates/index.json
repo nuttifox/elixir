@@ -111,12 +111,12 @@
                   "type": "button",
                   "settings": {
                     "button_label": "Buy Elixir",
-                    "link": "",
+                    "link": "shopify://collections/all",
                     "open_in_new_window": false,
                     "button_size": "large",
                     "button_style": "solid",
-                    "color_text_buttons": "#f6ce71",
-                    "color_accent_buttons": "#61482e"
+                    "color_text_buttons": "#ffa001",
+                    "color_accent_buttons": "#00cf00"
                   },
                   "blocks": {}
                 },
