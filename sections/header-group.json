@@ -59,7 +59,7 @@
         "mega_menu_TmthEz": {
           "type": "mega-menu",
           "settings": {
-            "menu_handle": "mega",
+            "menu_handle": "products",
             "show_menu_images": true,
             "show_promotion_block": true,
             "promotion_title": "Great promotion",
