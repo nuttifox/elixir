@@ -59,7 +59,7 @@
         "mega_menu_drnthx": {
           "type": "mega-menu",
           "settings": {
-            "menu_handle": "products",
+            "menu_handle": "main-menu",
             "show_menu_images": true,
             "show_promotion_block": false,
             "promotion_title": "Great promotion",
@@ -81,7 +81,7 @@
         "logo_src": "shopify://shop_images/ElixirLogo.svg",
         "logo_height": 50,
         "logo_mobile_height": 28,
-        "main_linklist": "products",
+        "main_linklist": "main-menu",
         "show_search": true,
         "sticky_header": true,
         "header_absolute_homepage": false,
