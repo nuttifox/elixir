@@ -277,6 +277,25 @@
             "color_hide_shadow": false
           }
         },
+        "card_kpBxif": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_22_2025_11_16_10_PM.png",
+            "heading": "Peppermint",
+            "text": "Card description text",
+            "button_label": "",
+            "link": "",
+            "column_desktop": 2,
+            "hide_on_mobile": false,
+            "color_background_main": "#3e3328",
+            "color_text_main": "#ffffff",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          }
+        },
         "card_TeUHLr": {
           "type": "card",
           "settings": {
@@ -293,6 +312,24 @@
             "color_borders_main": "rgba(0,0,0,0)",
             "color_shadow_main": "rgba(0,0,0,0)",
             "color_hide_borders": true,
+            "color_hide_shadow": false
+          }
+        },
+        "card_UmLwii": {
+          "type": "card",
+          "settings": {
+            "heading": "Apple Cider Vinegar",
+            "text": "Card description text",
+            "button_label": "",
+            "link": "",
+            "column_desktop": 2,
+            "hide_on_mobile": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
             "color_hide_shadow": false
           }
         },
@@ -319,7 +356,9 @@
       "block_order": [
         "card_YcDeap",
         "card_nqEUHE",
+        "card_kpBxif",
         "card_TeUHLr",
+        "card_UmLwii",
         "card_Bwy9zQ"
       ],
       "name": "Flex Cards Carousel",
