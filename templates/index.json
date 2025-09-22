@@ -280,14 +280,14 @@
         "card_Bwy9zQ": {
           "type": "card",
           "settings": {
-            "heading": "Card heading",
+            "heading": "Ginger",
             "text": "Card description text",
             "button_label": "",
             "link": "",
             "column_desktop": 4,
             "hide_on_mobile": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
+            "color_background_main": "#e7ae3d",
+            "color_text_main": "#ffffff",
             "color_accent_main": "rgba(0,0,0,0)",
             "color_borders_main": "rgba(0,0,0,0)",
             "color_shadow_main": "rgba(0,0,0,0)",
@@ -443,240 +443,6 @@
         "color_shadow_main": "rgba(0,0,0,0)",
         "color_hide_borders": false,
         "color_hide_shadow": false,
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "descrease_margin": false,
-        "remove_margin": false,
-        "seo_h_tag": "h2",
-        "section_visibility": "always"
-      }
-    },
-    "flex_cards_LdbaxY": {
-      "type": "flex-cards",
-      "blocks": {
-        "card_p8qpFx": {
-          "type": "_card",
-          "settings": {
-            "column_desktop": 4,
-            "hide_on_mobile": false,
-            "color_background_main": "#c47a43",
-            "color_text_main": "#ffffff",
-            "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "rgba(0,0,0,0)",
-            "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true,
-            "color_hide_shadow": false
-          },
-          "blocks": {
-            "caption_8MLcVj": {
-              "type": "caption",
-              "settings": {
-                "caption": "<strong> 20g</strong>",
-                "text_size": "small",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
-            "heading_DJDCfL": {
-              "type": "heading",
-              "settings": {
-                "heading": "Turmeric",
-                "title_size": "h3",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
-              },
-              "blocks": {}
-            },
-            "empty_space_7WLK8j": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "button_3U7EBn": {
-              "type": "button",
-              "name": "t:sections.rich-text.blocks.button.name",
-              "settings": {
-                "button_label": "Explore now",
-                "link": "",
-                "open_in_new_window": false,
-                "button_size": "regular",
-                "button_style": "outline",
-                "color_text_buttons": "rgba(0,0,0,0)",
-                "color_accent_buttons": "#ffffff"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "caption_8MLcVj",
-            "heading_DJDCfL",
-            "empty_space_7WLK8j",
-            "button_3U7EBn"
-          ]
-        },
-        "card_BGPJH9": {
-          "type": "_card",
-          "settings": {
-            "column_desktop": 4,
-            "hide_on_mobile": false,
-            "color_background_main": "#5e9c78",
-            "color_text_main": "#ffffff",
-            "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "rgba(0,0,0,0)",
-            "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true,
-            "color_hide_shadow": false
-          },
-          "blocks": {
-            "caption_VHcMkH": {
-              "type": "caption",
-              "settings": {
-                "caption": "Organic",
-                "text_size": "small",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
-            "heading_hF76Hx": {
-              "type": "heading",
-              "settings": {
-                "heading": "Black Pepper",
-                "title_size": "h3",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
-              },
-              "blocks": {}
-            },
-            "empty_space_yDfBgF": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "button_zrGPdF": {
-              "type": "button",
-              "name": "t:sections.rich-text.blocks.button.name",
-              "settings": {
-                "button_label": "Explore now",
-                "link": "",
-                "open_in_new_window": false,
-                "button_size": "regular",
-                "button_style": "outline",
-                "color_text_buttons": "rgba(0,0,0,0)",
-                "color_accent_buttons": "#ffffff"
-              },
-              "blocks": {}
-            },
-            "empty_space_a6y6NM": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "caption_VHcMkH",
-            "heading_hF76Hx",
-            "empty_space_yDfBgF",
-            "button_zrGPdF",
-            "empty_space_a6y6NM"
-          ]
-        },
-        "card_DGDGMg": {
-          "type": "_card",
-          "settings": {
-            "column_desktop": 4,
-            "hide_on_mobile": false,
-            "color_background_main": "#e7ae3d",
-            "color_text_main": "#ffffff",
-            "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "rgba(0,0,0,0)",
-            "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true,
-            "color_hide_shadow": false
-          },
-          "blocks": {
-            "caption_EHCgTL": {
-              "type": "caption",
-              "settings": {
-                "caption": "7 Genius Adaptogens",
-                "text_size": "regular",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
-            "heading_iYH8Yc": {
-              "type": "heading",
-              "settings": {
-                "heading": "Ginger",
-                "title_size": "h3",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
-              },
-              "blocks": {}
-            },
-            "empty_space_9PBmJm": {
-              "type": "empty-space",
-              "name": "t:theme_blocks.empty-space.name",
-              "settings": {
-                "height": "0"
-              },
-              "blocks": {}
-            },
-            "button_N3dxA6": {
-              "type": "button",
-              "name": "t:sections.rich-text.blocks.button.name",
-              "settings": {
-                "button_label": "Explore now",
-                "link": "",
-                "open_in_new_window": false,
-                "button_size": "regular",
-                "button_style": "outline",
-                "color_text_buttons": "rgba(0,0,0,0)",
-                "color_accent_buttons": "#ffffff"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "caption_EHCgTL",
-            "heading_iYH8Yc",
-            "empty_space_9PBmJm",
-            "button_N3dxA6"
-          ]
-        }
-      },
-      "block_order": [
-        "card_p8qpFx",
-        "card_BGPJH9",
-        "card_DGDGMg"
-      ],
-      "name": "t:flex-cards.header",
-      "settings": {
-        "heading": "Only the best Ingredients make",
-        "subheading": "Super foods packed in every shot",
-        "section_heading_layout": "section-heading--center",
-        "image_height_desktop": 300,
-        "is_autoheight": true,
-        "image_height_mobile": 200,
-        "hide_media": false,
-        "text_alignment": "center",
-        "spacing": "small",
-        "gutter_size": "large",
         "section_background_color": "rgba(0,0,0,0)",
         "section_background_gradient": "",
         "section_heading_color": "rgba(0,0,0,0)",
@@ -1895,7 +1661,7 @@
         "section_background_gradient": "",
         "section_heading_color": "rgba(0,0,0,0)",
         "descrease_margin": false,
-        "remove_margin": true,
+        "remove_margin": false,
         "seo_h_tag": "h2",
         "section_visibility": "always"
       }
@@ -2196,7 +1962,6 @@
     "flex_cards_carousel_tJx4e7",
     "marquee_eWd8Cz",
     "text_columns_images_f9CPRN",
-    "flex_cards_LdbaxY",
     "flex_grid_CGwnnL",
     "flex_grid_wc7iyy",
     "flex_slideshow_JarqzM",

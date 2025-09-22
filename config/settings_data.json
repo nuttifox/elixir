@@ -88,10 +88,48 @@
     "theme_preset": "Thrive",
     "social_instagram": "https://www.instagram.com/elixirshots/",
     "social_youtube": "https://www.youtube.com/channel/UCHzVoZc0Fjbry17I663jYzA",
+    "content_for_layout": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "mega-menu-0": {
+            "type": "mega-menu",
+            "settings": {
+              "menu_handle": "products",
+              "show_menu_images": false,
+              "show_promotion_block": false
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-0"
+        ],
+        "settings": {
+          "main_linklist": "products",
+          "show_search": true,
+          "show_header_actions": true
+        }
+      }
+    },
     "sections": {
       "popups": {
         "type": "popups",
         "blocks": {
+          "newsletter_dFx6W9": {
+            "type": "newsletter",
+            "settings": {
+              "enable": true,
+              "visibility": "all",
+              "show_after": 45,
+              "show_after_scroll": true,
+              "page_offset": 50,
+              "show_repeat": "once",
+              "title": "10% Off",
+              "content": "<p>Subscribe and save <strong>10% off</strong> your first order</p>",
+              "popup_bgcolor": "#111111",
+              "popup_txtcolor": "#ffffff"
+            }
+          },
           "popups-0": {
             "type": "cookies",
             "settings": {
@@ -101,6 +139,7 @@
           }
         },
         "block_order": [
+          "newsletter_dFx6W9",
           "popups-0"
         ],
         "settings": {
@@ -183,30 +222,7 @@
     },
     "content_for_index": [
       "header"
-    ],
-    "content_for_layout": {
-      "header": {
-        "type": "header",
-        "blocks": {
-          "mega-menu-0": {
-            "type": "mega-menu",
-            "settings": {
-              "menu_handle": "products",
-              "show_menu_images": false,
-              "show_promotion_block": false
-            }
-          }
-        },
-        "block_order": [
-          "mega-menu-0"
-        ],
-        "settings": {
-          "main_linklist": "products",
-          "show_search": true,
-          "show_header_actions": true
-        }
-      }
-    }
+    ]
   },
   "installed_preset_name": "Thrive",
   "presets": {

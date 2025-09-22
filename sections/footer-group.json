@@ -17,6 +17,7 @@
         "grid_text_jrxVjB": {
           "type": "_grid-text",
           "settings": {
+            "video": "shopify://files/videos/Generated File September 17, 2025 - 5_21PM.mp4",
             "link": "",
             "open_in_new_window": false,
             "alignment": "horizontal-center align-content--vertical-middle",
@@ -89,8 +90,8 @@
       ],
       "name": "t:sections-categories.presets.fullwidth_media_with_text",
       "settings": {
-        "heading": "Promotion cards",
-        "subheading": "Share your best offers",
+        "heading": "",
+        "subheading": "",
         "section_heading_layout": "section-heading--left",
         "card_height": 10,
         "card_height_mobile": 3,
@@ -155,7 +156,7 @@
         "layout": "grid-4 grid-portable-2 grid-lap-1",
         "show_locale_selector": true,
         "show_country_selector": false,
-        "remove_margin": false,
+        "remove_margin": true,
         "seo_h_tag": "h4"
       }
     }
