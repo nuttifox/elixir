@@ -9,7 +9,7 @@
 
     {%- render 'section-heading', heading: section.settings.heading, subheading: section.settings.subheading, heading_tag: section.settings.seo_h_tag, layout: section.settings.section_heading_layout -%}
     
-    <div class="flex-cards-carousel" 
+    <div class="flex-cards-carousel{% if section.settings.is_autoheight %} auto-height{% endif %}" 
          data-section="flex-cards-carousel"
          data-autoplay="{{ section.settings.autoplay }}"
          data-autoplay-speed="{{ section.settings.autoplay_speed }}"
@@ -48,42 +48,16 @@
 
                   {%- unless video_url != blank -%}
                     {%- unless block.settings.image == blank -%}
-                      {%- liquid
-                        assign block_index = section.blocks | find_index: 'id', block.id
-                        if section.index == 1 and block_index < 2
-                          assign preload = true
-                        else
-                          assign preload = false
-                        endif
-                      -%}
-
-                      {%- capture sizes -%}
-                        sizes="
-                          (max-width: 767px) 
-                            {% if section.settings.is_autoheight %}
-                              calc(100vw - 20px)
-                            {% else %}
-                              calc({{ image_height_mobile }}px * {{ aspect_ratio }})
-                            {% endif %},
-                          (max-width: {{ settings.theme_max_width }}px) 
-                            calc(({{ settings.theme_max_width }}px - 30px) / 12 * {{ column_desktop }}),
-                          calc({{ settings.theme_max_width }}px / 12 * {{ column_desktop }})
-                        "
-                      {%- endcapture -%}
-
-                      {%- render 'lazy-image',
-                        image: block.settings.image,
-                        sizes: sizes,
-                        type: 'background',
-                        alt: block.settings.image.alt,
-                        aspect_ratio: aspect_ratio,
-                        image_alignment: true,
-                        id: block.id,
-                        preload: preload
-                      -%}
-
+                      <img 
+                        src="{{ block.settings.image | image_url: width: 400 }}"
+                        alt="{{ block.settings.image.alt | escape }}"
+                        width="{{ block.settings.image.width }}"
+                        height="{{ block.settings.image.height }}"
+                        loading="lazy"
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                      >
                     {%- else -%}
-                      {{ 'image' | placeholder_svg_tag }}
+                      {{ 'image' | placeholder_svg_tag: class: 'placeholder-svg' }}
                     {%- endunless -%}
 
                   {%- else -%}
@@ -156,11 +130,11 @@
         <div class="carousel-controls">
           <button class="carousel-button carousel-button--prev" data-carousel-prev aria-label="Previous cards">
             <span class="visually-hidden">Previous</span>
-            {%- render 'theme-symbols', icon: 'chevron' -%}
+            <span class="carousel-button-icon">‹</span>
           </button>
           <button class="carousel-button carousel-button--next" data-carousel-next aria-label="Next cards">
             <span class="visually-hidden">Next</span>
-            {%- render 'theme-symbols', icon: 'chevron' -%}
+            <span class="carousel-button-icon">›</span>
           </button>
         </div>
         
@@ -208,6 +182,8 @@
   #shopify-section-{{ section.id }} .flex-cards-carousel {
     --cards-per-view: {{ section.settings.cards_per_view }};
     --cards-gap: {{ section.settings.cards_gap }}px;
+    --image-height-desktop: {{ section.settings.image_height_desktop }}px;
+    --image-height-mobile: {{ section.settings.image_height_mobile }}px;
   }
   
   @media screen and (max-width: 767px) {
