@@ -27,30 +27,30 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "2",
-            "color_background_main": "rgba(0,0,0,0)",
+            "color_background_main": "#5e9c78",
             "color_text_main": "rgba(0,0,0,0)",
             "color_hide_borders": true,
             "color_hide_shadow": true
           },
           "blocks": {
-            "caption_ienFNF": {
-              "type": "caption",
-              "settings": {
-                "caption": "Introducing",
-                "text_size": "regular",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
             "heading_Nfi8Bg": {
               "type": "heading",
               "settings": {
-                "heading": "Your best promotion yet",
+                "heading": "What makes Elixir so effective?",
                 "title_size": "h2",
                 "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
+                "text_color": "#ffffff",
                 "seo_h_tag": "span"
+              },
+              "blocks": {}
+            },
+            "caption_ienFNF": {
+              "type": "caption",
+              "settings": {
+                "caption": "Our formulation process unlocks powerful results you can feel",
+                "text_size": "regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "#ffffff"
               },
               "blocks": {}
             },
@@ -78,8 +78,8 @@
             }
           },
           "block_order": [
-            "caption_ienFNF",
             "heading_Nfi8Bg",
+            "caption_ienFNF",
             "empty_space_kj3aMz",
             "button_8cqPjB"
           ]
