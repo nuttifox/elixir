@@ -66,13 +66,13 @@
               "type": "button",
               "name": "t:sections.rich-text.blocks.button.name",
               "settings": {
-                "button_label": "Button label",
-                "link": "",
+                "button_label": "Shop Elixir",
+                "link": "shopify://collections/all",
                 "open_in_new_window": false,
-                "button_size": "regular",
-                "button_style": "outline",
+                "button_size": "large",
+                "button_style": "solid",
                 "color_text_buttons": "rgba(0,0,0,0)",
-                "color_accent_buttons": "rgba(0,0,0,0)"
+                "color_accent_buttons": "#e7ae3d"
               },
               "blocks": {}
             }
