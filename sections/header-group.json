@@ -59,7 +59,7 @@
         "mega_menu_TmthEz": {
           "type": "mega-menu",
           "settings": {
-            "menu_handle": "Shop Now",
+            "menu_handle": "main-menu",
             "show_menu_images": true,
             "show_promotion_block": true,
             "promotion_title": "Great promotion",
@@ -70,7 +70,8 @@
             "promotion_button_size": "regular",
             "promotion_button_link": "",
             "promotion_color_txt": "#000000",
-            "promotion_color_bg": "#f3f3f3"
+            "promotion_color_bg": "#f3f3f3",
+            "promotion_image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png"
           }
         }
       },
