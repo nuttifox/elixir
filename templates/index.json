@@ -242,15 +242,19 @@
         "card_nqEUHE": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_04_53_PM.png",
-            "column_desktop": 4,
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_22_2025_09_56_52_PM.png",
+            "heading": "Turmeric",
+            "text": "Card description text",
+            "button_label": "",
+            "link": "",
+            "column_desktop": 2,
             "hide_on_mobile": false,
-            "color_background_main": "#006828",
-            "color_text_main": "rgba(0,0,0,0)",
+            "color_background_main": "#c47a43",
+            "color_text_main": "#ffffff",
             "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "rgba(0,0,0,0)",
+            "color_borders_main": "#c47a43",
             "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": false,
+            "color_hide_borders": true,
             "color_hide_shadow": false
           }
         },
@@ -258,6 +262,10 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/IMG_8882.webp",
+            "heading": "Card heading",
+            "text": "Card description text",
+            "button_label": "",
+            "link": "",
             "column_desktop": 4,
             "hide_on_mobile": false,
             "color_background_main": "rgba(0,0,0,0)",
@@ -272,6 +280,10 @@
         "card_Bwy9zQ": {
           "type": "card",
           "settings": {
+            "heading": "Card heading",
+            "text": "Card description text",
+            "button_label": "",
+            "link": "",
             "column_desktop": 4,
             "hide_on_mobile": false,
             "color_background_main": "rgba(0,0,0,0)",
@@ -291,8 +303,8 @@
       ],
       "name": "Flex Cards Carousel",
       "settings": {
-        "heading": "Promotion cards",
-        "subheading": "Share your best offers",
+        "heading": "Only the best Ingredients make",
+        "subheading": "Super foods packed in every shot",
         "section_heading_layout": "section-heading--left",
         "cards_per_view": 3,
         "cards_per_view_mobile": 1,
@@ -300,7 +312,7 @@
         "show_dots": true,
         "autoplay": true,
         "autoplay_speed": 5000,
-        "image_height_desktop": 300,
+        "image_height_desktop": 360,
         "is_autoheight": true,
         "image_height_mobile": 200,
         "hide_media": false,
