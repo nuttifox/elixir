@@ -329,7 +329,7 @@
         "section_heading_layout": "section-heading--left",
         "cards_per_view": 4,
         "cards_per_view_mobile": 1,
-        "cards_gap": 20,
+        "cards_gap": 40,
         "show_dots": true,
         "show_arrows": false,
         "full_width": true,
