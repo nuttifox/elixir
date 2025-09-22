@@ -327,7 +327,7 @@
         "heading": "Only the best Ingredients make",
         "subheading": "Super foods packed in every shot",
         "section_heading_layout": "section-heading--left",
-        "cards_per_view": 3,
+        "cards_per_view": 4,
         "cards_per_view_mobile": 1,
         "cards_gap": 20,
         "show_dots": true,
