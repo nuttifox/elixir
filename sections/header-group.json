@@ -45,10 +45,10 @@
         "content"
       ],
       "settings": {
-        "visibility": "all",
+        "visibility": "homepage",
         "show_locale_selector": false,
         "show_country_selector": false,
-        "show_social_icons": true,
+        "show_social_icons": false,
         "bar_bgcolor": "#006828",
         "bar_txtcolor": "#ffffff"
       }
