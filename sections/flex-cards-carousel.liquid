@@ -126,7 +126,7 @@
         </div>
       </div>
       
-      {%- if section.blocks.size > 1 -%}
+      {%- if section.blocks.size > 1 and section.settings.show_arrows -%}
         <div class="carousel-controls">
           <button class="carousel-button carousel-button--prev" data-carousel-prev aria-label="Previous cards">
             <span class="visually-hidden">Previous</span>
@@ -137,6 +137,7 @@
             <span class="carousel-button-icon">›</span>
           </button>
         </div>
+      {%- endif -%}
         
         {%- if section.settings.show_dots -%}
           <div class="carousel-dots" data-carousel-dots>
@@ -378,6 +379,12 @@
         "type": "checkbox",
         "id": "show_dots",
         "label": "Show navigation dots",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show_arrows",
+        "label": "Show navigation arrows",
         "default": true
       },
       {
@@ -643,6 +650,7 @@
           "cards_per_view_mobile":1,
           "cards_gap":20,
           "show_dots":true,
+          "show_arrows":true,
           "autoplay":false,
           "image_height_desktop":300,
           "image_height_mobile":200,
