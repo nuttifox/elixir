@@ -1439,7 +1439,7 @@
         "columns": "3",
         "scroll_direction": "ltr",
         "speed": 70,
-        "pause_on_hover": true,
+        "pause_on_hover": false,
         "image_alignment": "top",
         "border_radius": 10,
         "remove_inner_padding": false,
