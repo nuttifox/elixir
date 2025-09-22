@@ -9,7 +9,7 @@
 
     {%- render 'section-heading', heading: section.settings.heading, subheading: section.settings.subheading, heading_tag: section.settings.seo_h_tag, layout: section.settings.section_heading_layout -%}
     
-    <div class="flex-cards-carousel{% if section.settings.is_autoheight %} auto-height{% endif %}" 
+    <div class="flex-cards-carousel{% if section.settings.is_autoheight %} auto-height{% endif %}{% if section.settings.full_width %} full-width{% endif %}" 
          data-section="flex-cards-carousel"
          data-autoplay="{{ section.settings.autoplay }}"
          data-autoplay-speed="{{ section.settings.autoplay_speed }}"
@@ -389,6 +389,13 @@
       },
       {
         "type": "checkbox",
+        "id": "full_width",
+        "label": "Full width carousel",
+        "info": "Allow carousel to extend beyond container boundaries",
+        "default": false
+      },
+      {
+        "type": "checkbox",
         "id": "autoplay",
         "label": "Autoplay carousel",
         "default": false
@@ -651,6 +658,7 @@
           "cards_gap":20,
           "show_dots":true,
           "show_arrows":true,
+          "full_width":false,
           "autoplay":false,
           "image_height_desktop":300,
           "image_height_mobile":200,

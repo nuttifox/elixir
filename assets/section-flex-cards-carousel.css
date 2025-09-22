@@ -4,6 +4,36 @@
   overflow: hidden;
 }
 
+/* Full width carousel - break out of container */
+.flex-cards-carousel.full-width {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  max-width: none;
+}
+
+/* Ensure full width carousel doesn't break layout */
+.flex-cards-carousel.full-width .carousel-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Adjust navigation controls for full width */
+.flex-cards-carousel.full-width .carousel-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.flex-cards-carousel.full-width .carousel-button--prev {
+  left: 20px;
+}
+
+.flex-cards-carousel.full-width .carousel-button--next {
+  right: 20px;
+}
+
 .carousel-container {
   overflow: hidden;
   position: relative;
