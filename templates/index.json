@@ -347,7 +347,7 @@
         "text_WkwrzA": {
           "type": "text",
           "settings": {
-            "marquee_text": "Certfified"
+            "marquee_text": "Certified"
           }
         },
         "text_y46AVm": {
@@ -369,87 +369,12 @@
         "speed": 70,
         "pause_on_hover": false,
         "horizontal_space": "0.7",
-        "text_size": "150",
+        "text_size": "100",
         "remove_top_margin": false,
         "remove_bottom_margin": false,
         "color_background_main": "#006828",
         "section_background_gradient": "",
         "color_text_main": "#dfd5ca",
-        "section_visibility": "always"
-      }
-    },
-    "text_columns_images_f9CPRN": {
-      "type": "text-columns-images",
-      "blocks": {
-        "image_yxD7Aa": {
-          "type": "image",
-          "settings": {
-            "title": "Turmeric",
-            "caption": "Useful information about your shipping details",
-            "link": "",
-            "open_in_new_window": false,
-            "seo_h_tag": "h3"
-          }
-        },
-        "image_9cCrp3": {
-          "type": "image",
-          "settings": {
-            "title": "Black Pepper",
-            "caption": "Show how much time customers have for testing your products",
-            "link": "",
-            "open_in_new_window": false,
-            "seo_h_tag": "h3"
-          }
-        },
-        "image_efedJW": {
-          "type": "image",
-          "settings": {
-            "title": "Ginger",
-            "caption": "Let your customers know about local pickup",
-            "link": "",
-            "open_in_new_window": false,
-            "seo_h_tag": "h3"
-          }
-        },
-        "image_CWbTza": {
-          "type": "image",
-          "settings": {
-            "title": "Brand",
-            "caption": "Write your brand story and journey",
-            "link": "",
-            "open_in_new_window": false,
-            "seo_h_tag": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "image_yxD7Aa",
-        "image_9cCrp3",
-        "image_efedJW",
-        "image_CWbTza"
-      ],
-      "name": "t:sections.text-columns-with-images.name",
-      "settings": {
-        "heading": "Only the best Ingredients make",
-        "subheading": "Super foods packed in every shot",
-        "section_heading_layout": "section-heading--center",
-        "style": "slider",
-        "layout": "grid-4 grid-portable-3 grid-lap-2",
-        "border_radius": 200,
-        "inherit_card_design": false,
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_accent_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_shadow_main": "rgba(0,0,0,0)",
-        "color_hide_borders": false,
-        "color_hide_shadow": false,
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "descrease_margin": false,
-        "remove_margin": false,
-        "seo_h_tag": "h2",
         "section_visibility": "always"
       }
     },
@@ -1049,7 +974,7 @@
                   "type": "button",
                   "settings": {
                     "button_label": "LEARN MORE",
-                    "link": "",
+                    "link": "shopify://pages/ingredients",
                     "open_in_new_window": false,
                     "button_size": "regular",
                     "button_style": "outline",
@@ -1062,7 +987,7 @@
                   "type": "button",
                   "settings": {
                     "button_label": "BUY ELIXIR",
-                    "link": "",
+                    "link": "shopify://collections/all",
                     "open_in_new_window": false,
                     "button_size": "regular",
                     "button_style": "solid",
@@ -1131,16 +1056,6 @@
             "color_hide_shadow": false
           },
           "blocks": {
-            "image_CTT4Pd": {
-              "type": "image",
-              "name": "t:local-260.labels.image",
-              "settings": {
-                "image_height": 50,
-                "link": "",
-                "open_in_new_window": false
-              },
-              "blocks": {}
-            },
             "empty_space_AXiq4b": {
               "type": "empty-space",
               "name": "t:theme_blocks.empty-space.name",
@@ -1180,7 +1095,6 @@
             }
           },
           "block_order": [
-            "image_CTT4Pd",
             "empty_space_AXiq4b",
             "heading_9aYy3F",
             "empty_space_LcrbGY",
@@ -1205,16 +1119,6 @@
             "color_hide_shadow": false
           },
           "blocks": {
-            "image_eBXKbB": {
-              "type": "image",
-              "name": "t:local-260.labels.image",
-              "settings": {
-                "image_height": 50,
-                "link": "",
-                "open_in_new_window": false
-              },
-              "blocks": {}
-            },
             "empty_space_yyYxWT": {
               "type": "empty-space",
               "name": "t:theme_blocks.empty-space.name",
@@ -1254,7 +1158,6 @@
             }
           },
           "block_order": [
-            "image_eBXKbB",
             "empty_space_yyYxWT",
             "heading_QB4Lxr",
             "empty_space_FjXDc9",
@@ -1279,16 +1182,6 @@
             "color_hide_shadow": false
           },
           "blocks": {
-            "image_i4nR3E": {
-              "type": "image",
-              "name": "t:local-260.labels.image",
-              "settings": {
-                "image_height": 50,
-                "link": "",
-                "open_in_new_window": false
-              },
-              "blocks": {}
-            },
             "empty_space_aRAgKg": {
               "type": "empty-space",
               "name": "t:theme_blocks.empty-space.name",
@@ -1328,7 +1221,6 @@
             }
           },
           "block_order": [
-            "image_i4nR3E",
             "empty_space_aRAgKg",
             "heading_fwFkBc",
             "empty_space_7Azeyw",
@@ -1353,16 +1245,6 @@
             "color_hide_shadow": false
           },
           "blocks": {
-            "image_bgWYwa": {
-              "type": "image",
-              "name": "t:local-260.labels.image",
-              "settings": {
-                "image_height": 50,
-                "link": "",
-                "open_in_new_window": false
-              },
-              "blocks": {}
-            },
             "empty_space_HbMJAC": {
               "type": "empty-space",
               "name": "t:theme_blocks.empty-space.name",
@@ -1402,7 +1284,6 @@
             }
           },
           "block_order": [
-            "image_bgWYwa",
             "empty_space_HbMJAC",
             "heading_emFgjz",
             "empty_space_PM4fXR",
@@ -1962,7 +1843,6 @@
     "featured_collection_iFn6JD",
     "flex_cards_carousel_tJx4e7",
     "marquee_eWd8Cz",
-    "text_columns_images_f9CPRN",
     "flex_grid_CGwnnL",
     "flex_grid_wc7iyy",
     "flex_slideshow_JarqzM",
