@@ -165,7 +165,7 @@
           "mega-menu-0": {
             "type": "mega-menu",
             "settings": {
-              "menu_handle": "mega-menu",
+              "menu_handle": "main-menu",
               "show_menu_images": false,
               "show_promotion_block": false
             }
@@ -175,6 +175,7 @@
           "mega-menu-0"
         ],
         "settings": {
+          "main_linklist": "products",
           "show_search": true,
           "show_header_actions": true
         }
