@@ -59,9 +59,9 @@
         "mega_menu_TmthEz": {
           "type": "mega-menu",
           "settings": {
-            "menu_handle": "",
-            "show_menu_images": false,
-            "show_promotion_block": false,
+            "menu_handle": "mega-menu",
+            "show_menu_images": true,
+            "show_promotion_block": true,
             "promotion_title": "Great promotion",
             "promotion_title_size": "text-size--xlarge",
             "promotion_subtitle": "Write all about it",
