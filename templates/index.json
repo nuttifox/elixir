@@ -239,6 +239,25 @@
     "flex_cards_carousel_tJx4e7": {
       "type": "flex-cards-carousel",
       "blocks": {
+        "card_YcDeap": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_22_2025_10_52_48_PM.png",
+            "heading": "Japanese Matcha",
+            "text": "Card description text",
+            "button_label": "",
+            "link": "",
+            "column_desktop": 2,
+            "hide_on_mobile": false,
+            "color_background_main": "#71c943",
+            "color_text_main": "#ffffff",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false
+          }
+        },
         "card_nqEUHE": {
           "type": "card",
           "settings": {
@@ -298,6 +317,7 @@
         }
       },
       "block_order": [
+        "card_YcDeap",
         "card_nqEUHE",
         "card_TeUHLr",
         "card_Bwy9zQ"
