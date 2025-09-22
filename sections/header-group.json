@@ -56,12 +56,12 @@
     "header": {
       "type": "header",
       "blocks": {
-        "mega_menu_TmthEz": {
+        "mega_menu_drnthx": {
           "type": "mega-menu",
           "settings": {
             "menu_handle": "products",
             "show_menu_images": true,
-            "show_promotion_block": true,
+            "show_promotion_block": false,
             "promotion_title": "Great promotion",
             "promotion_title_size": "text-size--xlarge",
             "promotion_subtitle": "Write all about it",
@@ -70,13 +70,12 @@
             "promotion_button_size": "regular",
             "promotion_button_link": "",
             "promotion_color_txt": "#000000",
-            "promotion_color_bg": "#f3f3f3",
-            "promotion_image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png"
+            "promotion_color_bg": "#f3f3f3"
           }
         }
       },
       "block_order": [
-        "mega_menu_TmthEz"
+        "mega_menu_drnthx"
       ],
       "settings": {
         "logo_src": "shopify://shop_images/ElixirLogo.svg",
