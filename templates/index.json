@@ -1481,7 +1481,7 @@
         "speed": 70,
         "pause_on_hover": false,
         "image_alignment": "top",
-        "border_radius": 10,
+        "border_radius": 12,
         "remove_inner_padding": false,
         "caption_alignment": "left",
         "section_background_color": "rgba(0,0,0,0)",
@@ -1499,6 +1499,7 @@
         "card_hKkCdn": {
           "type": "_card",
           "settings": {
+            "video": "shopify://files/videos/Generated File September 17, 2025 - 5_23PM.mp4",
             "column_desktop": 4,
             "hide_on_mobile": false,
             "color_background_main": "#ffffff",
@@ -1513,21 +1514,61 @@
             "caption_GtrdeJ": {
               "type": "caption",
               "settings": {
-                "caption": "<strong>Person Name</strong>",
+                "caption": "<strong>Influencer Name</strong>",
                 "text_size": "small",
                 "text_background_color": "rgba(0,0,0,0)",
                 "text_color": "rgba(0,0,0,0)"
               },
               "blocks": {}
+            },
+            "heading_aB83wy": {
+              "type": "heading",
+              "name": "t:local-march-update.labels.heading",
+              "settings": {
+                "heading": "Defence",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            },
+            "divider_yXam4G": {
+              "type": "divider",
+              "name": "t:divider.label",
+              "settings": {
+                "height": 1,
+                "width": "small",
+                "color": "#ffbd01",
+                "style": "solid"
+              },
+              "blocks": {}
+            },
+            "product_add_to_cart_button_MKj3U6": {
+              "type": "product-add-to-cart-button",
+              "name": "t:theme_blocks.product-add-to-cart-button.name",
+              "settings": {
+                "product": "defense",
+                "button_label": "Buy now",
+                "button_size": "small",
+                "button_style": "outline",
+                "color_text_buttons": "rgba(0,0,0,0)",
+                "color_accent_buttons": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "caption_GtrdeJ"
+            "caption_GtrdeJ",
+            "heading_aB83wy",
+            "divider_yXam4G",
+            "product_add_to_cart_button_MKj3U6"
           ]
         },
         "card_YHCnLy": {
           "type": "_card",
           "settings": {
+            "video": "shopify://files/videos/Generated File September 17, 2025 - 5_21PM.mp4",
             "column_desktop": 4,
             "hide_on_mobile": false,
             "color_background_main": "#ffffff",
@@ -1542,21 +1583,61 @@
             "caption_7Q8CKP": {
               "type": "caption",
               "settings": {
-                "caption": "<strong>Person Name</strong>",
+                "caption": "<strong>Influencer Name</strong>",
                 "text_size": "small",
                 "text_background_color": "rgba(0,0,0,0)",
                 "text_color": "rgba(0,0,0,0)"
               },
               "blocks": {}
+            },
+            "heading_WWqpLj": {
+              "type": "heading",
+              "name": "t:local-march-update.labels.heading",
+              "settings": {
+                "heading": "Endurance",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            },
+            "divider_XrrhwC": {
+              "type": "divider",
+              "name": "t:divider.label",
+              "settings": {
+                "height": 1,
+                "width": "small",
+                "color": "#ffbd4d",
+                "style": "solid"
+              },
+              "blocks": {}
+            },
+            "product_add_to_cart_button_AyF3MW": {
+              "type": "product-add-to-cart-button",
+              "name": "t:theme_blocks.product-add-to-cart-button.name",
+              "settings": {
+                "product": "endurance",
+                "button_label": "Buy now",
+                "button_size": "small",
+                "button_style": "outline",
+                "color_text_buttons": "rgba(0,0,0,0)",
+                "color_accent_buttons": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "caption_7Q8CKP"
+            "caption_7Q8CKP",
+            "heading_WWqpLj",
+            "divider_XrrhwC",
+            "product_add_to_cart_button_AyF3MW"
           ]
         },
         "card_EffgeK": {
           "type": "_card",
           "settings": {
+            "video": "shopify://files/videos/Generated File September 17, 2025 - 5_23PM.mp4",
             "column_desktop": 4,
             "hide_on_mobile": false,
             "color_background_main": "#ffffff",
@@ -1571,16 +1652,55 @@
             "caption_c3nkij": {
               "type": "caption",
               "settings": {
-                "caption": "<strong>Person Name</strong>",
+                "caption": "<strong>Influencer Name</strong>",
                 "text_size": "small",
                 "text_background_color": "rgba(0,0,0,0)",
                 "text_color": "rgba(0,0,0,0)"
               },
               "blocks": {}
+            },
+            "heading_dymhLf": {
+              "type": "heading",
+              "name": "t:local-march-update.labels.heading",
+              "settings": {
+                "heading": "Immunity",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            },
+            "divider_fRyz9B": {
+              "type": "divider",
+              "name": "t:divider.label",
+              "settings": {
+                "height": 1,
+                "width": "small",
+                "color": "#ffbd4d",
+                "style": "solid"
+              },
+              "blocks": {}
+            },
+            "product_add_to_cart_button_LBR6BE": {
+              "type": "product-add-to-cart-button",
+              "name": "t:theme_blocks.product-add-to-cart-button.name",
+              "settings": {
+                "product": "the-collection-snowboard-liquid",
+                "button_label": "Buy now",
+                "button_size": "small",
+                "button_style": "outline",
+                "color_text_buttons": "rgba(0,0,0,0)",
+                "color_accent_buttons": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "caption_c3nkij"
+            "caption_c3nkij",
+            "heading_dymhLf",
+            "divider_fRyz9B",
+            "product_add_to_cart_button_LBR6BE"
           ]
         }
       },
