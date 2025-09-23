@@ -1730,6 +1730,43 @@
         "section_visibility": "always"
       }
     },
+    "scrolling_images_QQTtyc": {
+      "type": "scrolling-images",
+      "blocks": {
+        "image_pFhKT4": {
+          "type": "image",
+          "settings": {
+            "image_caption": "",
+            "link": "",
+            "open_in_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "image_pFhKT4"
+      ],
+      "name": "t:sections.refactor_words.settings.scrolling_images.label",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "columns": "3",
+        "scroll_direction": "ltr",
+        "speed": 100,
+        "pause_on_hover": true,
+        "image_alignment": "top",
+        "border_radius": 0,
+        "remove_inner_padding": false,
+        "caption_alignment": "left",
+        "section_background_color": "#fffcf4",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
+      }
+    },
     "flex_grid_kyMmKY": {
       "type": "flex-grid",
       "blocks": {
@@ -2030,6 +2067,7 @@
     "flex_slideshow_JarqzM",
     "scrolling_images_i9G9B6",
     "flex_cards_nnPyb4",
+    "scrolling_images_QQTtyc",
     "flex_grid_kyMmKY",
     "content_toggles_x7TNce"
   ]
