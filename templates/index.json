@@ -1834,7 +1834,7 @@
       "settings": {
         "heading": "Which Elixir is right for you?",
         "subheading": "Super foods packed in every shot",
-        "section_heading_layout": "section-heading--left",
+        "section_heading_layout": "section-heading--center",
         "columns": "3",
         "scroll_direction": "ltr",
         "speed": 70,
