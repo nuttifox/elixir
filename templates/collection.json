@@ -11,7 +11,207 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "is_fullwidth": false,
+        "remove_bottom_margin": false
+      }
+    },
+    "flex_slideshow_4dW7y6": {
+      "type": "flex-slideshow",
+      "blocks": {
+        "slide_image_Tp8m9c": {
+          "type": "_slide-image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)"
+          },
+          "blocks": {
+            "image_ziwtaz": {
+              "type": "image",
+              "name": "t:sections.gallery.blocks.image.settings.image.label",
+              "settings": {
+                "image": "shopify://shop_images/ElixirLogo-White.svg",
+                "image_height": 80,
+                "link": "",
+                "open_in_new_window": false
+              },
+              "blocks": {}
+            },
+            "heading_YMxpyR": {
+              "type": "heading",
+              "settings": {
+                "heading": "Clinically-backed formulafor optimal support",
+                "title_size": "h4",
+                "line_height": "default",
+                "text_color": "#ffffff",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            },
+            "empty_space_cAT8FU": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "content_group_6U7M8Q": {
+              "type": "content-group",
+              "settings": {
+                "spacing": "small"
+              },
+              "blocks": {
+                "button_UGN8UK": {
+                  "type": "button",
+                  "settings": {
+                    "button_label": "Button label",
+                    "link": "",
+                    "open_in_new_window": false,
+                    "button_size": "regular",
+                    "button_style": "solid",
+                    "color_text_buttons": "#ffa001",
+                    "color_accent_buttons": "rgba(0,0,0,0)"
+                  },
+                  "blocks": {}
+                },
+                "button_z6mYBc": {
+                  "type": "button",
+                  "settings": {
+                    "button_label": "Take Quiz",
+                    "link": "",
+                    "open_in_new_window": false,
+                    "button_size": "regular",
+                    "button_style": "outline",
+                    "color_text_buttons": "#ffffff",
+                    "color_accent_buttons": "rgba(0,0,0,0)"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "button_UGN8UK",
+                "button_z6mYBc"
+              ]
+            }
+          },
+          "block_order": [
+            "image_ziwtaz",
+            "heading_YMxpyR",
+            "empty_space_cAT8FU",
+            "content_group_6U7M8Q"
+          ]
+        },
+        "slide_image_e4g8Fm": {
+          "type": "_slide-image",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)"
+          },
+          "blocks": {
+            "caption_BXJYKM": {
+              "type": "caption",
+              "settings": {
+                "caption": "INTRODUCING",
+                "text_size": "regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "heading_m3ryWQ": {
+              "type": "heading",
+              "settings": {
+                "heading": "Your best promotion yet",
+                "title_size": "h2",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            },
+            "content_group_jabFwD": {
+              "type": "content-group",
+              "settings": {
+                "spacing": "small"
+              },
+              "blocks": {
+                "button_TkxqLA": {
+                  "type": "button",
+                  "settings": {
+                    "button_label": "Button label",
+                    "link": "",
+                    "open_in_new_window": false,
+                    "button_size": "regular",
+                    "button_style": "solid",
+                    "color_text_buttons": "rgba(0,0,0,0)",
+                    "color_accent_buttons": "rgba(0,0,0,0)"
+                  },
+                  "blocks": {}
+                },
+                "button_QF7DmN": {
+                  "type": "button",
+                  "settings": {
+                    "button_label": "Button label",
+                    "link": "",
+                    "open_in_new_window": false,
+                    "button_size": "regular",
+                    "button_style": "outline",
+                    "color_text_buttons": "rgba(0,0,0,0)",
+                    "color_accent_buttons": "rgba(0,0,0,0)"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "button_TkxqLA",
+                "button_QF7DmN"
+              ]
+            }
+          },
+          "block_order": [
+            "caption_BXJYKM",
+            "heading_m3ryWQ",
+            "content_group_jabFwD"
+          ]
+        }
+      },
+      "block_order": [
+        "slide_image_Tp8m9c",
+        "slide_image_e4g8Fm"
+      ],
+      "name": "t:theme_blocks.sections.flex-slideshow.name",
+      "settings": {
+        "desktop_height": "40vh",
+        "mobile_height": "40vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "100",
+        "spacing": "large",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "color_hide_borders": false,
+        "color_hide_shadow": true,
+        "disable_parallax": false,
+        "section_visibility": "always"
+      }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
@@ -34,11 +234,22 @@
         "title",
         "quick_buy"
       ],
-      "settings": {}
+      "settings": {
+        "products_number": 24,
+        "enable_filtering": false,
+        "enable_sorting": false,
+        "filters_position": "top",
+        "expand_filters_bydefault": true,
+        "stick_sidebar_to_top": true,
+        "image_filter_layout": "onecolumn",
+        "layout_desktop": "five-columns",
+        "layout_mobile": "grid-palm-2"
+      }
     }
   },
   "order": [
     "banner",
+    "flex_slideshow_4dW7y6",
     "product-grid"
   ]
 }
