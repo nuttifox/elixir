@@ -17,6 +17,7 @@
         "grid_text_jrxVjB": {
           "type": "_grid-text",
           "settings": {
+            "video": "shopify://files/videos/Generated File September 17, 2025 - 5_21PM.mp4",
             "link": "",
             "open_in_new_window": false,
             "alignment": "horizontal-center align-content--vertical-middle",
@@ -115,7 +116,6 @@
           "settings": {
             "title": "",
             "size": "h4",
-            "image": "shopify://shop_images/ElixirLogo.svg",
             "image_size": 100,
             "content": "",
             "show_social_icons": true,
