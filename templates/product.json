@@ -77,6 +77,17 @@
           "type": "space",
           "settings": {}
         },
+        "product_siblings_K74HRz": {
+          "type": "product_siblings",
+          "settings": {
+            "heading": "The perfect set",
+            "products": [
+              "defense",
+              "endurance"
+            ],
+            "aspect_ratio": "0.83333"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -107,6 +118,7 @@
         "empty_space_2",
         "description",
         "empty_space_3",
+        "product_siblings_K74HRz",
         "share"
       ],
       "settings": {
