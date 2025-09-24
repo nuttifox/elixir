@@ -1383,90 +1383,239 @@
         "section_visibility": "always"
       }
     },
-    "scrolling_images_i9G9B6": {
-      "type": "scrolling-images",
+    "flex_cards_nnPyb4": {
+      "type": "flex-cards",
       "blocks": {
-        "image_VLT97F": {
-          "type": "image",
+        "card_hKkCdn": {
+          "type": "_card",
           "settings": {
-            "image": "shopify://shop_images/elixir-shots-wellness-shots-zenergy-42018759016661.webp",
-            "image_caption": "Zenergy",
-            "link": "shopify://products/zenergy",
-            "open_in_new_tab": false
-          }
+            "video": "shopify://files/videos/ebe22b-billo-142215-orig.mov",
+            "column_desktop": 4,
+            "hide_on_mobile": false,
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "#ffa001",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "caption_GtrdeJ": {
+              "type": "caption",
+              "settings": {
+                "caption": "<strong>Influencer Name</strong>",
+                "text_size": "small",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "heading_aB83wy": {
+              "type": "heading",
+              "name": "t:local-march-update.labels.heading",
+              "settings": {
+                "heading": "Zenergy",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            },
+            "divider_yXam4G": {
+              "type": "divider",
+              "name": "t:divider.label",
+              "settings": {
+                "height": 1,
+                "width": "small",
+                "color": "#ffbd01",
+                "style": "solid"
+              },
+              "blocks": {}
+            },
+            "product_add_to_cart_button_MKj3U6": {
+              "type": "product-add-to-cart-button",
+              "name": "t:theme_blocks.product-add-to-cart-button.name",
+              "settings": {
+                "product": "zenergy",
+                "button_label": "Buy now",
+                "button_size": "small",
+                "button_style": "outline",
+                "color_text_buttons": "rgba(0,0,0,0)",
+                "color_accent_buttons": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "caption_GtrdeJ",
+            "heading_aB83wy",
+            "divider_yXam4G",
+            "product_add_to_cart_button_MKj3U6"
+          ]
         },
-        "image_8DMcGp": {
-          "type": "image",
+        "card_YHCnLy": {
+          "type": "_card",
           "settings": {
-            "image": "shopify://shop_images/elixir-shots-wellness-shots-60-variety-pack-42018759377109.webp",
-            "image_caption": "Vitality",
-            "link": "shopify://products/vitality",
-            "open_in_new_tab": false
-          }
+            "video": "shopify://files/videos/8faeec-billo-152756-orig.mp4",
+            "column_desktop": 4,
+            "hide_on_mobile": false,
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "#ffa001",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "caption_7Q8CKP": {
+              "type": "caption",
+              "settings": {
+                "caption": "<strong>Influencer Name</strong>",
+                "text_size": "small",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "heading_WWqpLj": {
+              "type": "heading",
+              "name": "t:local-march-update.labels.heading",
+              "settings": {
+                "heading": "Immunity",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            },
+            "divider_XrrhwC": {
+              "type": "divider",
+              "name": "t:divider.label",
+              "settings": {
+                "height": 1,
+                "width": "small",
+                "color": "#ffbd4d",
+                "style": "solid"
+              },
+              "blocks": {}
+            },
+            "product_add_to_cart_button_AyF3MW": {
+              "type": "product-add-to-cart-button",
+              "name": "t:theme_blocks.product-add-to-cart-button.name",
+              "settings": {
+                "product": "immunity",
+                "button_label": "Buy now",
+                "button_size": "small",
+                "button_style": "outline",
+                "color_text_buttons": "rgba(0,0,0,0)",
+                "color_accent_buttons": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "caption_7Q8CKP",
+            "heading_WWqpLj",
+            "divider_XrrhwC",
+            "product_add_to_cart_button_AyF3MW"
+          ]
         },
-        "image_cTWd4p": {
-          "type": "image",
+        "card_EffgeK": {
+          "type": "_card",
           "settings": {
-            "image": "shopify://shop_images/elixir-shots-wellness-shot-mayan-43365078696149.webp",
-            "image_caption": "Mayan",
-            "link": "shopify://products/mayan-1",
-            "open_in_new_tab": false
-          }
-        },
-        "image_BbGyhQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/elixir-shots-wellness-shots-immunity-42018758787285.webp",
-            "image_caption": "Immunity",
-            "link": "shopify://products/immunity",
-            "open_in_new_tab": false
-          }
-        },
-        "image_XPMmP6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/elixir-shots-wellness-shots-endurance-42018758820053.webp",
-            "image_caption": "Endurance",
-            "link": "shopify://products/endurance",
-            "open_in_new_tab": false
-          }
-        },
-        "image_A7LP44": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/elixir-shots-wellness-shots-defense-43365073551573.webp",
-            "image_caption": "Defense",
-            "link": "shopify://products/defense-new",
-            "open_in_new_tab": false
-          }
+            "video": "shopify://files/videos/Elixir_Shots_video_original_339456.mp4",
+            "column_desktop": 4,
+            "hide_on_mobile": false,
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "#ffa001",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false
+          },
+          "blocks": {
+            "caption_c3nkij": {
+              "type": "caption",
+              "settings": {
+                "caption": "<strong>Influencer Name</strong>",
+                "text_size": "small",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "heading_dymhLf": {
+              "type": "heading",
+              "name": "t:local-march-update.labels.heading",
+              "settings": {
+                "heading": "Endurance",
+                "title_size": "h5",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            },
+            "divider_fRyz9B": {
+              "type": "divider",
+              "name": "t:divider.label",
+              "settings": {
+                "height": 1,
+                "width": "small",
+                "color": "#ffbd4d",
+                "style": "solid"
+              },
+              "blocks": {}
+            },
+            "product_add_to_cart_button_LBR6BE": {
+              "type": "product-add-to-cart-button",
+              "name": "t:theme_blocks.product-add-to-cart-button.name",
+              "settings": {
+                "product": "endurance",
+                "button_label": "Buy now",
+                "button_size": "small",
+                "button_style": "outline",
+                "color_text_buttons": "rgba(0,0,0,0)",
+                "color_accent_buttons": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "caption_c3nkij",
+            "heading_dymhLf",
+            "divider_fRyz9B",
+            "product_add_to_cart_button_LBR6BE"
+          ]
         }
       },
       "block_order": [
-        "image_VLT97F",
-        "image_8DMcGp",
-        "image_cTWd4p",
-        "image_BbGyhQ",
-        "image_XPMmP6",
-        "image_A7LP44"
+        "card_hKkCdn",
+        "card_YHCnLy",
+        "card_EffgeK"
       ],
-      "name": "t:sections.refactor_words.settings.scrolling_images.label",
+      "name": "t:flex-cards.header",
       "settings": {
-        "heading": "Which Elixir is right for you?",
-        "subheading": "Super foods packed in every shot",
-        "section_heading_layout": "section-heading--left",
-        "columns": "3",
-        "scroll_direction": "ltr",
-        "speed": 70,
-        "pause_on_hover": false,
-        "image_alignment": "top",
-        "border_radius": 12,
-        "remove_inner_padding": false,
-        "caption_alignment": "left",
-        "section_background_color": "rgba(0,0,0,0)",
+        "heading": "110,000+ people have chosen Elixir Shots",
+        "subheading": "Real stories, real results",
+        "section_heading_layout": "section-heading--center",
+        "image_height_desktop": 340,
+        "is_autoheight": false,
+        "image_height_mobile": 200,
+        "hide_media": false,
+        "text_alignment": "left",
+        "spacing": "small",
+        "gutter_size": "large",
+        "section_background_color": "#fffcf4",
         "section_background_gradient": "",
         "section_heading_color": "rgba(0,0,0,0)",
         "descrease_margin": false,
-        "remove_margin": false,
+        "remove_margin": true,
         "seo_h_tag": "h2",
         "section_visibility": "always"
       }
@@ -1637,235 +1786,86 @@
         "section_visibility": "always"
       }
     },
-    "flex_cards_nnPyb4": {
-      "type": "flex-cards",
+    "scrolling_images_i9G9B6": {
+      "type": "scrolling-images",
       "blocks": {
-        "card_hKkCdn": {
-          "type": "_card",
+        "image_VLT97F": {
+          "type": "image",
           "settings": {
-            "video": "shopify://files/videos/ebe22b-billo-142215-orig.mov",
-            "column_desktop": 4,
-            "hide_on_mobile": false,
-            "color_background_main": "#ffffff",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "#dfdfdf",
-            "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true,
-            "color_hide_shadow": false
-          },
-          "blocks": {
-            "caption_GtrdeJ": {
-              "type": "caption",
-              "settings": {
-                "caption": "<strong>Influencer Name</strong>",
-                "text_size": "small",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
-            "heading_aB83wy": {
-              "type": "heading",
-              "name": "t:local-march-update.labels.heading",
-              "settings": {
-                "heading": "Zenergy",
-                "title_size": "h5",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "h3"
-              },
-              "blocks": {}
-            },
-            "divider_yXam4G": {
-              "type": "divider",
-              "name": "t:divider.label",
-              "settings": {
-                "height": 1,
-                "width": "small",
-                "color": "#ffbd01",
-                "style": "solid"
-              },
-              "blocks": {}
-            },
-            "product_add_to_cart_button_MKj3U6": {
-              "type": "product-add-to-cart-button",
-              "name": "t:theme_blocks.product-add-to-cart-button.name",
-              "settings": {
-                "product": "zenergy",
-                "button_label": "Buy now",
-                "button_size": "small",
-                "button_style": "outline",
-                "color_text_buttons": "rgba(0,0,0,0)",
-                "color_accent_buttons": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "caption_GtrdeJ",
-            "heading_aB83wy",
-            "divider_yXam4G",
-            "product_add_to_cart_button_MKj3U6"
-          ]
+            "image": "shopify://shop_images/elixir-shots-wellness-shots-zenergy-42018759016661.webp",
+            "image_caption": "Zenergy",
+            "link": "shopify://products/zenergy",
+            "open_in_new_tab": false
+          }
         },
-        "card_YHCnLy": {
-          "type": "_card",
+        "image_8DMcGp": {
+          "type": "image",
           "settings": {
-            "video": "shopify://files/videos/8faeec-billo-152756-orig.mp4",
-            "column_desktop": 4,
-            "hide_on_mobile": false,
-            "color_background_main": "#ffffff",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "#dfdfdf",
-            "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true,
-            "color_hide_shadow": false
-          },
-          "blocks": {
-            "caption_7Q8CKP": {
-              "type": "caption",
-              "settings": {
-                "caption": "<strong>Influencer Name</strong>",
-                "text_size": "small",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
-            "heading_WWqpLj": {
-              "type": "heading",
-              "name": "t:local-march-update.labels.heading",
-              "settings": {
-                "heading": "Immunity",
-                "title_size": "h5",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "h3"
-              },
-              "blocks": {}
-            },
-            "divider_XrrhwC": {
-              "type": "divider",
-              "name": "t:divider.label",
-              "settings": {
-                "height": 1,
-                "width": "small",
-                "color": "#ffbd4d",
-                "style": "solid"
-              },
-              "blocks": {}
-            },
-            "product_add_to_cart_button_AyF3MW": {
-              "type": "product-add-to-cart-button",
-              "name": "t:theme_blocks.product-add-to-cart-button.name",
-              "settings": {
-                "product": "immunity",
-                "button_label": "Buy now",
-                "button_size": "small",
-                "button_style": "outline",
-                "color_text_buttons": "rgba(0,0,0,0)",
-                "color_accent_buttons": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "caption_7Q8CKP",
-            "heading_WWqpLj",
-            "divider_XrrhwC",
-            "product_add_to_cart_button_AyF3MW"
-          ]
+            "image": "shopify://shop_images/elixir-shots-wellness-shots-60-variety-pack-42018759377109.webp",
+            "image_caption": "Vitality",
+            "link": "shopify://products/vitality",
+            "open_in_new_tab": false
+          }
         },
-        "card_EffgeK": {
-          "type": "_card",
+        "image_cTWd4p": {
+          "type": "image",
           "settings": {
-            "video": "shopify://files/videos/Elixir_Shots_video_original_339456.mp4",
-            "column_desktop": 4,
-            "hide_on_mobile": false,
-            "color_background_main": "#ffffff",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "#dfdfdf",
-            "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true,
-            "color_hide_shadow": false
-          },
-          "blocks": {
-            "caption_c3nkij": {
-              "type": "caption",
-              "settings": {
-                "caption": "<strong>Influencer Name</strong>",
-                "text_size": "small",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
-            "heading_dymhLf": {
-              "type": "heading",
-              "name": "t:local-march-update.labels.heading",
-              "settings": {
-                "heading": "Endurance",
-                "title_size": "h5",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "h3"
-              },
-              "blocks": {}
-            },
-            "divider_fRyz9B": {
-              "type": "divider",
-              "name": "t:divider.label",
-              "settings": {
-                "height": 1,
-                "width": "small",
-                "color": "#ffbd4d",
-                "style": "solid"
-              },
-              "blocks": {}
-            },
-            "product_add_to_cart_button_LBR6BE": {
-              "type": "product-add-to-cart-button",
-              "name": "t:theme_blocks.product-add-to-cart-button.name",
-              "settings": {
-                "product": "endurance",
-                "button_label": "Buy now",
-                "button_size": "small",
-                "button_style": "outline",
-                "color_text_buttons": "rgba(0,0,0,0)",
-                "color_accent_buttons": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "caption_c3nkij",
-            "heading_dymhLf",
-            "divider_fRyz9B",
-            "product_add_to_cart_button_LBR6BE"
-          ]
+            "image": "shopify://shop_images/elixir-shots-wellness-shot-mayan-43365078696149.webp",
+            "image_caption": "Mayan",
+            "link": "shopify://products/mayan-1",
+            "open_in_new_tab": false
+          }
+        },
+        "image_BbGyhQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/elixir-shots-wellness-shots-immunity-42018758787285.webp",
+            "image_caption": "Immunity",
+            "link": "shopify://products/immunity",
+            "open_in_new_tab": false
+          }
+        },
+        "image_XPMmP6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/elixir-shots-wellness-shots-endurance-42018758820053.webp",
+            "image_caption": "Endurance",
+            "link": "shopify://products/endurance",
+            "open_in_new_tab": false
+          }
+        },
+        "image_A7LP44": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/elixir-shots-wellness-shots-defense-43365073551573.webp",
+            "image_caption": "Defense",
+            "link": "shopify://products/defense-new",
+            "open_in_new_tab": false
+          }
         }
       },
       "block_order": [
-        "card_hKkCdn",
-        "card_YHCnLy",
-        "card_EffgeK"
+        "image_VLT97F",
+        "image_8DMcGp",
+        "image_cTWd4p",
+        "image_BbGyhQ",
+        "image_XPMmP6",
+        "image_A7LP44"
       ],
-      "name": "t:flex-cards.header",
+      "name": "t:sections.refactor_words.settings.scrolling_images.label",
       "settings": {
-        "heading": "110,000+ people have chosen Elixir Shots",
-        "subheading": "Real stories, real results",
-        "section_heading_layout": "section-heading--center",
-        "image_height_desktop": 340,
-        "is_autoheight": false,
-        "image_height_mobile": 200,
-        "hide_media": false,
-        "text_alignment": "left",
-        "spacing": "small",
-        "gutter_size": "large",
-        "section_background_color": "#f9f4ed",
+        "heading": "Which Elixir is right for you?",
+        "subheading": "Super foods packed in every shot",
+        "section_heading_layout": "section-heading--left",
+        "columns": "3",
+        "scroll_direction": "ltr",
+        "speed": 70,
+        "pause_on_hover": false,
+        "image_alignment": "top",
+        "border_radius": 12,
+        "remove_inner_padding": false,
+        "caption_alignment": "left",
+        "section_background_color": "rgba(0,0,0,0)",
         "section_background_gradient": "",
         "section_heading_color": "rgba(0,0,0,0)",
         "descrease_margin": false,
@@ -2006,9 +2006,9 @@
     "flex_grid_CGwnnL",
     "flex_grid_wc7iyy",
     "flex_slideshow_JarqzM",
-    "scrolling_images_i9G9B6",
-    "flex_grid_kyMmKY",
     "flex_cards_nnPyb4",
+    "flex_grid_kyMmKY",
+    "scrolling_images_i9G9B6",
     "content_toggles_x7TNce"
   ]
 }
