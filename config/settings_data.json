@@ -224,8 +224,7 @@
       }
     },
     "content_for_index": [
-      "header",
-      "footer-group"
+      "header"
     ]
   },
   "installed_preset_name": "Thrive",

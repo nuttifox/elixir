@@ -7,162 +7,161 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
-    "type": "footer",
-    "name": "t:sections.refactor_words.labels.footer_group",
-    "sections": {
-      "flex_grid_NYcmjE": {
-        "type": "flex-grid",
-        "blocks": {
-          "grid_text_jrxVjB": {
-            "type": "_grid-text",
-            "settings": {
-              "video": "",
-              "link": "",
-              "open_in_new_window": false,
-              "alignment": "horizontal-center align-content--vertical-middle",
-              "width": "90%",
-              "column_desktop": 12,
-              "row_desktop": 1,
-              "hide_on_mobile": false,
-              "column_mobile": "2",
-              "row_mobile": "2",
-              "color_background_main": "#5e9c78",
-              "color_text_main": "rgba(0,0,0,0)",
-              "color_hide_borders": true,
-              "color_hide_shadow": true
+{
+  "type": "footer",
+  "name": "t:sections.refactor_words.labels.footer_group",
+  "sections": {
+    "flex_grid_NYcmjE": {
+      "type": "flex-grid",
+      "blocks": {
+        "grid_text_jrxVjB": {
+          "type": "_grid-text",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "alignment": "horizontal-center align-content--vertical-middle",
+            "width": "90%",
+            "column_desktop": 12,
+            "row_desktop": 1,
+            "hide_on_mobile": false,
+            "column_mobile": "2",
+            "row_mobile": "2",
+            "color_background_main": "#5e9c78",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": true
+          },
+          "blocks": {
+            "heading_Nfi8Bg": {
+              "type": "heading",
+              "settings": {
+                "heading": "What makes Elixir so effective?",
+                "title_size": "h2",
+                "line_height": "default",
+                "text_color": "#ffffff",
+                "seo_h_tag": "span"
+              },
+              "blocks": {}
             },
-            "blocks": {
-              "heading_Nfi8Bg": {
-                "type": "heading",
-                "settings": {
-                  "heading": "What makes Elixir so effective?",
-                  "title_size": "h2",
-                  "line_height": "default",
-                  "text_color": "#ffffff",
-                  "seo_h_tag": "span"
-                },
-                "blocks": {}
+            "caption_ienFNF": {
+              "type": "caption",
+              "settings": {
+                "caption": "Our formulation process unlocks powerful results you can feel",
+                "text_size": "regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "#ffffff"
               },
-              "caption_ienFNF": {
-                "type": "caption",
-                "settings": {
-                  "caption": "Our formulation process unlocks powerful results you can feel",
-                  "text_size": "regular",
-                  "text_background_color": "rgba(0,0,0,0)",
-                  "text_color": "#ffffff"
-                },
-                "blocks": {}
-              },
-              "empty_space_kj3aMz": {
-                "type": "empty-space",
-                "name": "t:theme_blocks.empty-space.name",
-                "settings": {
-                  "height": "0"
-                },
-                "blocks": {}
-              },
-              "button_8cqPjB": {
-                "type": "button",
-                "name": "t:sections.rich-text.blocks.button.name",
-                "settings": {
-                  "button_label": "Shop Elixir",
-                  "link": "shopify://collections/all",
-                  "open_in_new_window": false,
-                  "button_size": "large",
-                  "button_style": "solid",
-                  "color_text_buttons": "rgba(0,0,0,0)",
-                  "color_accent_buttons": "#e7ae3d"
-                },
-                "blocks": {}
-              }
+              "blocks": {}
             },
-            "block_order": [
-              "heading_Nfi8Bg",
-              "caption_ienFNF",
-              "empty_space_kj3aMz",
-              "button_8cqPjB"
-            ]
-          }
-        },
-        "block_order": [
-          "grid_text_jrxVjB"
-        ],
-        "name": "t:sections-categories.presets.fullwidth_media_with_text",
-        "settings": {
-          "heading": "",
-          "subheading": "",
-          "section_heading_layout": "section-heading--left",
-          "card_height": 10,
-          "card_height_mobile": 3,
-          "is_fullwidth": true,
-          "no_gap": false,
-          "spacing": "large",
-          "gutter_size": "regular",
-          "section_background_color": "rgba(0,0,0,0)",
-          "section_background_gradient": "",
-          "section_heading_color": "rgba(0,0,0,0)",
-          "descrease_margin": false,
-          "remove_margin": false,
-          "seo_h_tag": "h2",
-          "section_visibility": "always"
+            "empty_space_kj3aMz": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "button_8cqPjB": {
+              "type": "button",
+              "name": "t:sections.rich-text.blocks.button.name",
+              "settings": {
+                "button_label": "Shop Elixir",
+                "link": "shopify://collections/all",
+                "open_in_new_window": false,
+                "button_size": "large",
+                "button_style": "solid",
+                "color_text_buttons": "rgba(0,0,0,0)",
+                "color_accent_buttons": "#e7ae3d"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_Nfi8Bg",
+            "caption_ienFNF",
+            "empty_space_kj3aMz",
+            "button_8cqPjB"
+          ]
         }
       },
-      "footer": {
-        "type": "footer",
-        "blocks": {
-          "text-1": {
-            "type": "text",
-            "settings": {
-              "title": "",
-              "size": "h4",
-              "image": "shopify://shop_images/ElixirLogo.svg",
-              "image_size": 100,
-              "content": "",
-              "show_social_icons": true,
-              "enable_follow_on_shop": true
-            }
-          },
-          "menu-1": {
-            "type": "menu",
-            "settings": {
-              "title": "Shop",
-              "menu": "main-menu",
-              "open_in_new_window": false
-            }
-          },
-          "menu-2": {
-            "type": "menu",
-            "settings": {
-              "title": "Learn",
-              "menu": "footer",
-              "open_in_new_window": false
-            }
-          },
-          "newsletter_L7RkU8": {
-            "type": "newsletter",
-            "settings": {
-              "title": "Free Shipping On Your First Order"
-            }
-          }
-        },
-        "block_order": [
-          "text-1",
-          "menu-1",
-          "menu-2",
-          "newsletter_L7RkU8"
-        ],
-        "settings": {
-          "layout": "grid-4 grid-portable-2 grid-lap-1",
-          "show_locale_selector": true,
-          "show_country_selector": false,
-          "remove_margin": true,
-          "seo_h_tag": "h4"
-        }
+      "block_order": [
+        "grid_text_jrxVjB"
+      ],
+      "name": "t:sections-categories.presets.fullwidth_media_with_text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "card_height": 10,
+        "card_height_mobile": 3,
+        "is_fullwidth": true,
+        "no_gap": false,
+        "spacing": "large",
+        "gutter_size": "regular",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2",
+        "section_visibility": "always"
       }
     },
-    "order": [
-      "flex_grid_NYcmjE",
-      "footer"
-    ]
-  }
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "size": "h4",
+            "image": "shopify://shop_images/ElixirLogo.svg",
+            "image_size": 100,
+            "content": "",
+            "show_social_icons": true,
+            "enable_follow_on_shop": true
+          }
+        },
+        "menu-1": {
+          "type": "menu",
+          "settings": {
+            "title": "Shop",
+            "menu": "main-menu",
+            "open_in_new_window": false
+          }
+        },
+        "menu-2": {
+          "type": "menu",
+          "settings": {
+            "title": "Learn",
+            "menu": "footer",
+            "open_in_new_window": false
+          }
+        },
+        "newsletter_L7RkU8": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Free Shipping On Your First Order"
+          }
+        }
+      },
+      "block_order": [
+        "text-1",
+        "menu-1",
+        "menu-2",
+        "newsletter_L7RkU8"
+      ],
+      "settings": {
+        "layout": "grid-4 grid-portable-2 grid-lap-1",
+        "show_locale_selector": true,
+        "show_country_selector": false,
+        "remove_margin": true,
+        "seo_h_tag": "h4"
+      }
+    }
+  },
+  "order": [
+    "flex_grid_NYcmjE",
+    "footer"
+  ]
+}
