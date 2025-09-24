@@ -49,7 +49,7 @@
             "heading_YMxpyR": {
               "type": "heading",
               "settings": {
-                "heading": "Clinically-backed formulafor optimal support",
+                "heading": "Clinically-backed formula[br]for optimal support",
                 "title_size": "h4",
                 "line_height": "default",
                 "text_color": "#ffffff",
@@ -74,7 +74,7 @@
                 "button_UGN8UK": {
                   "type": "button",
                   "settings": {
-                    "button_label": "Button label",
+                    "button_label": "Take Quiz",
                     "link": "",
                     "open_in_new_window": false,
                     "button_size": "regular",
@@ -83,24 +83,10 @@
                     "color_accent_buttons": "rgba(0,0,0,0)"
                   },
                   "blocks": {}
-                },
-                "button_z6mYBc": {
-                  "type": "button",
-                  "settings": {
-                    "button_label": "Take Quiz",
-                    "link": "",
-                    "open_in_new_window": false,
-                    "button_size": "regular",
-                    "button_style": "outline",
-                    "color_text_buttons": "#ffffff",
-                    "color_accent_buttons": "rgba(0,0,0,0)"
-                  },
-                  "blocks": {}
                 }
               },
               "block_order": [
-                "button_UGN8UK",
-                "button_z6mYBc"
+                "button_UGN8UK"
               ]
             }
           },
@@ -110,86 +96,10 @@
             "empty_space_cAT8FU",
             "content_group_6U7M8Q"
           ]
-        },
-        "slide_image_e4g8Fm": {
-          "type": "_slide-image",
-          "settings": {
-            "link": "",
-            "open_in_new_window": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)"
-          },
-          "blocks": {
-            "caption_BXJYKM": {
-              "type": "caption",
-              "settings": {
-                "caption": "INTRODUCING",
-                "text_size": "regular",
-                "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
-              },
-              "blocks": {}
-            },
-            "heading_m3ryWQ": {
-              "type": "heading",
-              "settings": {
-                "heading": "Your best promotion yet",
-                "title_size": "h2",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "h3"
-              },
-              "blocks": {}
-            },
-            "content_group_jabFwD": {
-              "type": "content-group",
-              "settings": {
-                "spacing": "small"
-              },
-              "blocks": {
-                "button_TkxqLA": {
-                  "type": "button",
-                  "settings": {
-                    "button_label": "Button label",
-                    "link": "",
-                    "open_in_new_window": false,
-                    "button_size": "regular",
-                    "button_style": "solid",
-                    "color_text_buttons": "rgba(0,0,0,0)",
-                    "color_accent_buttons": "rgba(0,0,0,0)"
-                  },
-                  "blocks": {}
-                },
-                "button_QF7DmN": {
-                  "type": "button",
-                  "settings": {
-                    "button_label": "Button label",
-                    "link": "",
-                    "open_in_new_window": false,
-                    "button_size": "regular",
-                    "button_style": "outline",
-                    "color_text_buttons": "rgba(0,0,0,0)",
-                    "color_accent_buttons": "rgba(0,0,0,0)"
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "button_TkxqLA",
-                "button_QF7DmN"
-              ]
-            }
-          },
-          "block_order": [
-            "caption_BXJYKM",
-            "heading_m3ryWQ",
-            "content_group_jabFwD"
-          ]
         }
       },
       "block_order": [
-        "slide_image_Tp8m9c",
-        "slide_image_e4g8Fm"
+        "slide_image_Tp8m9c"
       ],
       "name": "t:theme_blocks.sections.flex-slideshow.name",
       "settings": {
@@ -207,7 +117,7 @@
         "section_heading_color": "rgba(0,0,0,0)",
         "descrease_margin": false,
         "remove_margin": false,
-        "color_hide_borders": false,
+        "color_hide_borders": true,
         "color_hide_shadow": true,
         "disable_parallax": false,
         "section_visibility": "always"
