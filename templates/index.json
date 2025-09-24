@@ -1569,6 +1569,7 @@
         "grid_media_XdLEWE": {
           "type": "_grid-media",
           "settings": {
+            "image": "shopify://shop_images/IMG_8882-1.webp",
             "link": "",
             "open_in_new_window": false,
             "column_desktop": 6,
@@ -1658,6 +1659,7 @@
         "card_hKkCdn": {
           "type": "_card",
           "settings": {
+            "video": "shopify://files/videos/ebe22b-billo-142215-orig.mov",
             "column_desktop": 4,
             "hide_on_mobile": false,
             "color_background_main": "#ffffff",
@@ -1683,7 +1685,7 @@
               "type": "heading",
               "name": "t:local-march-update.labels.heading",
               "settings": {
-                "heading": "Defence",
+                "heading": "Zenergy",
                 "title_size": "h5",
                 "line_height": "default",
                 "text_color": "rgba(0,0,0,0)",
@@ -1706,7 +1708,7 @@
               "type": "product-add-to-cart-button",
               "name": "t:theme_blocks.product-add-to-cart-button.name",
               "settings": {
-                "product": "defense",
+                "product": "zenergy",
                 "button_label": "Buy now",
                 "button_size": "small",
                 "button_style": "outline",
@@ -1726,6 +1728,7 @@
         "card_YHCnLy": {
           "type": "_card",
           "settings": {
+            "video": "shopify://files/videos/60 day detox .mp4",
             "column_desktop": 4,
             "hide_on_mobile": false,
             "color_background_main": "#ffffff",
@@ -1751,7 +1754,7 @@
               "type": "heading",
               "name": "t:local-march-update.labels.heading",
               "settings": {
-                "heading": "Endurance",
+                "heading": "Defence",
                 "title_size": "h5",
                 "line_height": "default",
                 "text_color": "rgba(0,0,0,0)",
@@ -1774,7 +1777,7 @@
               "type": "product-add-to-cart-button",
               "name": "t:theme_blocks.product-add-to-cart-button.name",
               "settings": {
-                "product": "endurance",
+                "product": "defense-new",
                 "button_label": "Buy now",
                 "button_size": "small",
                 "button_style": "outline",
@@ -1794,6 +1797,7 @@
         "card_EffgeK": {
           "type": "_card",
           "settings": {
+            "video": "shopify://files/videos/Elixir_Shots_video_original_339456.mp4",
             "column_desktop": 4,
             "hide_on_mobile": false,
             "color_background_main": "#ffffff",
@@ -1819,7 +1823,7 @@
               "type": "heading",
               "name": "t:local-march-update.labels.heading",
               "settings": {
-                "heading": "Immunity",
+                "heading": "Endurance",
                 "title_size": "h5",
                 "line_height": "default",
                 "text_color": "rgba(0,0,0,0)",
@@ -1842,7 +1846,7 @@
               "type": "product-add-to-cart-button",
               "name": "t:theme_blocks.product-add-to-cart-button.name",
               "settings": {
-                "product": "the-collection-snowboard-liquid",
+                "product": "endurance",
                 "button_label": "Buy now",
                 "button_size": "small",
                 "button_style": "outline",
