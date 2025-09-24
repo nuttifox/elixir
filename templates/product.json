@@ -16,6 +16,10 @@
           "type": "rating",
           "settings": {}
         },
+        "badges_rwVaAa": {
+          "type": "badges",
+          "settings": {}
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -38,10 +42,6 @@
           "type": "space",
           "settings": {}
         },
-        "badges_rwVaAa": {
-          "type": "badges",
-          "settings": {}
-        },
         "popup_8k8gGq": {
           "type": "popup",
           "settings": {
@@ -62,17 +62,22 @@
             "back_in_stock_email_message": "I would like to be notified when this product is back in stock."
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
+        "image_Aqi9im": {
+          "type": "image",
           "settings": {
-            "show_price": false,
-            "show_quantity_selector": true,
-            "show_preorder": false,
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": false,
-            "color_text_buttons": "rgba(0,0,0,0)",
-            "color_accent_buttons": "rgba(0,0,0,0)",
-            "style_buttons": "solid"
+            "title": "",
+            "subtitle": "",
+            "tooltip_info": "",
+            "image": "shopify://shop_images/1_41456dc9-ad6b-4160-9e02-f851ae05b796.png",
+            "image_border_radius": 0,
+            "link": "",
+            "open_in_new_window": false,
+            "collapsible": false,
+            "opened_by_default": false,
+            "layout": "compact",
+            "text_color": "rgba(0,0,0,0)",
+            "bg_color": "rgba(0,0,0,0)",
+            "darken_header": true
           }
         },
         "nutriscore_qQnzcD": {
@@ -119,9 +124,40 @@
             "darken_header": false
           }
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": false,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false,
+            "color_text_buttons": "rgba(0,0,0,0)",
+            "color_accent_buttons": "rgba(0,0,0,0)",
+            "style_buttons": "solid"
+          }
+        },
         "empty_space_3": {
           "type": "space",
           "settings": {}
+        },
+        "complementary_yrDrLx": {
+          "type": "complementary",
+          "settings": {
+            "heading": "The Perfect Set",
+            "subtitle": "",
+            "tooltip_info": "",
+            "show_price": true,
+            "show_rating": false,
+            "show_quick_buy": true,
+            "products_number": 3,
+            "collapsible": false,
+            "opened_by_default": false,
+            "layout": "compact",
+            "text_color": "rgba(0,0,0,0)",
+            "bg_color": "rgba(0,0,0,0)",
+            "darken_header": true
+          }
         },
         "product_siblings_K74HRz": {
           "type": "product_siblings",
@@ -155,18 +191,20 @@
       },
       "block_order": [
         "rating_VgaF3p",
+        "badges_rwVaAa",
         "title",
         "price",
         "variant_picker",
         "empty_space_1",
-        "badges_rwVaAa",
         "popup_8k8gGq",
         "back_in_stock_ttQPJH",
-        "buy_buttons",
+        "image_Aqi9im",
         "nutriscore_qQnzcD",
         "empty_space_2",
         "description",
+        "buy_buttons",
         "empty_space_3",
+        "complementary_yrDrLx",
         "product_siblings_K74HRz",
         "share"
       ],
