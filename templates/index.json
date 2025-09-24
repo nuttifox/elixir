@@ -570,6 +570,7 @@
               "type": "image",
               "name": "t:sections.gallery.blocks.image.settings.image.label",
               "settings": {
+                "image": "shopify://shop_images/arrow-target-1526_s38EfPCjm-1.svg",
                 "image_height": 80,
                 "link": "",
                 "open_in_new_window": false
@@ -634,6 +635,7 @@
               "type": "image",
               "name": "t:sections.gallery.blocks.image.settings.image.label",
               "settings": {
+                "image": "shopify://shop_images/lightning-bolt-1528_7fQ0kMHLY.svg",
                 "image_height": 80,
                 "link": "",
                 "open_in_new_window": false
@@ -698,6 +700,7 @@
               "type": "image",
               "name": "t:sections.gallery.blocks.image.settings.image.label",
               "settings": {
+                "image": "shopify://shop_images/stomach-6355_fqP5lVast.svg",
                 "image_height": 80,
                 "link": "",
                 "open_in_new_window": false
@@ -762,6 +765,7 @@
               "type": "image",
               "name": "t:sections.gallery.blocks.image.settings.image.label",
               "settings": {
+                "image": "shopify://shop_images/health-6332_AqCeR7v36-1.svg",
                 "image_height": 80,
                 "link": "",
                 "open_in_new_window": false
@@ -826,6 +830,7 @@
               "type": "image",
               "name": "t:sections.gallery.blocks.image.settings.image.label",
               "settings": {
+                "image": "shopify://shop_images/mental-health-6340_8kNNP4_Iz.svg",
                 "image_height": 80,
                 "link": "",
                 "open_in_new_window": false
@@ -890,6 +895,7 @@
               "type": "image",
               "name": "t:sections.gallery.blocks.image.settings.image.label",
               "settings": {
+                "image": "shopify://shop_images/ambulance-siren-6299_adl4nTQpv-1.svg",
                 "image_height": 80,
                 "link": "",
                 "open_in_new_window": false
