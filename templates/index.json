@@ -18,7 +18,7 @@
             "video": "shopify://files/videos/Generated File September 17, 2025 - 5_21PM.mp4",
             "link": "",
             "open_in_new_window": false,
-            "color_background_main": "#006828",
+            "color_background_main": "#ffa001",
             "color_text_main": "#ffffff"
           },
           "blocks": {
@@ -78,7 +78,7 @@
                 "heading": "Restoring health through farm-fresh wellness shots",
                 "title_size": "h1",
                 "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
+                "text_color": "#ffffff",
                 "seo_h_tag": "h3"
               },
               "blocks": {}
