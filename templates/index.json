@@ -1257,8 +1257,8 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#00cf00",
-            "color_text_main": "#f9f4ed",
+            "color_background_main": "#ffa001",
+            "color_text_main": "#3e3328",
             "color_hide_borders": true,
             "color_hide_shadow": false
           },
@@ -1277,7 +1277,7 @@
                 "heading": "Our Promise",
                 "title_size": "h4",
                 "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
+                "text_color": "#3e3328",
                 "seo_h_tag": "span"
               },
               "blocks": {}
