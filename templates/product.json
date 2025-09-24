@@ -42,6 +42,17 @@
           "type": "badges",
           "settings": {}
         },
+        "popup_8k8gGq": {
+          "type": "popup",
+          "settings": {
+            "text": "How often should I drink Elixir?",
+            "style": "outline",
+            "title": "How often should I drink Elixir?",
+            "content": "<p>We recommend ...</p>",
+            "page": "",
+            "hide_block_if": false
+          }
+        },
         "back_in_stock_ttQPJH": {
           "type": "back_in_stock",
           "settings": {
@@ -149,6 +160,7 @@
         "variant_picker",
         "empty_space_1",
         "badges_rwVaAa",
+        "popup_8k8gGq",
         "back_in_stock_ttQPJH",
         "buy_buttons",
         "nutriscore_qQnzcD",
