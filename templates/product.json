@@ -232,6 +232,92 @@
         "sticky_bar_blur": true
       }
     },
+    "rich_text_x6WryD": {
+      "type": "rich-text",
+      "blocks": {
+        "title_enR4KQ": {
+          "type": "title",
+          "settings": {
+            "title": "Talk about your brand",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_qrFPLi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements or welcome customers to your store.</p>",
+            "text_size": "regular"
+          }
+        },
+        "button_kKXmCB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_enR4KQ",
+        "text_qrFPLi",
+        "button_kKXmCB"
+      ],
+      "name": "t:sections-categories.presets.rich_text_with_image",
+      "settings": {
+        "height": "regular",
+        "image_position": "right",
+        "image_crop": true,
+        "width": "100",
+        "text_alignment": "horizontal-center",
+        "text_alignment_vertical": "middle",
+        "spacing": "large",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "descrease_margin": false,
+        "remove_margin": false,
+        "color_background_main": "#ffffff",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "#f6ce71",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false,
+        "section_visibility": "always"
+      }
+    },
+    "marquee_id7jeB": {
+      "type": "marquee",
+      "blocks": {
+        "text_DEekTh": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "Default scrolling text. Lorem ipsum texturum marquee tamet"
+          }
+        }
+      },
+      "block_order": [
+        "text_DEekTh"
+      ],
+      "name": "t:sections.local-extra-words.sections.marquee.name",
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 100,
+        "pause_on_hover": true,
+        "horizontal_space": "1.1",
+        "text_size": "100",
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "#00cf00",
+        "section_background_gradient": "",
+        "color_text_main": "#006828",
+        "section_visibility": "always"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "blocks": {
@@ -276,6 +362,8 @@
   },
   "order": [
     "main",
+    "rich_text_x6WryD",
+    "marquee_id7jeB",
     "product-recommendations"
   ]
 }
