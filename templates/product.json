@@ -33,9 +33,9 @@
           "settings": {
             "variants_style": "radio",
             "show_quantities": "no",
-            "inventory_color_low": "rgba(0,0,0,0)",
-            "inventory_color_enough": "rgba(0,0,0,0)",
-            "inventory_color_out": "rgba(0,0,0,0)"
+            "inventory_color_low": "#ffa001",
+            "inventory_color_enough": "#00cf00",
+            "inventory_color_out": "#1e1e1e"
           }
         },
         "empty_space_1": {
@@ -211,7 +211,7 @@
       "settings": {
         "gallery_style": "slider",
         "enhance_first_image": false,
-        "gallery_ratio": "natural",
+        "gallery_ratio": "0.83333",
         "other_media_ratio": "fit",
         "video_fit": true,
         "gallery_fit": false,
