@@ -15,6 +15,7 @@
           "slide_image_b3AG33": {
             "type": "_slide-image",
             "settings": {
+              "video": "",
               "link": "",
               "open_in_new_window": false,
               "color_background_main": "#ffa001",
@@ -241,6 +242,7 @@
           "card_nqEUHE": {
             "type": "card",
             "settings": {
+              "image": "shopify://shop_images/ChatGPT_Image_Sep_22_2025_09_56_52_PM.png",
               "heading": "Turmeric",
               "text": "Card description text",
               "button_label": "",
@@ -259,6 +261,7 @@
           "card_YcDeap": {
             "type": "card",
             "settings": {
+              "image": "shopify://shop_images/ChatGPT_Image_Sep_22_2025_10_52_48_PM.png",
               "heading": "Japanese Matcha",
               "text": "Card description text",
               "button_label": "",
@@ -277,6 +280,7 @@
           "card_Bwy9zQ": {
             "type": "card",
             "settings": {
+              "image": "shopify://shop_images/ChatGPT_Image_Sep_22_2025_10_19_43_PM.png",
               "heading": "Ginger",
               "text": "Card description text",
               "button_label": "",
@@ -295,6 +299,7 @@
           "card_kpBxif": {
             "type": "card",
             "settings": {
+              "image": "shopify://shop_images/ChatGPT_Image_Sep_22_2025_11_16_10_PM.png",
               "heading": "Peppermint",
               "text": "Card description text",
               "button_label": "",
@@ -313,6 +318,7 @@
           "card_TeUHLr": {
             "type": "card",
             "settings": {
+              "image": "shopify://shop_images/ChatGPT_Image_Sep_22_2025_10_12_04_PM.png",
               "heading": "Better Pepper",
               "text": "Card description text",
               "button_label": "",
@@ -331,6 +337,7 @@
           "card_UmLwii": {
             "type": "card",
             "settings": {
+              "image": "shopify://shop_images/ChatGPT_Image_Sep_22_2025_11_19_54_PM.png",
               "heading": "Apple Cider Vinegar",
               "text": "Card description text",
               "button_label": "",
@@ -563,6 +570,7 @@
                 "type": "image",
                 "name": "t:sections.gallery.blocks.image.settings.image.label",
                 "settings": {
+                  "image": "shopify://shop_images/arrow-target-1526_s38EfPCjm.svg",
                   "image_height": 80,
                   "link": "",
                   "open_in_new_window": false
@@ -627,6 +635,7 @@
                 "type": "image",
                 "name": "t:sections.gallery.blocks.image.settings.image.label",
                 "settings": {
+                  "image": "shopify://shop_images/lightning-bolt-1528_7fQ0kMHLY.svg",
                   "image_height": 80,
                   "link": "",
                   "open_in_new_window": false
@@ -691,6 +700,7 @@
                 "type": "image",
                 "name": "t:sections.gallery.blocks.image.settings.image.label",
                 "settings": {
+                  "image": "shopify://shop_images/stomach-6355_fqP5lVast.svg",
                   "image_height": 80,
                   "link": "",
                   "open_in_new_window": false
@@ -755,6 +765,7 @@
                 "type": "image",
                 "name": "t:sections.gallery.blocks.image.settings.image.label",
                 "settings": {
+                  "image": "shopify://shop_images/health-6332_AqCeR7v36.svg",
                   "image_height": 80,
                   "link": "",
                   "open_in_new_window": false
@@ -819,6 +830,7 @@
                 "type": "image",
                 "name": "t:sections.gallery.blocks.image.settings.image.label",
                 "settings": {
+                  "image": "shopify://shop_images/mental-health-6340_8kNNP4_Iz.svg",
                   "image_height": 80,
                   "link": "",
                   "open_in_new_window": false
@@ -883,6 +895,7 @@
                 "type": "image",
                 "name": "t:sections.gallery.blocks.image.settings.image.label",
                 "settings": {
+                  "image": "shopify://shop_images/ambulance-siren-6299_adl4nTQpv.svg",
                   "image_height": 80,
                   "link": "",
                   "open_in_new_window": false
@@ -1074,6 +1087,7 @@
             "type": "_grid-media",
             "name": "t:theme_blocks.grid-media.name",
             "settings": {
+              "video": "shopify://files/videos/Generated File September 17, 2025 - 5_23PM.mp4",
               "link": "",
               "open_in_new_window": false,
               "column_desktop": 5,
@@ -1397,6 +1411,7 @@
           "image_VLT97F": {
             "type": "image",
             "settings": {
+              "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png",
               "image_caption": "Zenergy",
               "link": "shopify://products/zenergy",
               "open_in_new_tab": false
@@ -1405,6 +1420,7 @@
           "image_8DMcGp": {
             "type": "image",
             "settings": {
+              "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png",
               "image_caption": "Vitality",
               "link": "shopify://products/vitality",
               "open_in_new_tab": false
@@ -1413,6 +1429,7 @@
           "image_cTWd4p": {
             "type": "image",
             "settings": {
+              "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png",
               "image_caption": "Mayan",
               "link": "shopify://products/mayan",
               "open_in_new_tab": false
@@ -1421,6 +1438,7 @@
           "image_BbGyhQ": {
             "type": "image",
             "settings": {
+              "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png",
               "image_caption": "Immunity",
               "link": "shopify://products/the-collection-snowboard-liquid",
               "open_in_new_tab": false
@@ -1429,6 +1447,7 @@
           "image_XPMmP6": {
             "type": "image",
             "settings": {
+              "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png",
               "image_caption": "Endurance",
               "link": "shopify://products/endurance",
               "open_in_new_tab": false
@@ -1437,6 +1456,7 @@
           "image_A7LP44": {
             "type": "image",
             "settings": {
+              "image": "shopify://shop_images/ChatGPT_Image_Sep_17_2025_06_52_15_PM.png",
               "image_caption": "Defense",
               "link": "shopify://products/defense",
               "open_in_new_tab": false
@@ -1479,6 +1499,7 @@
           "card_hKkCdn": {
             "type": "_card",
             "settings": {
+              "video": "shopify://files/videos/Generated File September 17, 2025 - 5_23PM.mp4",
               "column_desktop": 4,
               "hide_on_mobile": false,
               "color_background_main": "#ffffff",
@@ -1547,6 +1568,7 @@
           "card_YHCnLy": {
             "type": "_card",
             "settings": {
+              "video": "shopify://files/videos/Generated File September 17, 2025 - 5_21PM.mp4",
               "column_desktop": 4,
               "hide_on_mobile": false,
               "color_background_main": "#ffffff",
@@ -1615,6 +1637,7 @@
           "card_EffgeK": {
             "type": "_card",
             "settings": {
+              "video": "shopify://files/videos/Generated File September 17, 2025 - 5_23PM.mp4",
               "column_desktop": 4,
               "hide_on_mobile": false,
               "color_background_main": "#ffffff",
@@ -1789,6 +1812,7 @@
           "grid_media_XdLEWE": {
             "type": "_grid-media",
             "settings": {
+              "image": "shopify://shop_images/IMG_8882.webp",
               "link": "",
               "open_in_new_window": false,
               "column_desktop": 6,
