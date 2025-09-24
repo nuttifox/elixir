@@ -1754,7 +1754,7 @@
               "type": "heading",
               "name": "t:local-march-update.labels.heading",
               "settings": {
-                "heading": "Defence",
+                "heading": "Immunity",
                 "title_size": "h5",
                 "line_height": "default",
                 "text_color": "rgba(0,0,0,0)",
@@ -1777,7 +1777,7 @@
               "type": "product-add-to-cart-button",
               "name": "t:theme_blocks.product-add-to-cart-button.name",
               "settings": {
-                "product": "defense-new",
+                "product": "immunity",
                 "button_label": "Buy now",
                 "button_size": "small",
                 "button_style": "outline",
