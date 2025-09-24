@@ -1166,6 +1166,7 @@
         "grid_text_A4bLaW": {
           "type": "_grid-text",
           "settings": {
+            "image": "shopify://shop_images/image0_313df3e9-4290-4681-9786-ae1cedcfc8bf.jpg",
             "link": "",
             "open_in_new_window": false,
             "alignment": "horizontal-left align-content--vertical-bottom",
@@ -1175,7 +1176,7 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#004d1e",
+            "color_background_main": "rgba(0,0,0,0)",
             "color_text_main": "#f9f4ed",
             "color_hide_borders": true,
             "color_hide_shadow": false
@@ -1189,17 +1190,6 @@
               },
               "blocks": {}
             },
-            "heading_QB4Lxr": {
-              "type": "heading",
-              "settings": {
-                "heading": "Feel Fuller Longer",
-                "title_size": "h4",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
-              },
-              "blocks": {}
-            },
             "empty_space_FjXDc9": {
               "type": "empty-space",
               "name": "t:theme_blocks.empty-space.name",
@@ -1207,23 +1197,11 @@
                 "height": "0"
               },
               "blocks": {}
-            },
-            "rich_text_EL8bif": {
-              "type": "rich-text",
-              "name": "t:sections.rich-text.blocks.text.name",
-              "settings": {
-                "text": "<p>Plant-based protein helps you to feel full and satisfied.</p>",
-                "text_size": "regular",
-                "line_height": "default"
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "empty_space_yyYxWT",
-            "heading_QB4Lxr",
-            "empty_space_FjXDc9",
-            "rich_text_EL8bif"
+            "empty_space_FjXDc9"
           ]
         },
         "grid_text_zmq8hn": {
