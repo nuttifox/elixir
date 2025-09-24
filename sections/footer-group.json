@@ -47,7 +47,7 @@
             "caption_ienFNF": {
               "type": "caption",
               "settings": {
-                "caption": "Our formulation process unlocks powerful results you can feel",
+                "caption": "Our <strong>formulation</strong> process unlocks powerful results <strong>you can feel</strong>",
                 "text_size": "regular",
                 "text_background_color": "rgba(0,0,0,0)",
                 "text_color": "#ffffff"

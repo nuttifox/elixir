@@ -145,7 +145,7 @@
         "quick_buy"
       ],
       "settings": {
-        "products_number": 24,
+        "products_number": 12,
         "enable_filtering": false,
         "enable_sorting": false,
         "filters_position": "top",
