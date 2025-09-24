@@ -38,10 +38,14 @@
           "type": "space",
           "settings": {}
         },
+        "badges_rwVaAa": {
+          "type": "badges",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_price": true,
+            "show_price": false,
             "show_quantity_selector": true,
             "show_preorder": false,
             "show_dynamic_checkout": true,
@@ -98,6 +102,7 @@
         "price",
         "variant_picker",
         "empty_space_1",
+        "badges_rwVaAa",
         "buy_buttons",
         "empty_space_2",
         "description",
