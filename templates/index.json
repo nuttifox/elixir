@@ -1103,7 +1103,7 @@
         "grid_text_nDmcW7": {
           "type": "_grid-text",
           "settings": {
-            "link": "",
+            "link": "shopify://pages/our-story",
             "open_in_new_window": false,
             "alignment": "horizontal-left align-content--vertical-bottom",
             "width": "90%",
@@ -1129,7 +1129,7 @@
             "heading_9aYy3F": {
               "type": "heading",
               "settings": {
-                "heading": "Rebuild & Recover",
+                "heading": "Restoring health through farm-fresh wellness shots.",
                 "title_size": "h4",
                 "line_height": "default",
                 "text_color": "rgba(0,0,0,0)",
@@ -1149,7 +1149,7 @@
               "type": "rich-text",
               "name": "t:sections.rich-text.blocks.text.name",
               "settings": {
-                "text": "<p>Fuel your mornings and snacks with 20g of complete plant-based protein in every serving.</p>",
+                "text": "<p>We pack our wellness shots with farm-fresh whole foods that deliver potent, healing nutrients in their most natural state.</p>",
                 "text_size": "regular",
                 "line_height": "default"
               },
@@ -1207,6 +1207,7 @@
         "grid_text_zmq8hn": {
           "type": "_grid-text",
           "settings": {
+            "image": "shopify://shop_images/braden-jarvis-prSogOoFmkw-unsplash.webp",
             "link": "",
             "open_in_new_window": false,
             "alignment": "horizontal-left align-content--vertical-bottom",
@@ -1216,7 +1217,7 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#004d1e",
+            "color_background_main": "rgba(0,0,0,0)",
             "color_text_main": "#f9f4ed",
             "color_hide_borders": true,
             "color_hide_shadow": false
@@ -1230,17 +1231,6 @@
               },
               "blocks": {}
             },
-            "heading_fwFkBc": {
-              "type": "heading",
-              "settings": {
-                "heading": "Gut Health",
-                "title_size": "h4",
-                "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "span"
-              },
-              "blocks": {}
-            },
             "empty_space_7Azeyw": {
               "type": "empty-space",
               "name": "t:theme_blocks.empty-space.name",
@@ -1248,23 +1238,11 @@
                 "height": "0"
               },
               "blocks": {}
-            },
-            "rich_text_aaaAAN": {
-              "type": "rich-text",
-              "name": "t:sections.rich-text.blocks.text.name",
-              "settings": {
-                "text": "<p>Support your digestion with a blend of prebiotics, probiotics from yacon powder.</p>",
-                "text_size": "regular",
-                "line_height": "default"
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "empty_space_aRAgKg",
-            "heading_fwFkBc",
-            "empty_space_7Azeyw",
-            "rich_text_aaaAAN"
+            "empty_space_7Azeyw"
           ]
         },
         "grid_text_3GNkd6": {
@@ -1296,7 +1274,7 @@
             "heading_emFgjz": {
               "type": "heading",
               "settings": {
-                "heading": "Immune Support",
+                "heading": "Our Promise",
                 "title_size": "h4",
                 "line_height": "default",
                 "text_color": "rgba(0,0,0,0)",
@@ -1316,7 +1294,7 @@
               "type": "rich-text",
               "name": "t:sections.rich-text.blocks.text.name",
               "settings": {
-                "text": "<p>Each scoop includes greens, fruits, and functional mushrooms for added immunity benefits.</p>",
+                "text": "<p>We are committed to providing clean, potent wellness shots that you can trust. Every bottle is made with the highest quality ingredients and crafted without heat, processed powders, or artificial additives.</p>",
                 "text_size": "regular",
                 "line_height": "default"
               },
