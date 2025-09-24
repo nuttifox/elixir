@@ -42,6 +42,15 @@
           "type": "badges",
           "settings": {}
         },
+        "back_in_stock_ttQPJH": {
+          "type": "back_in_stock",
+          "settings": {
+            "back_in_stock_text": "Notify me when this product is back in stock.",
+            "back_in_stock_button_label": "Notify me",
+            "back_in_stock_success_message": "Thanks! We will notify you when this product becomes available!",
+            "back_in_stock_email_message": "I would like to be notified when this product is back in stock."
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -53,6 +62,32 @@
             "color_text_buttons": "rgba(0,0,0,0)",
             "color_accent_buttons": "rgba(0,0,0,0)",
             "style_buttons": "solid"
+          }
+        },
+        "nutriscore_qQnzcD": {
+          "type": "nutriscore",
+          "settings": {
+            "title": "Nutriscore",
+            "subtitle": "",
+            "tooltip_info": "",
+            "active_item": 3,
+            "active_item_dynamic": "",
+            "label_1": "A",
+            "color_1": "#007517",
+            "label_2": "B",
+            "color_2": "#94c11e",
+            "label_3": "C",
+            "color_3": "#ffde00",
+            "label_4": "D",
+            "color_4": "#f29200",
+            "label_5": "E",
+            "color_5": "#dd1e01",
+            "collapsible": false,
+            "opened_by_default": false,
+            "layout": "compact",
+            "text_color": "rgba(0,0,0,0)",
+            "bg_color": "rgba(0,0,0,0)",
+            "darken_header": true
           }
         },
         "empty_space_2": {
@@ -114,7 +149,9 @@
         "variant_picker",
         "empty_space_1",
         "badges_rwVaAa",
+        "back_in_stock_ttQPJH",
         "buy_buttons",
+        "nutriscore_qQnzcD",
         "empty_space_2",
         "description",
         "empty_space_3",
