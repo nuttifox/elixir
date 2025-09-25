@@ -989,7 +989,7 @@
             "caption_JAQ4ht": {
               "type": "caption",
               "settings": {
-                "caption": "Farm to you in 3 days",
+                "caption": "Farm to you in <strong>3 days</strong>",
                 "text_size": "xlarge",
                 "text_background_color": "rgba(0,0,0,0)",
                 "text_color": "#68b557"
