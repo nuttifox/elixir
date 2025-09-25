@@ -917,6 +917,13 @@
             "marquee_text": "Farm to bottle in 3 days"
           }
         },
+        "image_UKAnw4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ElixirLogo-Black.svg",
+            "border_radius": 0
+          }
+        },
         "text_a9Uzhg": {
           "type": "text",
           "settings": {
@@ -938,6 +945,7 @@
       },
       "block_order": [
         "text_ygXAiq",
+        "image_UKAnw4",
         "text_a9Uzhg",
         "text_WkwrzA",
         "text_y46AVm"
