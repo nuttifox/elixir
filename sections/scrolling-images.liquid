@@ -43,9 +43,13 @@
     {% style %}
       /* Uniform image height controls */
       #shopify-section-{{ section.id }} .scrolling-images--cell {
+        height: auto !important;
+      }
+      #shopify-section-{{ section.id }} .scrolling-images figure {
         height: {{ section.settings.image_height_desktop | default: 0 }}px !important;
         overflow: hidden !important;
         position: relative !important;
+        margin: 0 !important;
       }
       #shopify-section-{{ section.id }} .scrolling-images img {
         height: 100% !important;
@@ -58,9 +62,33 @@
         left: 0 !important;
       }
       @media screen and (max-width: 767px) {
-        #shopify-section-{{ section.id }} .scrolling-images--cell {
+        #shopify-section-{{ section.id }} .scrolling-images figure {
           height: {{ section.settings.image_height_mobile | default: section.settings.image_height_desktop | default: 0 }}px !important;
         }
+      }
+      
+      /* Description and bottom image styling */
+      #shopify-section-{{ section.id }} .scrolling-images__description {
+        margin-top: 8px;
+        color: var(--color-text-main);
+      }
+      #shopify-section-{{ section.id }} .scrolling-images__description--align-center {
+        text-align: center;
+      }
+      #shopify-section-{{ section.id }} .scrolling-images__description--align-left {
+        text-align: left;
+      }
+      #shopify-section-{{ section.id }} .scrolling-images__description--align-right {
+        text-align: right;
+      }
+      #shopify-section-{{ section.id }} .scrolling-images__bottom-image {
+        margin-top: 12px;
+      }
+      #shopify-section-{{ section.id }} .scrolling-images__bottom-image img {
+        position: static !important;
+        height: auto !important;
+        width: 100% !important;
+        object-fit: contain !important;
       }
     {% endstyle %}
 
@@ -99,8 +127,20 @@
               {%- endif -%}
 
               {%- if block.settings.image_caption != blank -%}
-                <div class="scrolling-images__caption scrolling-images__caption--align-{{ section.settings.caption_alignment }} rte text-size--small">
+                <div class="scrolling-images__caption scrolling-images__caption--align-{{ section.settings.caption_alignment }} rte {{ section.settings.caption_text_size }}">
                   {{ block.settings.image_caption }}
+                </div>
+              {%- endif -%}
+
+              {%- if block.settings.description != blank -%}
+                <div class="scrolling-images__description scrolling-images__description--align-{{ section.settings.caption_alignment }} rte text-size--small">
+                  {{ block.settings.description }}
+                </div>
+              {%- endif -%}
+
+              {%- if block.settings.bottom_image != blank -%}
+                <div class="scrolling-images__bottom-image">
+                  {%- render 'lazy-image', image: block.settings.bottom_image, sizes: sizes, preload: false -%}
                 </div>
               {%- endif -%}
             </div>
@@ -332,6 +372,34 @@
       "default": "left"
     },
     {
+      "type": "select",
+      "id": "caption_text_size",
+      "label": "Caption text size",
+      "options": [
+        {
+          "value": "text-size--xsmall",
+          "label": "Extra Small"
+        },
+        {
+          "value": "text-size--small",
+          "label": "Small"
+        },
+        {
+          "value": "text-size--regular",
+          "label": "Regular"
+        },
+        {
+          "value": "text-size--large",
+          "label": "Large"
+        },
+        {
+          "value": "text-size--xlarge",
+          "label": "Extra Large"
+        }
+      ],
+      "default": "text-size--regular"
+    },
+    {
       "type": "header",
       "content": "t:local-march-update.labels.section_design"
     },
@@ -438,6 +506,16 @@
           "type": "inline_richtext",
           "id": "image_caption",
           "label": "t:sections.slider.blocks.image.settings.caption.label"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "image_picker",
+          "id": "bottom_image",
+          "label": "Bottom image"
         },
         {
           "type": "url",
