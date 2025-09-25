@@ -170,6 +170,54 @@
 				"default": "#ffffff"
 			},
 			{
+				"type": "header",
+				"content": "Background texture"
+			},
+			{
+				"type": "checkbox",
+				"id": "enable_background_texture",
+				"label": "Enable background texture",
+				"default": false
+			},
+			{
+				"type": "select",
+				"id": "background_texture_type",
+				"label": "Texture type",
+				"options": [
+					{
+						"value": "paper",
+						"label": "Paper"
+					},
+					{
+						"value": "canvas",
+						"label": "Canvas"
+					},
+					{
+						"value": "linen",
+						"label": "Linen"
+					},
+					{
+						"value": "noise",
+						"label": "Noise"
+					},
+					{
+						"value": "dots",
+						"label": "Dots"
+					}
+				],
+				"default": "paper"
+			},
+			{
+				"type": "range",
+				"id": "background_texture_opacity",
+				"label": "Texture opacity",
+				"min": 5,
+				"max": 50,
+				"step": 5,
+				"unit": "%",
+				"default": 15
+			},
+			{
 				"type": "color",
 				"id": "color_text_main",
 				"label": "t:sections.split-extra-words.settings_schema.colors.settings.text",

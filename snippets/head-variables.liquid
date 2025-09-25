@@ -191,10 +191,15 @@
     --color-borders-header: {{ color_borders_header }};
 
     --color-background-main: {{ color_background_main }};
-    --color-secondary-background-main: {{ color_secondary_background_main }};
+    --color-secondary-background-main: {{ color_secondary-background_main }};
     --color-third-background-main: {{ color_third_background_main }};
     --color-fourth-background-main: {{ color_fourth_background_main }};
     --color-opacity-background-main: {{ color_opacity_background_main }};
+    
+    /* Background texture variables */
+    --background-texture-enabled: {{ settings.enable_background_texture | default: false }};
+    --background-texture-type: {{ settings.background_texture_type | default: 'paper' }};
+    --background-texture-opacity: {{ settings.background_texture_opacity | default: 15 }}%;
     --color-text-main: {{ color_text_main }};
     --color-foreground-main: {{ color_foreground_main }};
     --color-secondary-text-main: {{ color_secondary_text_main }};

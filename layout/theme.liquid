@@ -136,7 +136,7 @@
   {% if settings.shadow_cards_y < 0 %} has-negative-shadow-y {% endif %}
   {% if settings.show_breadcrumb == false %} body--no-breadcrumb {% endif %}
   {% unless settings.show_sidebars_scrollbar %} sidebars-has-scrollbars {% endunless %}
-">
+" {% if settings.enable_background_texture %}data-texture="{{ settings.background_texture_type }}"{% endif %}>
 
   <script type="text/javascript">
     if ( 'ontouchstart' in window || window.DocumentTouch && document instanceof DocumentTouch ) { document.querySelector('body').classList.remove('no-touchevents'); document.querySelector('body').classList.add('touchevents'); } 
