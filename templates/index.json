@@ -366,6 +366,8 @@
       "settings": {
         "heading": "Only the best Ingredients make",
         "subheading": "Super foods packed in every shot",
+        "view_all_label": "View all Ingredients",
+        "view_all_link": "shopify://pages/all-wellness-shots-old",
         "section_heading_layout": "section-heading--left",
         "cards_per_view": 4,
         "cards_per_view_mobile": 1,
