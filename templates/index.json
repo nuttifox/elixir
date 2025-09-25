@@ -115,8 +115,8 @@
                     "open_in_new_window": false,
                     "button_size": "large",
                     "button_style": "solid",
-                    "color_text_buttons": "#ffa001",
-                    "color_accent_buttons": "#00cf00"
+                    "color_text_buttons": "#68b557",
+                    "color_accent_buttons": "#ffa001"
                   },
                   "blocks": {}
                 },
