@@ -40,14 +40,14 @@
 
 /* Card styling */
 .flex-cards-carousel .card {
-  background: var(--color-background-main, #ffffff);
-  border: var(--border-width-cards, 2px) solid var(--color-borders-main, #e0e0e0);
+  background: var(--color-background-cards, var(--color-background-main, #ffffff));
+  border: var(--border-width-cards, 2px) solid var(--color-borders-cards, var(--color-borders-main, #e0e0e0));
   border-radius: var(--border-radius-cards, 20px);
   overflow: hidden;
   display: flex;
   flex-direction: column;
   transition: all 0.3s ease;
-  box-shadow: var(--shadow-cards-x, 0) var(--shadow-cards-y, 0) var(--shadow-cards-blur, 0) var(--color-shadow-main, rgba(0,0,0,0));
+  box-shadow: var(--shadow-x-cards, 0) var(--shadow-y-cards, 0) var(--shadow-blur-cards, 0) var(--color-shadow-cards, var(--color-shadow-main, rgba(0,0,0,0)));
 }
 
 .flex-cards-carousel .card:hover {
@@ -90,12 +90,12 @@
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.75rem;
-  color: var(--color-text-main, #333333);
+  color: var(--color-text-cards, var(--color-text-main, #333333));
   line-height: 1.3;
 }
 
 .flex-cards-carousel .card__text {
-  color: var(--color-text-main, #666666);
+  color: var(--color-text-cards, var(--color-text-main, #666666));
   margin-bottom: 1rem;
   flex: 1;
   line-height: 1.5;
@@ -104,8 +104,8 @@
 .flex-cards-carousel .card__button {
   margin-top: auto;
   padding: 0.75rem 1.5rem;
-  background: var(--color-accent-main, #007bff);
-  color: var(--color-text-main, #ffffff);
+  background: var(--color-accent-cards, var(--color-accent-main, #007bff));
+  color: var(--color-foreground-accent-cards, var(--color-text-main, #ffffff));
   border: none;
   border-radius: var(--border-radius-buttons, 30px);
   text-decoration: none;
@@ -116,7 +116,7 @@
 }
 
 .flex-cards-carousel .card__button:hover {
-  background: var(--color-accent-main, #0056b3);
+  background: var(--color-accent-cards, var(--color-accent-main, #0056b3));
   transform: translateY(-1px);
 }
 
@@ -145,33 +145,5 @@
   display: none;
 }
 
-/* Color customization */
-.flex-cards-carousel .card[style*="--color-background-main"] {
-  background: var(--color-background-main);
-}
-
-.flex-cards-carousel .card[style*="--color-text-main"] .card__heading,
-.flex-cards-carousel .card[style*="--color-text-main"] .card__text {
-  color: var(--color-text-main);
-}
-
-.flex-cards-carousel .card[style*="--color-accent-main"] .card__button {
-  background: var(--color-accent-main);
-}
-
-.flex-cards-carousel .card[style*="--color-borders-main"] {
-  border-color: var(--color-borders-main);
-}
-
-.flex-cards-carousel .card[style*="--color-shadow-main"] {
-  box-shadow: var(--shadow-cards-x, 0) var(--shadow-cards-y, 0) var(--shadow-cards-blur, 0) var(--color-shadow-main);
-}
-
-/* Hide borders/shadow options */
-.flex-cards-carousel .card.hide-borders {
-  border: none;
-}
-
-.flex-cards-carousel .card.hide-shadow {
-  box-shadow: none;
-}
+/* Explicit fallbacks when variables are set inline via custom-colors snippet */
+/* (no extra rules needed; variables are applied inline by custom-colors snippet) */
