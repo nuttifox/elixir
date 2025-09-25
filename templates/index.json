@@ -863,10 +863,10 @@
             "link": "",
             "column_desktop": 2,
             "hide_on_mobile": false,
-            "color_background_main": "#f9f4ed",
+            "color_background_main": "#ffffff",
             "color_text_main": "#1e1e1e",
             "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "#ffbd4d",
+            "color_borders_main": "rgba(0,0,0,0)",
             "color_shadow_main": "rgba(0,0,0,0)",
             "color_hide_borders": false,
             "color_hide_shadow": false
