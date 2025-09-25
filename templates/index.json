@@ -124,7 +124,7 @@
                   "type": "button",
                   "settings": {
                     "button_label": "Take Quiz",
-                    "link": "",
+                    "link": "shopify://pages/quiz",
                     "open_in_new_window": false,
                     "button_size": "large",
                     "button_style": "outline",
