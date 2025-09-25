@@ -1853,7 +1853,7 @@
         "image_object_fit": "cover",
         "remove_inner_padding": false,
         "caption_alignment": "left",
-        "caption_text_size": "text-size--regular",
+        "caption_text_size": "text-size--xlarge",
         "show_button": true,
         "button_text": "Take Quiz",
         "button_link": "shopify://pages/quiz",
