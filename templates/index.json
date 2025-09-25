@@ -951,7 +951,7 @@
         "text_size": "100",
         "remove_top_margin": false,
         "remove_bottom_margin": false,
-        "color_background_main": "#ffa001",
+        "color_background_main": "#ffffff",
         "section_background_gradient": "",
         "color_text_main": "#3e3328",
         "section_visibility": "always"
