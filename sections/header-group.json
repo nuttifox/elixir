@@ -87,7 +87,7 @@
         "header_absolute_homepage": true,
         "header_absolute_collection": false,
         "header_absolute_custom": "",
-        "color_text_header": "#ffa001",
+        "color_text_header": "#282828",
         "select_header_actions_on_mobile": "show_on_homepage",
         "show_header_actions": false,
         "show_locale_selector": false,
