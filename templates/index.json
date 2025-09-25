@@ -1856,7 +1856,7 @@
         "caption_text_size": "text-size--regular",
         "show_button": true,
         "button_text": "Take Quiz",
-        "button_link": "shopify://pages/all-wellness-shots-old",
+        "button_link": "shopify://pages/quiz",
         "button_open_new_tab": false,
         "button_style": "solid",
         "button_size": "regular",
