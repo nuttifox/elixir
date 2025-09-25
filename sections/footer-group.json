@@ -27,7 +27,7 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "2",
-            "color_background_main": "#5e9c78",
+            "color_background_main": "#282828",
             "color_text_main": "rgba(0,0,0,0)",
             "color_hide_borders": true,
             "color_hide_shadow": true
@@ -116,6 +116,7 @@
           "settings": {
             "title": "",
             "size": "h4",
+            "image": "shopify://shop_images/ElixirLogo-Black.svg",
             "image_size": 100,
             "content": "",
             "show_social_icons": true,
