@@ -1368,10 +1368,10 @@
             "video": "shopify://files/videos/ebe22b-billo-142215-orig.mov",
             "column_desktop": 4,
             "hide_on_mobile": false,
-            "color_background_main": "#f9f4ed",
+            "color_background_main": "#ffffff",
             "color_text_main": "rgba(0,0,0,0)",
             "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "#ffa001",
+            "color_borders_main": "rgba(0,0,0,0)",
             "color_shadow_main": "rgba(0,0,0,0)",
             "color_hide_borders": false,
             "color_hide_shadow": false
@@ -1438,10 +1438,10 @@
             "video": "shopify://files/videos/8faeec-billo-152756-orig.mp4",
             "column_desktop": 4,
             "hide_on_mobile": false,
-            "color_background_main": "#f9f4ed",
+            "color_background_main": "#ffffff",
             "color_text_main": "rgba(0,0,0,0)",
             "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "#ffa001",
+            "color_borders_main": "rgba(0,0,0,0)",
             "color_shadow_main": "rgba(0,0,0,0)",
             "color_hide_borders": false,
             "color_hide_shadow": false
@@ -1508,10 +1508,10 @@
             "video": "shopify://files/videos/Elixir_Shots_video_original_339456.mp4",
             "column_desktop": 4,
             "hide_on_mobile": false,
-            "color_background_main": "#f9f4ed",
+            "color_background_main": "#ffffff",
             "color_text_main": "rgba(0,0,0,0)",
             "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "#ffa001",
+            "color_borders_main": "rgba(0,0,0,0)",
             "color_shadow_main": "rgba(0,0,0,0)",
             "color_hide_borders": false,
             "color_hide_shadow": false
@@ -1617,7 +1617,7 @@
             "color_background_main": "#f9f4ed",
             "color_text_main": "rgba(0,0,0,0)",
             "color_hide_borders": true,
-            "color_hide_shadow": false
+            "color_hide_shadow": true
           },
           "blocks": {
             "empty_space_iQFFbM": {
@@ -1690,7 +1690,7 @@
             "column_mobile": "2",
             "row_mobile": "1",
             "color_hide_borders": true,
-            "color_hide_shadow": false
+            "color_hide_shadow": true
           },
           "blocks": {}
         },
@@ -1709,7 +1709,7 @@
             "color_background_main": "#f0e7d8",
             "color_text_main": "rgba(0,0,0,0)",
             "color_hide_borders": true,
-            "color_hide_shadow": false
+            "color_hide_shadow": true
           },
           "blocks": {
             "heading_FMDMCg": {
