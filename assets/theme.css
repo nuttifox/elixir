@@ -593,7 +593,12 @@ body::before {
   background-image: 
     radial-gradient(circle at 1px 1px, rgba(0,0,0,0.15) 0.8px, transparent 0);
   background-size: var(--background-texture-size);
-  display: var(--background-texture-enabled, none);
+  display: none;
+}
+
+/* Show texture when enabled */
+body[data-texture-enabled="true"]::before {
+  display: block;
 }
 
 /* Paper texture - subtle dots only */
