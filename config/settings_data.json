@@ -128,7 +128,7 @@
               "show_after_scroll": true,
               "page_offset": 50,
               "show_repeat": "once",
-              "title": "10% Off",
+              "title": "Join & Save",
               "content": "<p>Subscribe and save <strong>10% off</strong> your first order</p>",
               "popup_bgcolor": "#111111",
               "popup_txtcolor": "#ffffff"
