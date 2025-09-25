@@ -1773,6 +1773,7 @@
           "settings": {
             "image": "shopify://shop_images/elixir-shots-wellness-shots-zenergy-42018759016661.webp",
             "image_caption": "Zenergy",
+            "description": "<p><strong>Focus</strong>, <strong>support digestion</strong> and all-day <strong>gentle energy</strong>.</p>",
             "link": "shopify://products/zenergy",
             "open_in_new_tab": false
           }
@@ -1782,6 +1783,7 @@
           "settings": {
             "image": "shopify://shop_images/elixir-shots-wellness-shots-60-variety-pack-42018759377109.webp",
             "image_caption": "Vitality",
+            "description": "<p>Support <strong>gut health</strong>, <strong>digestion</strong>, and overall <strong>vitality</strong>.</p>",
             "link": "shopify://products/vitality",
             "open_in_new_tab": false
           }
@@ -1791,6 +1793,7 @@
           "settings": {
             "image": "shopify://shop_images/elixir-shots-wellness-shot-mayan-43365078696149.webp",
             "image_caption": "Mayan",
+            "description": "<p>Supports <strong>circulation</strong>, <strong>mood</strong>, and overall <strong>wellness</strong>.</p>",
             "link": "shopify://products/mayan-1",
             "open_in_new_tab": false
           }
@@ -1800,6 +1803,7 @@
           "settings": {
             "image": "shopify://shop_images/elixir-shots-wellness-shots-immunity-42018758787285.webp",
             "image_caption": "Immunity",
+            "description": "<p>Strengthen <strong>immunity</strong>, improve <strong>digestion</strong>, support <strong>detox</strong>, and boost <strong>energy</strong>.</p>",
             "link": "shopify://products/immunity",
             "open_in_new_tab": false
           }
@@ -1809,6 +1813,7 @@
           "settings": {
             "image": "shopify://shop_images/elixir-shots-wellness-shots-endurance-42018758820053.webp",
             "image_caption": "Endurance",
+            "description": "<p>Maximum synergy, this shot fuels <strong>endurance</strong> and promotes <strong>peak performance</strong>.</p>",
             "link": "shopify://products/endurance",
             "open_in_new_tab": false
           }
@@ -1818,6 +1823,7 @@
           "settings": {
             "image": "shopify://shop_images/elixir-shots-wellness-shots-defense-43365073551573.webp",
             "image_caption": "Defense",
+            "description": "<p>Supports <strong>circulation</strong> and aids <strong>digestion</strong>, helps to boost <strong>immune</strong> <strong>health</strong> and refresh your system.</p>",
             "link": "shopify://products/defense-new",
             "open_in_new_tab": false
           }
@@ -1847,6 +1853,7 @@
         "image_object_fit": "cover",
         "remove_inner_padding": false,
         "caption_alignment": "left",
+        "caption_text_size": "text-size--regular",
         "section_background_color": "rgba(0,0,0,0)",
         "section_background_gradient": "",
         "section_heading_color": "rgba(0,0,0,0)",
