@@ -49,7 +49,7 @@
         "show_locale_selector": false,
         "show_country_selector": false,
         "show_social_icons": false,
-        "bar_bgcolor": "#00cf00",
+        "bar_bgcolor": "#68b557",
         "bar_txtcolor": "#1e1e1e"
       }
     },
@@ -84,7 +84,7 @@
         "main_linklist": "main-menu",
         "show_search": true,
         "sticky_header": true,
-        "header_absolute_homepage": false,
+        "header_absolute_homepage": true,
         "header_absolute_collection": false,
         "header_absolute_custom": "",
         "color_text_header": "#ffa001",
