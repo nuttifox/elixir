@@ -591,45 +591,45 @@ body::before {
   z-index: -1;
   opacity: calc(var(--background-texture-opacity) / 100);
   background-image: 
-    radial-gradient(circle at 1px 1px, rgba(0,0,0,0.08) 0.5px, transparent 0);
-  background-size: 20px 20px;
+    radial-gradient(circle at 1px 1px, rgba(0,0,0,0.15) 0.8px, transparent 0);
+  background-size: var(--background-texture-size);
   display: var(--background-texture-enabled, none);
 }
 
 /* Paper texture - subtle dots only */
 body[data-texture="paper"]::before {
   background-image: 
-    radial-gradient(circle at 1px 1px, rgba(0,0,0,0.06) 0.5px, transparent 0);
-  background-size: 25px 25px;
+    radial-gradient(circle at 1px 1px, rgba(0,0,0,0.12) 0.6px, transparent 0);
+  background-size: var(--background-texture-size);
 }
 
 /* Canvas texture - fine dots */
 body[data-texture="canvas"]::before {
   background-image: 
-    radial-gradient(circle at 1px 1px, rgba(0,0,0,0.05) 0.3px, transparent 0);
-  background-size: 15px 15px;
+    radial-gradient(circle at 1px 1px, rgba(0,0,0,0.10) 0.4px, transparent 0);
+  background-size: calc(var(--background-texture-size) * 0.75);
 }
 
 /* Linen texture - subtle cross pattern */
 body[data-texture="linen"]::before {
   background-image: 
-    radial-gradient(circle at 1px 1px, rgba(0,0,0,0.04) 0.4px, transparent 0),
-    radial-gradient(circle at 11px 11px, rgba(0,0,0,0.04) 0.4px, transparent 0);
-  background-size: 20px 20px;
+    radial-gradient(circle at 1px 1px, rgba(0,0,0,0.08) 0.5px, transparent 0),
+    radial-gradient(circle at calc(var(--background-texture-size) / 2 + 1px) calc(var(--background-texture-size) / 2 + 1px), rgba(0,0,0,0.08) 0.5px, transparent 0);
+  background-size: var(--background-texture-size);
 }
 
 /* Noise texture - fine grain */
 body[data-texture="noise"]::before {
   background-image: 
-    radial-gradient(circle at 0.5px 0.5px, rgba(0,0,0,0.03) 0.2px, transparent 0);
-  background-size: 8px 8px;
+    radial-gradient(circle at 0.5px 0.5px, rgba(0,0,0,0.06) 0.3px, transparent 0);
+  background-size: calc(var(--background-texture-size) * 0.4);
 }
 
 /* Dots texture - larger dots */
 body[data-texture="dots"]::before {
   background-image: 
-    radial-gradient(circle at 2px 2px, rgba(0,0,0,0.05) 0.8px, transparent 0);
-  background-size: 35px 35px;
+    radial-gradient(circle at 2px 2px, rgba(0,0,0,0.10) 1px, transparent 0);
+  background-size: calc(var(--background-texture-size) * 1.75);
 }
 @media screen and (max-width: 474px) {
   body {

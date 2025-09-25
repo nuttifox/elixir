@@ -218,6 +218,16 @@
 				"default": 15
 			},
 			{
+				"type": "range",
+				"id": "background_texture_size",
+				"label": "Texture size",
+				"min": 10,
+				"max": 50,
+				"step": 5,
+				"unit": "px",
+				"default": 20
+			},
+			{
 				"type": "color",
 				"id": "color_text_main",
 				"label": "t:sections.split-extra-words.settings_schema.colors.settings.text",
