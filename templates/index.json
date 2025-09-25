@@ -1706,7 +1706,7 @@
             "hide_on_mobile": false,
             "column_mobile": "1",
             "row_mobile": "1",
-            "color_background_main": "#f0e7d8",
+            "color_background_main": "#f6ce71",
             "color_text_main": "rgba(0,0,0,0)",
             "color_hide_borders": true,
             "color_hide_shadow": true
@@ -1973,7 +1973,7 @@
         "subheading": "Got Questions? We’ve Got Answers.",
         "section_heading_layout": "section-heading--left",
         "open_first": true,
-        "toggle_size": "large",
+        "toggle_size": "small",
         "form_enable": false,
         "form_title": "Couldn't find an answer? Ask!",
         "seo_h_tag": "h2"
