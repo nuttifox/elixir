@@ -39,7 +39,7 @@
     "container_vertical_space": 130,
     "grid_gap": 26,
     "enable_smooth_scroll": true,
-    "border_width_cards": 2,
+    "border_width_cards": 0,
     "border_radius_cards": 20,
     "border_width_buttons": 2,
     "border_radius_buttons": 30,
