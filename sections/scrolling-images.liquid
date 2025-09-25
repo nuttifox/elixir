@@ -90,6 +90,12 @@
         width: 100% !important;
         object-fit: contain !important;
       }
+      
+      /* Button styling */
+      #shopify-section-{{ section.id }} .scrolling-images__button-container {
+        text-align: center;
+        margin-top: 2rem;
+      }
     {% endstyle %}
 
     {%- capture sizes -%}
@@ -155,6 +161,14 @@
       </div>
         
     </scrolling-text>
+
+    {%- if section.settings.show_button and section.settings.button_text != blank and section.settings.button_link != blank -%}
+      <div class="scrolling-images__button-container">
+        <a href="{{ section.settings.button_link }}" class="button button--{{ section.settings.button_style }} button--{{ section.settings.button_size }}" {% if section.settings.button_open_new_tab %} target="_blank" {% endif %}>
+          {{ section.settings.button_text }}
+        </a>
+      </div>
+    {%- endif -%}
 
     <script src="{{ 'component-scrolling-text.js' | asset_url }}" defer></script>
   {%- endif -%}
@@ -398,6 +412,69 @@
         }
       ],
       "default": "text-size--regular"
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_button",
+      "label": "Show button",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Learn More"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "checkbox",
+      "id": "button_open_new_tab",
+      "label": "Open in new tab",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Button style",
+      "options": [
+        {
+          "value": "solid",
+          "label": "Solid"
+        },
+        {
+          "value": "outline",
+          "label": "Outline"
+        }
+      ],
+      "default": "solid"
+    },
+    {
+      "type": "select",
+      "id": "button_size",
+      "label": "Button size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "regular",
+          "label": "Regular"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "regular"
     },
     {
       "type": "header",
