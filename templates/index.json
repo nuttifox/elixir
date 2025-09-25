@@ -124,7 +124,7 @@
                   "type": "button",
                   "settings": {
                     "button_label": "Take Quiz",
-                    "link": "",
+                    "link": "shopify://pages/quiz",
                     "open_in_new_window": false,
                     "button_size": "large",
                     "button_style": "outline",
@@ -290,7 +290,7 @@
                 "title_size": "h3",
                 "line_height": "medium",
                 "text_color": "#282828",
-                "seo_h_tag": "h4"
+                "seo_h_tag": "h3"
               },
               "blocks": {}
             },
@@ -388,7 +388,7 @@
                 "title_size": "h5",
                 "line_height": "default",
                 "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "h3"
+                "seo_h_tag": "h4"
               },
               "blocks": {}
             }
@@ -453,7 +453,7 @@
                 "title_size": "h5",
                 "line_height": "default",
                 "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "h3"
+                "seo_h_tag": "h4"
               },
               "blocks": {}
             }
@@ -518,7 +518,7 @@
                 "title_size": "h5",
                 "line_height": "default",
                 "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "h3"
+                "seo_h_tag": "h4"
               },
               "blocks": {}
             }
@@ -583,7 +583,7 @@
                 "title_size": "h5",
                 "line_height": "default",
                 "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "h3"
+                "seo_h_tag": "h4"
               },
               "blocks": {}
             }
@@ -648,7 +648,7 @@
                 "title_size": "h5",
                 "line_height": "default",
                 "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "h3"
+                "seo_h_tag": "h4"
               },
               "blocks": {}
             }
@@ -713,7 +713,7 @@
                 "title_size": "h5",
                 "line_height": "default",
                 "text_color": "rgba(0,0,0,0)",
-                "seo_h_tag": "h3"
+                "seo_h_tag": "h4"
               },
               "blocks": {}
             }
@@ -917,6 +917,13 @@
             "marquee_text": "Farm to bottle in 3 days"
           }
         },
+        "image_UKAnw4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ElixirLogo-Black.svg",
+            "border_radius": 0
+          }
+        },
         "text_a9Uzhg": {
           "type": "text",
           "settings": {
@@ -938,6 +945,7 @@
       },
       "block_order": [
         "text_ygXAiq",
+        "image_UKAnw4",
         "text_a9Uzhg",
         "text_WkwrzA",
         "text_y46AVm"
