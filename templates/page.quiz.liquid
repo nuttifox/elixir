@@ -1,0 +1,660 @@
+{% comment %}
+  Quiz Page Template
+  Handles a 3-step product recommendation quiz
+{% endcomment %}
+
+<div class="quiz-container">
+  <!-- Progress Bar -->
+  <div class="quiz-progress">
+    <div class="quiz-progress__bar">
+      <div class="quiz-progress__fill" id="quiz-progress-fill"></div>
+    </div>
+    <div class="quiz-progress__text" id="quiz-progress-text">Step 1 of 3</div>
+  </div>
+
+  <!-- Navigation -->
+  <div class="quiz-navigation">
+    <button class="quiz-nav__back" id="quiz-back-btn" style="display: none;">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <path d="M10 12L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Go back
+    </button>
+  </div>
+
+  <!-- Quiz Content -->
+  <div class="quiz-content">
+    
+    <!-- Step 1: What is your mood? -->
+    <div class="quiz-step" id="step-1" data-step="1">
+      <h1 class="quiz-question">What is your mood?</h1>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="low-energy">
+          <div class="quiz-option__image">
+            <img src="{{ 'quiz-mood-low-energy.jpg' | asset_url }}" alt="Low energy" loading="lazy">
+          </div>
+          <div class="quiz-option__text">Low energy. I could use an extra boost.</div>
+        </div>
+        
+        <div class="quiz-option" data-value="thriving">
+          <div class="quiz-option__image">
+            <img src="{{ 'quiz-mood-thriving.jpg' | asset_url }}" alt="Thriving" loading="lazy">
+          </div>
+          <div class="quiz-option__text">Great! I'm thriving.</div>
+        </div>
+        
+        <div class="quiz-option" data-value="anxious">
+          <div class="quiz-option__image">
+            <img src="{{ 'quiz-mood-anxious.jpg' | asset_url }}" alt="Anxious" loading="lazy">
+          </div>
+          <div class="quiz-option__text">Anxious. I drank too much coffee.</div>
+        </div>
+        
+        <div class="quiz-option" data-value="sick">
+          <div class="quiz-option__image">
+            <img src="{{ 'quiz-mood-sick.jpg' | asset_url }}" alt="Not well" loading="lazy">
+          </div>
+          <div class="quiz-option__text">Not well. I feel a sickness coming on.</div>
+        </div>
+        
+        <div class="quiz-option" data-value="overwhelmed">
+          <div class="quiz-option__image">
+            <img src="{{ 'quiz-mood-overwhelmed.jpg' | asset_url }}" alt="Overwhelmed" loading="lazy">
+          </div>
+          <div class="quiz-option__text">Overwhelmed. I can't focus.</div>
+        </div>
+        
+        <div class="quiz-option" data-value="stressed">
+          <div class="quiz-option__image">
+            <img src="{{ 'quiz-mood-stressed.jpg' | asset_url }}" alt="Stressed" loading="lazy">
+          </div>
+          <div class="quiz-option__text">Stressed. I need to relax.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 2: How do you want to feel? -->
+    <div class="quiz-step" id="step-2" data-step="2" style="display: none;">
+      <h1 class="quiz-question">How do you want to feel?</h1>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="energized">
+          <div class="quiz-option__image">
+            <img src="{{ 'quiz-feel-energized.jpg' | asset_url }}" alt="Energized" loading="lazy">
+          </div>
+          <div class="quiz-option__text">I want more energy.</div>
+        </div>
+        
+        <div class="quiz-option" data-value="focused">
+          <div class="quiz-option__image">
+            <img src="{{ 'quiz-feel-focused.jpg' | asset_url }}" alt="Focused" loading="lazy">
+          </div>
+          <div class="quiz-option__text">I want to improve my focus and attention.</div>
+        </div>
+        
+        <div class="quiz-option" data-value="calm">
+          <div class="quiz-option__image">
+            <img src="{{ 'quiz-feel-calm.jpg' | asset_url }}" alt="Calm" loading="lazy">
+          </div>
+          <div class="quiz-option__text">I want to drink less coffee/caffeine.</div>
+        </div>
+        
+        <div class="quiz-option" data-value="strong">
+          <div class="quiz-option__image">
+            <img src="{{ 'quiz-feel-strong.jpg' | asset_url }}" alt="Strong" loading="lazy">
+          </div>
+          <div class="quiz-option__text">I want to improve my workouts.</div>
+        </div>
+        
+        <div class="quiz-option" data-value="healthy">
+          <div class="quiz-option__image">
+            <img src="{{ 'quiz-feel-healthy.jpg' | asset_url }}" alt="Healthy" loading="lazy">
+          </div>
+          <div class="quiz-option__text">I want to boost my immunity.</div>
+        </div>
+        
+        <div class="quiz-option" data-value="balanced">
+          <div class="quiz-option__image">
+            <img src="{{ 'quiz-feel-balanced.jpg' | asset_url }}" alt="Balanced" loading="lazy">
+          </div>
+          <div class="quiz-option__text">I want to feel more balanced overall.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 3: Recommendations -->
+    <div class="quiz-step" id="step-3" data-step="3" style="display: none;">
+      <div class="quiz-recommendations">
+        <h1 class="quiz-question">Our top picks for you:</h1>
+        <p class="quiz-subtitle">Based on your preferences, we recommend the following products:</p>
+        
+        <div class="quiz-products">
+          <div class="quiz-product" id="recommendation-1">
+            <div class="quiz-product__image">
+              <img src="{{ 'product-mayan.jpg' | asset_url }}" alt="Mayan" loading="lazy">
+              <div class="quiz-product__badge">
+                <span class="quiz-product__match">2/2 match</span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                  <circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1"/>
+                  <path d="M6 3v3M6 7h.01" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="quiz-product__rating">
+              <div class="quiz-product__stars">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8 0l2.5 5.5L16 6l-4.5 4.5L12.5 16 8 13.5 3.5 16 4.5 10.5 0 6l5.5-.5L8 0z"/>
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8 0l2.5 5.5L16 6l-4.5 4.5L12.5 16 8 13.5 3.5 16 4.5 10.5 0 6l5.5-.5L8 0z"/>
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8 0l2.5 5.5L16 6l-4.5 4.5L12.5 16 8 13.5 3.5 16 4.5 10.5 0 6l5.5-.5L8 0z"/>
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8 0l2.5 5.5L16 6l-4.5 4.5L12.5 16 8 13.5 3.5 16 4.5 10.5 0 6l5.5-.5L8 0z"/>
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8 0l2.5 5.5L16 6l-4.5 4.5L12.5 16 8 13.5 3.5 16 4.5 10.5 0 6l5.5-.5L8 0z"/>
+                </svg>
+              </div>
+              <span class="quiz-product__reviews">22 reviews</span>
+            </div>
+            <h3 class="quiz-product__name">Mayan</h3>
+            <p class="quiz-product__price">From $48.95</p>
+            <button class="quiz-product__button">Choose options</button>
+          </div>
+          
+          <div class="quiz-product" id="recommendation-2">
+            <div class="quiz-product__image">
+              <img src="{{ 'product-zenergy.jpg' | asset_url }}" alt="Zenergy" loading="lazy">
+              <div class="quiz-product__badge">
+                <span class="quiz-product__match">2/2 match</span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                  <circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1"/>
+                  <path d="M6 3v3M6 7h.01" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="quiz-product__rating">
+              <div class="quiz-product__stars">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8 0l2.5 5.5L16 6l-4.5 4.5L12.5 16 8 13.5 3.5 16 4.5 10.5 0 6l5.5-.5L8 0z"/>
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8 0l2.5 5.5L16 6l-4.5 4.5L12.5 16 8 13.5 3.5 16 4.5 10.5 0 6l5.5-.5L8 0z"/>
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8 0l2.5 5.5L16 6l-4.5 4.5L12.5 16 8 13.5 3.5 16 4.5 10.5 0 6l5.5-.5L8 0z"/>
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8 0l2.5 5.5L16 6l-4.5 4.5L12.5 16 8 13.5 3.5 16 4.5 10.5 0 6l5.5-.5L8 0z"/>
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8 0l2.5 5.5L16 6l-4.5 4.5L12.5 16 8 13.5 3.5 16 4.5 10.5 0 6l5.5-.5L8 0z"/>
+                </svg>
+              </div>
+              <span class="quiz-product__reviews">36 reviews</span>
+            </div>
+            <h3 class="quiz-product__name">Zenergy</h3>
+            <p class="quiz-product__price">From $48.95</p>
+            <button class="quiz-product__button">Choose options</button>
+          </div>
+        </div>
+        
+        <div class="quiz-actions">
+          <button class="quiz-button quiz-button--secondary" id="quiz-restart">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M8 1v3l2-2-2-2v2a6 6 0 1 0 6 6h-1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Start over
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Next Button -->
+  <div class="quiz-actions quiz-actions--bottom">
+    <button class="quiz-button quiz-button--primary" id="quiz-next" disabled>
+      Next question
+    </button>
+  </div>
+</div>
+
+<style>
+  .quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    min-height: 80vh;
+  }
+
+  .quiz-progress {
+    margin-bottom: 2rem;
+  }
+
+  .quiz-progress__bar {
+    width: 100%;
+    height: 4px;
+    background-color: #e5e5e5;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+  }
+
+  .quiz-progress__fill {
+    height: 100%;
+    background-color: #333;
+    border-radius: 2px;
+    transition: width 0.3s ease;
+    width: 33.33%;
+  }
+
+  .quiz-progress__text {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #666;
+  }
+
+  .quiz-navigation {
+    margin-bottom: 2rem;
+  }
+
+  .quiz-nav__back {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 0.875rem;
+    cursor: pointer;
+    padding: 0.5rem 0;
+  }
+
+  .quiz-nav__back:hover {
+    color: #333;
+  }
+
+  .quiz-question {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+
+  .quiz-subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+  }
+
+  .quiz-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .quiz-option {
+    background: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+  }
+
+  .quiz-option:hover {
+    border-color: #333;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  .quiz-option.selected {
+    border-color: #333;
+    background-color: #f8f8f8;
+  }
+
+  .quiz-option__image {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .quiz-option__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .quiz-option__text {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.4;
+  }
+
+  .quiz-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .quiz-product {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+
+  .quiz-product__image {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+
+  .quiz-product__image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .quiz-product__badge {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: #333;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  .quiz-product__rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .quiz-product__stars {
+    display: flex;
+    gap: 0.125rem;
+    color: #ffd700;
+  }
+
+  .quiz-product__reviews {
+    font-size: 0.875rem;
+    color: #666;
+  }
+
+  .quiz-product__name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+
+  .quiz-product__price {
+    font-size: 1.125rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+
+  .quiz-product__button {
+    width: 100%;
+    background: #333;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .quiz-product__button:hover {
+    background: #555;
+  }
+
+  .quiz-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .quiz-actions--bottom {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  .quiz-button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .quiz-button--primary {
+    background: #333;
+    color: white;
+    border: none;
+  }
+
+  .quiz-button--primary:hover:not(:disabled) {
+    background: #555;
+  }
+
+  .quiz-button--primary:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+
+  .quiz-button--secondary {
+    background: white;
+    color: #333;
+    border: 1px solid #e5e5e5;
+  }
+
+  .quiz-button--secondary:hover {
+    border-color: #333;
+  }
+
+  @media (max-width: 768px) {
+    .quiz-container {
+      padding: 1rem;
+    }
+
+    .quiz-question {
+      font-size: 1.5rem;
+    }
+
+    .quiz-options {
+      grid-template-columns: 1fr;
+    }
+
+    .quiz-products {
+      grid-template-columns: 1fr;
+    }
+
+    .quiz-actions--bottom {
+      position: static;
+      transform: none;
+      margin-top: 2rem;
+    }
+  }
+</style>
+
+<script>
+  class ProductQuiz {
+    constructor() {
+      this.currentStep = 1;
+      this.answers = {};
+      this.init();
+    }
+
+    init() {
+      this.bindEvents();
+      this.updateProgress();
+    }
+
+    bindEvents() {
+      // Option selection
+      document.querySelectorAll('.quiz-option').forEach(option => {
+        option.addEventListener('click', (e) => {
+          this.selectOption(e.currentTarget);
+        });
+      });
+
+      // Navigation
+      document.getElementById('quiz-next').addEventListener('click', () => {
+        this.nextStep();
+      });
+
+      document.getElementById('quiz-back-btn').addEventListener('click', () => {
+        this.previousStep();
+      });
+
+      document.getElementById('quiz-restart').addEventListener('click', () => {
+        this.restart();
+      });
+    }
+
+    selectOption(option) {
+      const step = option.closest('.quiz-step').dataset.step;
+      
+      // Remove previous selection in this step
+      document.querySelectorAll(`#step-${step} .quiz-option`).forEach(opt => {
+        opt.classList.remove('selected');
+      });
+
+      // Add selection to clicked option
+      option.classList.add('selected');
+
+      // Store answer
+      this.answers[`step${step}`] = option.dataset.value;
+
+      // Enable next button
+      document.getElementById('quiz-next').disabled = false;
+    }
+
+    nextStep() {
+      if (this.currentStep < 3) {
+        this.currentStep++;
+        this.showStep(this.currentStep);
+        this.updateProgress();
+        this.updateRecommendations();
+      }
+    }
+
+    previousStep() {
+      if (this.currentStep > 1) {
+        this.currentStep--;
+        this.showStep(this.currentStep);
+        this.updateProgress();
+      }
+    }
+
+    showStep(step) {
+      // Hide all steps
+      document.querySelectorAll('.quiz-step').forEach(s => {
+        s.style.display = 'none';
+      });
+
+      // Show current step
+      document.getElementById(`step-${step}`).style.display = 'block';
+
+      // Update navigation
+      const backBtn = document.getElementById('quiz-back-btn');
+      const nextBtn = document.getElementById('quiz-next');
+
+      if (step === 1) {
+        backBtn.style.display = 'none';
+        nextBtn.textContent = 'Next question';
+        nextBtn.disabled = !this.answers.step1;
+      } else if (step === 2) {
+        backBtn.style.display = 'flex';
+        nextBtn.textContent = 'Next question';
+        nextBtn.disabled = !this.answers.step2;
+      } else if (step === 3) {
+        backBtn.style.display = 'flex';
+        nextBtn.style.display = 'none';
+      }
+    }
+
+    updateProgress() {
+      const progressFill = document.getElementById('quiz-progress-fill');
+      const progressText = document.getElementById('quiz-progress-text');
+      
+      const percentage = (this.currentStep / 3) * 100;
+      progressFill.style.width = `${percentage}%`;
+      progressText.textContent = `Step ${this.currentStep} of 3`;
+    }
+
+    updateRecommendations() {
+      if (this.currentStep === 3) {
+        // Simple recommendation logic based on answers
+        const mood = this.answers.step1;
+        const feeling = this.answers.step2;
+
+        // You can customize this logic based on your products
+        let recommendation1 = 'Mayan';
+        let recommendation2 = 'Zenergy';
+
+        // Example logic (customize as needed)
+        if (mood === 'low-energy' && feeling === 'energized') {
+          recommendation1 = 'Zenergy';
+          recommendation2 = 'Mayan';
+        } else if (mood === 'anxious' && feeling === 'calm') {
+          recommendation1 = 'Mayan';
+          recommendation2 = 'Zenergy';
+        }
+
+        // Update product names (you can expand this to update images, prices, etc.)
+        document.querySelector('#recommendation-1 .quiz-product__name').textContent = recommendation1;
+        document.querySelector('#recommendation-2 .quiz-product__name').textContent = recommendation2;
+      }
+    }
+
+    restart() {
+      this.currentStep = 1;
+      this.answers = {};
+      
+      // Clear selections
+      document.querySelectorAll('.quiz-option').forEach(option => {
+        option.classList.remove('selected');
+      });
+
+      this.showStep(1);
+      this.updateProgress();
+    }
+  }
+
+  // Initialize quiz when page loads
+  document.addEventListener('DOMContentLoaded', () => {
+    new ProductQuiz();
+  });
+</script>
