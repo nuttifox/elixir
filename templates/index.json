@@ -975,7 +975,7 @@
             "color_background_main": "#fffcf4",
             "color_text_main": "#ece5df",
             "color_hide_borders": true,
-            "color_hide_shadow": false
+            "color_hide_shadow": true
           },
           "blocks": {
             "caption_JAQ4ht": {
@@ -1094,7 +1094,7 @@
             "column_mobile": "2",
             "row_mobile": "1",
             "color_hide_borders": true,
-            "color_hide_shadow": false
+            "color_hide_shadow": true
           },
           "blocks": {}
         },
@@ -1113,7 +1113,7 @@
             "color_background_main": "#fffcf4",
             "color_text_main": "#282828",
             "color_hide_borders": true,
-            "color_hide_shadow": false
+            "color_hide_shadow": true
           },
           "blocks": {
             "empty_space_AXiq4b": {
@@ -1177,7 +1177,7 @@
             "color_background_main": "rgba(0,0,0,0)",
             "color_text_main": "#f9f4ed",
             "color_hide_borders": true,
-            "color_hide_shadow": false
+            "color_hide_shadow": true
           },
           "blocks": {
             "empty_space_yyYxWT": {
@@ -1218,7 +1218,7 @@
             "color_background_main": "rgba(0,0,0,0)",
             "color_text_main": "#f9f4ed",
             "color_hide_borders": true,
-            "color_hide_shadow": false
+            "color_hide_shadow": true
           },
           "blocks": {
             "empty_space_aRAgKg": {
@@ -1258,7 +1258,7 @@
             "color_background_main": "#fffcf4",
             "color_text_main": "#3e3328",
             "color_hide_borders": true,
-            "color_hide_shadow": false
+            "color_hide_shadow": true
           },
           "blocks": {
             "empty_space_HbMJAC": {
