@@ -972,7 +972,7 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#006828",
+            "color_background_main": "#fffcf4",
             "color_text_main": "#ece5df",
             "color_hide_borders": true,
             "color_hide_shadow": false
@@ -984,7 +984,7 @@
                 "caption": "Farm to you in 3 days",
                 "text_size": "xlarge",
                 "text_background_color": "rgba(0,0,0,0)",
-                "text_color": "rgba(0,0,0,0)"
+                "text_color": "#68b557"
               },
               "blocks": {}
             },
@@ -1010,7 +1010,7 @@
                 "heading": "Your Fresh-Pressed Boost for Everyday Wellness",
                 "title_size": "h2",
                 "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
+                "text_color": "#282828",
                 "seo_h_tag": "span"
               },
               "blocks": {}
@@ -1038,7 +1038,7 @@
                     "open_in_new_window": false,
                     "button_size": "regular",
                     "button_style": "outline",
-                    "color_text_buttons": "rgba(0,0,0,0)",
+                    "color_text_buttons": "#68b557",
                     "color_accent_buttons": "#ffa001"
                   },
                   "blocks": {}
@@ -1051,7 +1051,7 @@
                     "open_in_new_window": false,
                     "button_size": "regular",
                     "button_style": "solid",
-                    "color_text_buttons": "rgba(0,0,0,0)",
+                    "color_text_buttons": "#68b557",
                     "color_accent_buttons": "#ffa001"
                   },
                   "blocks": {}
@@ -1110,8 +1110,8 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#00cf00",
-            "color_text_main": "#f9f4ed",
+            "color_background_main": "#fffcf4",
+            "color_text_main": "#282828",
             "color_hide_borders": true,
             "color_hide_shadow": false
           },
@@ -1130,7 +1130,7 @@
                 "heading": "Restoring health through farm-fresh wellness shots.",
                 "title_size": "h4",
                 "line_height": "default",
-                "text_color": "rgba(0,0,0,0)",
+                "text_color": "#282828",
                 "seo_h_tag": "span"
               },
               "blocks": {}
@@ -1255,7 +1255,7 @@
             "hide_on_mobile": false,
             "column_mobile": "2",
             "row_mobile": "1",
-            "color_background_main": "#ffa001",
+            "color_background_main": "#fffcf4",
             "color_text_main": "#3e3328",
             "color_hide_borders": true,
             "color_hide_shadow": false
@@ -1368,7 +1368,7 @@
             "video": "shopify://files/videos/ebe22b-billo-142215-orig.mov",
             "column_desktop": 4,
             "hide_on_mobile": false,
-            "color_background_main": "#ffffff",
+            "color_background_main": "#f9f4ed",
             "color_text_main": "rgba(0,0,0,0)",
             "color_accent_main": "rgba(0,0,0,0)",
             "color_borders_main": "#ffa001",
@@ -1438,7 +1438,7 @@
             "video": "shopify://files/videos/8faeec-billo-152756-orig.mp4",
             "column_desktop": 4,
             "hide_on_mobile": false,
-            "color_background_main": "#ffffff",
+            "color_background_main": "#f9f4ed",
             "color_text_main": "rgba(0,0,0,0)",
             "color_accent_main": "rgba(0,0,0,0)",
             "color_borders_main": "#ffa001",
@@ -1508,7 +1508,7 @@
             "video": "shopify://files/videos/Elixir_Shots_video_original_339456.mp4",
             "column_desktop": 4,
             "hide_on_mobile": false,
-            "color_background_main": "#ffffff",
+            "color_background_main": "#f9f4ed",
             "color_text_main": "rgba(0,0,0,0)",
             "color_accent_main": "rgba(0,0,0,0)",
             "color_borders_main": "#ffa001",
@@ -1706,7 +1706,7 @@
             "hide_on_mobile": false,
             "column_mobile": "1",
             "row_mobile": "1",
-            "color_background_main": "#eee9d6",
+            "color_background_main": "#f0e7d8",
             "color_text_main": "rgba(0,0,0,0)",
             "color_hide_borders": true,
             "color_hide_shadow": false
