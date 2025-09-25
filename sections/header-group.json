@@ -84,7 +84,7 @@
         "main_linklist": "main-menu",
         "show_search": true,
         "sticky_header": true,
-        "header_absolute_homepage": true,
+        "header_absolute_homepage": false,
         "header_absolute_collection": false,
         "header_absolute_custom": "",
         "color_text_header": "#282828",
