@@ -7,7 +7,7 @@
     {% if section.settings.section_visibility == "desktop" %} element--hide-on-small {% endif %}
   ">
 
-    {%- render 'section-heading', heading: section.settings.heading, subheading: section.settings.subheading, heading_tag: section.settings.seo_h_tag, layout: section.settings.section_heading_layout -%}
+    {%- render 'section-heading', heading: section.settings.heading, subheading: section.settings.subheading, heading_tag: section.settings.seo_h_tag, layout: section.settings.section_heading_layout, button: section.settings.view_all_link != blank, button_label: section.settings.view_all_label, link: section.settings.view_all_link -%}
     
     <div class="flex-cards-carousel{% if section.settings.is_autoheight %} auto-height{% endif %}{% if section.settings.full_width %} full-width{% endif %}" 
          data-section="flex-cards-carousel"
@@ -325,6 +325,17 @@
         "id": "subheading",
         "label": "t:sections.local-extra-words.sections.headings.subheading",
         "default": "Share your best offers"
+      },
+      {
+        "type": "text",
+        "id": "view_all_label",
+        "label": "View all link label",
+        "default": "View all"
+      },
+      {
+        "type": "url",
+        "id": "view_all_link",
+        "label": "View all link"
       },
       {
         "type": "select",
