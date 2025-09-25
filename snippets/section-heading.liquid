@@ -39,7 +39,13 @@
 
       <div class="section-heading__actions">
         {%- if button -%}
-          <a class="text-size--large text-link" href="{{ link }}">{{ button_label | t }}</a>
+          <a class="text-size--large text-link" href="{{ link }}">
+            {%- if button_label contains '.' -%}
+              {{ button_label | t }}
+            {%- else -%}
+              {{ button_label }}
+            {%- endif -%}
+          </a>
         {%- endif -%}
       </div>
 

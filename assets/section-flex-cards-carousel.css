@@ -26,6 +26,26 @@
   gap: var(--cards-gap, 20px);
 }
 
+/* Ensure CSS slider can calculate pages per view correctly */
+.flex-cards-carousel .css-slider-container {
+  display: flex;
+}
+.flex-cards-carousel .css-slide {
+  min-width: calc(100% / var(--cards-per-view, 3) + 0.1px);
+}
+
+/* Prevent hover translate/shadow from being clipped */
+.flex-cards-carousel .css-slider-viewport {
+  overflow: visible;
+}
+.flex-cards-carousel .css-slider-holder {
+  overflow-x: auto;
+  overflow-y: visible;
+  /* pad top/bottom to give space for raised card + shadow */
+  padding: 12px 0 20px;
+  margin: -12px 0 -20px; /* keep visual alignment */
+}
+
 .carousel-slide,
 .flex-cards-carousel .card {
   flex: 0 0 calc((100% - (var(--cards-per-view, 3) - 1) * var(--cards-gap, 20px)) / var(--cards-per-view, 3));
@@ -129,6 +149,9 @@
   .flex-cards-carousel .carousel-slide,
   .flex-cards-carousel .card {
     flex: 0 0 calc((100% - (var(--cards-per-view-mobile, 1) - 1) * var(--cards-gap, 20px)) / var(--cards-per-view-mobile, 1));
+  }
+  .flex-cards-carousel .css-slide {
+    min-width: calc(100% / var(--cards-per-view-mobile, 1) + 0.1px);
   }
   
   .flex-cards-carousel .card__content {

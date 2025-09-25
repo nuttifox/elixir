@@ -1,0 +1,48 @@
+/* Recoleta font integration
+   Upload the following files to your theme assets:
+   - Recoleta-Regular.woff2 ✓ (uploaded)
+   - Recoleta-Regular.woff (optional fallback)
+   - Recoleta-Medium.woff2 (placeholder - upload when available)
+   - Recoleta-SemiBold.woff2 (placeholder - upload when available)
+   - Recoleta-Bold.woff2 (placeholder - upload when available)
+*/
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('{{ "Recoleta-Regular.woff2" | asset_url }}') format('woff2'),
+       url('{{ "Recoleta-Regular.woff" | asset_url }}') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('{{ "Recoleta-Medium.woff2" | asset_url }}') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('{{ "Recoleta-SemiBold.woff2" | asset_url }}') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('{{ "Recoleta-Bold.woff2" | asset_url }}') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Override heading font stack to Recoleta, falling back to theme stack */
+:root {
+  --font-stack-headings: 'Recoleta', Georgia, 'Times New Roman', serif;
+}
+
+

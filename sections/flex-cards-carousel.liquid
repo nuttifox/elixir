@@ -17,6 +17,7 @@
       }'
       class="css-slider css-slider--bottom-navigation flex-cards-carousel{% if section.settings.is_autoheight %} auto-height{% endif %}{% if section.settings.full_width %} full-width{% endif %}"
       id="css-slider-{{ section.id }}"
+      style="--cards-per-view: {{ section.settings.cards_per_view }}; --cards-per-view-mobile: {{ section.settings.cards_per_view_mobile }}; --cards-gap: {{ section.settings.cards_gap }}px;"
     >
       {%- render 'custom-shadow', section_id: section.id -%}
       <div class="carousel-container">
