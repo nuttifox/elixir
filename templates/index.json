@@ -1410,12 +1410,13 @@
               },
               "blocks": {}
             },
-            "product_add_to_cart_button_MKj3U6": {
-              "type": "product-add-to-cart-button",
-              "name": "t:theme_blocks.product-add-to-cart-button.name",
+            "button_gnfW8E": {
+              "type": "button",
+              "name": "t:sections.rich-text.blocks.button.name",
               "settings": {
-                "product": "zenergy",
-                "button_label": "Buy now",
+                "button_label": "View Product",
+                "link": "shopify://products/zenergy",
+                "open_in_new_window": false,
                 "button_size": "small",
                 "button_style": "outline",
                 "color_text_buttons": "rgba(0,0,0,0)",
@@ -1428,7 +1429,7 @@
             "caption_GtrdeJ",
             "heading_aB83wy",
             "divider_yXam4G",
-            "product_add_to_cart_button_MKj3U6"
+            "button_gnfW8E"
           ]
         },
         "card_YHCnLy": {
@@ -1479,12 +1480,13 @@
               },
               "blocks": {}
             },
-            "product_add_to_cart_button_AyF3MW": {
-              "type": "product-add-to-cart-button",
-              "name": "t:theme_blocks.product-add-to-cart-button.name",
+            "button_dK4dJ3": {
+              "type": "button",
+              "name": "t:sections.rich-text.blocks.button.name",
               "settings": {
-                "product": "immunity",
-                "button_label": "Buy now",
+                "button_label": "View Product",
+                "link": "shopify://products/immunity",
+                "open_in_new_window": false,
                 "button_size": "small",
                 "button_style": "outline",
                 "color_text_buttons": "rgba(0,0,0,0)",
@@ -1497,7 +1499,7 @@
             "caption_7Q8CKP",
             "heading_WWqpLj",
             "divider_XrrhwC",
-            "product_add_to_cart_button_AyF3MW"
+            "button_dK4dJ3"
           ]
         },
         "card_EffgeK": {
@@ -1548,12 +1550,13 @@
               },
               "blocks": {}
             },
-            "product_add_to_cart_button_LBR6BE": {
-              "type": "product-add-to-cart-button",
-              "name": "t:theme_blocks.product-add-to-cart-button.name",
+            "button_9MB4y6": {
+              "type": "button",
+              "name": "t:sections.rich-text.blocks.button.name",
               "settings": {
-                "product": "endurance",
-                "button_label": "Buy now",
+                "button_label": "View Product",
+                "link": "shopify://products/endurance",
+                "open_in_new_window": false,
                 "button_size": "small",
                 "button_style": "outline",
                 "color_text_buttons": "rgba(0,0,0,0)",
@@ -1566,7 +1569,7 @@
             "caption_c3nkij",
             "heading_dymhLf",
             "divider_fRyz9B",
-            "product_add_to_cart_button_LBR6BE"
+            "button_9MB4y6"
           ]
         }
       },
