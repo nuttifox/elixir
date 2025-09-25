@@ -951,7 +951,7 @@
         "text_size": "100",
         "remove_top_margin": false,
         "remove_bottom_margin": false,
-        "color_background_main": "#ffbd01",
+        "color_background_main": "#ffa001",
         "section_background_gradient": "",
         "color_text_main": "#3e3328",
         "section_visibility": "always"
@@ -1330,7 +1330,7 @@
         "section_background_gradient": "",
         "section_heading_color": "rgba(0,0,0,0)",
         "descrease_margin": false,
-        "remove_margin": false,
+        "remove_margin": true,
         "seo_h_tag": "h2",
         "section_visibility": "always"
       }
