@@ -38,7 +38,21 @@
         width: calc(100% / {{ section.blocks.size }});
         display: block;
       }
-     
+    {% endstyle %}
+
+    {% style %}
+      /* Uniform image height controls */
+      #shopify-section-{{ section.id }} .scrolling-images img {
+        height: {{ section.settings.image_height_desktop | default: 0 }}px;
+        width: 100%;
+        object-fit: {{ section.settings.image_object_fit | default: 'cover' }};
+        display: block;
+      }
+      @media screen and (max-width: 767px) {
+        #shopify-section-{{ section.id }} .scrolling-images img {
+          height: {{ section.settings.image_height_mobile | default: section.settings.image_height_desktop | default: 0 }}px;
+        }
+      }
     {% endstyle %}
 
     {%- capture sizes -%}
@@ -247,6 +261,40 @@
       "step": 2,
       "unit": "px",
       "default": 0
+    },
+    {
+      "type": "header",
+      "content": "t:sections.local-extra-words.sections.media_dimensions"
+    },
+    {
+      "type": "range",
+      "id": "image_height_desktop",
+      "label": "Image height (desktop)",
+      "min": 60,
+      "max": 600,
+      "step": 10,
+      "unit": "px",
+      "default": 200
+    },
+    {
+      "type": "range",
+      "id": "image_height_mobile",
+      "label": "Image height (mobile)",
+      "min": 60,
+      "max": 600,
+      "step": 10,
+      "unit": "px",
+      "default": 140
+    },
+    {
+      "type": "select",
+      "id": "image_object_fit",
+      "label": "Image fit",
+      "options": [
+        { "value": "cover", "label": "Cover" },
+        { "value": "contain", "label": "Contain" }
+      ],
+      "default": "cover"
     },
     {
       "type": "checkbox",
