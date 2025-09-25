@@ -23,6 +23,8 @@
     "color_text_header": "#3e3328",
     "color_accent_header": "#ffa001",
     "color_background_main": "#fffcf4",
+    "enable_background_texture": true,
+    "background_texture_type": "canvas",
     "color_text_main": "#3e3328",
     "color_accent_main": "#00cf00",
     "color_background_cards": "#fffcf4",
